@@ -28,4 +28,4 @@ Sin fórmulas de memoria: aquí la estadística se **entiende con simuladores** 
 
 ## Manos a la obra! 💪📊
 
-Al final de la unidad tendrás: un dataset limpio y documentado, tres preguntas respondidas con análisis reproducible en Colab, y un **dashboard publicado** con una historia de datos. Es el cierre del **Corte 2**.
+Al final de la unidad tendrás: un dataset limpio y documentado, tres preguntas respondidas con análisis reproducible en Colab, y un **dashboard publicado** con una historia de datos. Página + sistema + dashboard son el **Ejercicio 2**, que se sustenta en la Sesión 12.

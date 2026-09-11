@@ -36,8 +36,8 @@ Unidad 2 · b. Principios éticos · b.i. TIC, ciencia y desarrollo social · b.
 | 0:45 – 1:10 | 🎭 **Deepfakes y desinformación** | Puntajes de Detect Fakes. Cómo se hacen (demo con una foto propia en Gemini), cómo se detectan, qué hacer si eres víctima. Casos colombianos |
 | 1:10 – 1:20 | ☕ Pausa | |
 | 1:20 – 1:40 | 🌱 **El costo del planeta** | Números del reto: agua y energía por consulta, centros de datos, minería de litio/cobalto. Basura electrónica. ¿Qué podemos hacer? |
-| 1:40 – 2:20 | 📜 **Actividad: Manifiesto de IA para mi profesión** | Equipos por carrera, en Miro, con la IA como abogado del diablo |
-| 2:20 – 2:30 | 🏠 Cierre del Corte 1 | |
+| 1:40 – 2:05 | 📜 **Actividad: Manifiesto de IA para mi profesión** | Equipos por carrera, en Miro, con la IA como abogado del diablo |
+| 2:05 – 2:30 | 🎤 **Sustentación del Ejercicio 1** | Cada equipo pone a prueba el asistente de un compañero de otra carrera |
 
 ## 🎭 Deepfakes: kit de supervivencia
 
@@ -53,7 +53,7 @@ Unidad 2 · b. Principios éticos · b.i. TIC, ciencia y desarrollo social · b.
 Crear un deepfake de una persona real sin su consentimiento puede ser delito en Colombia (injuria, calumnia, violación de datos personales; Ley 2213 y proyectos vigentes). En clase solo usamos **nuestra propia imagen** o personajes ficticios.
 ```
 
-## 📜 Actividad: Manifiesto de IA para mi profesión (40 min)
+## 📜 Actividad: Manifiesto de IA para mi profesión (25 min)
 
 Equipos de 4–5 de la misma carrera, en un tablero de **Miro** compartido:
 
@@ -69,14 +69,22 @@ Ejemplos que suelen salir: *"Declaro siempre qué hice con IA"*, *"No subo datos
 Conviertan el manifiesto en la **instrucción de sistema** de su Gem de la Sesión 4: así su agente ya nace con reglas éticas. Y pídanle a NotebookLM una **infografía** del manifiesto para publicarla en la página web que crearemos la próxima sesión.
 ```
 
-## 📦 Entregable (cierre del Corte 1)
+## 🎤 Ejercicio 1 · Mi asistente de carrera (30% · se sustenta hoy)
 
-Manifiesto en Miro (o exportado a PDF) + reflexión individual de 5 líneas: *"¿Qué cambió en cómo uso la IA desde la Sesión 2?"*
+Lo que traes construido de las sesiones 2 a 5, junto en un solo lugar:
 
-**Portafolio del Corte 1** (30%): cuaderno NotebookLM (S2–S3) · blindaje digital (S3) · Gem + prompt (S4) · informe auditado (S5) · manifiesto (S6).
+1. **Tu asistente**: el Gem (S4) o el cuaderno de NotebookLM (S2–S3) cargado con fuentes **que verificaste** (S5).
+2. **Tu informe corto** (S5) con esas fuentes citadas en APA y la tabla de auditoría.
+3. **Tu declaración de uso ético de IA**: el principio del manifiesto de hoy que aplicas, más las 3 líneas de herramienta · para qué · qué verifiqué.
+
+**Sustentación (25 min):** en parejas de carreras distintas. Tu compañero le hace 3 preguntas a tu asistente: una que está en tus fuentes, una que no está, y una trampa. Tú explicas qué hizo bien, qué falló y cómo lo ajustarías en vivo. El docente pasa por las parejas con la rúbrica de {doc}`Metodologia`.
+
+```{note}
+Este es el cierre del **Corte 1**. Los talleres de las sesiones 2–5 no tienen nota aparte: son las piezas de este ejercicio.
+```
 
 ## 🏠 Reto para la casa (~3h)
 
 1. Piensa **qué quieres publicar en tu página web**: ¿portafolio? ¿blog? ¿la página de tu emprendimiento, colectivo o club? Trae 3 referencias de páginas que te gusten.
-2. Reúne el material: una foto tuya, un párrafo de "sobre mí", tus entregables del Corte 1.
+2. Reúne el material: una foto tuya, un párrafo de "sobre mí", lo que construiste en el Ejercicio 1.
 3. Crea tu cuenta de **GitHub** y de **Lovable** (ver {doc}`KitDeCuentas`).

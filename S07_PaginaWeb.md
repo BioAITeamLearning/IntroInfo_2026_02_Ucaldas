@@ -32,7 +32,7 @@ Unidad 3 · c.i.iii. Sitios web/blogs · b. Redes sociales y redes temáticas (t
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
 | 0:00 – 0:15 | 🕸️ **¿Cómo funciona la web?** | Juego: "la carta que viaja". Dominio → DNS → servidor → HTML. Ver el código fuente de una página real (clic derecho → Inspeccionar) y cambiar el titular de un periódico en vivo |
-| 0:15 – 0:45 | 🏗️ **Actividad 1: Google Sites en 30 min** | Página con inicio, sobre mí, portafolio (entregables del Corte 1) y contacto. Publicar |
+| 0:15 – 0:45 | 🏗️ **Actividad 1: Google Sites en 30 min** | Página con inicio, sobre mí, portafolio (lo del Ejercicio 1) y contacto. Publicar |
 | 0:45 – 1:15 | ✨ **Actividad 2: Vibe coding** | Lovable / Claude: la misma página, pero descrita en lenguaje natural |
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 1:55 | 🚀 **Actividad 3: Publicar el HTML** | Descargar el código generado y subirlo a Netlify Drop o GitHub Pages. Tu segunda URL |

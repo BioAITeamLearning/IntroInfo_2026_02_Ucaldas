@@ -17,9 +17,9 @@ Todo tu kit. Y una más para cerrar el ciclo del conocimiento:
 ## 🎯 Objetivos
 
 * Presentar tu **proyecto final** funcionando, en 5 minutos, ante el grupo.
-* Evaluar los proyectos de otros con una rúbrica (coevaluación).
+* Dar retroalimentación a los proyectos de otros con la rúbrica del curso.
 * Estructurar lo aprendido en un sistema que te sirva **después** del curso (planeación y estructuración del conocimiento).
-* Cerrar el Corte 3.
+* Sustentar el **Ejercicio 3** (cierre del Corte 3).
 
 ```{admonition} Cobertura PIIA
 :class: note
@@ -30,7 +30,7 @@ Unidad 5 · c. Aplicaciones en las habilidades profesionales: redacción de docu
 
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
-| 0:00 – 0:10 | 🎬 **Apertura** | Reglas del Demo Day, orden, rúbrica de coevaluación en un formulario |
+| 0:00 – 0:10 | 🎬 **Apertura** | Reglas del Demo Day, orden de presentación, rúbrica a la vista |
 | 0:10 – 1:15 | 🎤 **Demos, bloque 1** | 5 min de demo + 2 min de preguntas por persona/equipo (~9 demos) |
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 2:10 | 🎤 **Demos, bloque 2** | ~6 demos |
@@ -48,19 +48,15 @@ Unidad 5 · c. Aplicaciones en las habilidades profesionales: redacción de docu
 Ten un **plan B**: video de 1 minuto de la demo grabado en casa, por si internet o la API fallan en vivo. Súbelo a tu página.
 ```
 
-## 🧾 Rúbrica (autoevaluación, coevaluación y docente)
+## 🎤 Ejercicio 3 · Mi agente (35% · se sustenta hoy)
 
-| Criterio | 1 | 3 | 5 |
-|---|---|---|---|
-| **Problema real** | Genérico | De la carrera, pero vago | Concreto, con usuario identificable |
-| **Funciona** | No corre en vivo | Corre con ayuda | Corre solo, con datos reales |
-| **Uso de IA con criterio** | "Lo hizo la IA" | Declara herramientas | Declara, verifica y muestra límites |
-| **Integra el curso** | 1 herramienta | 2–3 herramientas | Combina página + datos/gestión + agente/automatización |
-| **Comunicación** | Se pierde | Clara | Clara, en tiempo, engancha |
+Tu proyecto final ({doc}`ProyectoFinal`): un agente, bot o automatización que resuelve un problema real de tu carrera, funcionando en vivo y publicado en tu página con su declaración de uso de IA. Se califica con la rúbrica de {doc}`Metodologia` (funciona · aplicado a tu carrera · sustentación · publicado y declarado); la demo de 5 minutos **es** la sustentación.
 
-## 📦 Entregable (cierre del Corte 3)
+Los compañeros llenan la misma rúbrica para cada demo: es retroalimentación para ti, no parte de la nota.
 
-**Portafolio del Corte 3** (35%): modelo entrenado (S13) · agente sobre carpeta + `GEMINI.md` + Opal (S14) · bot de Telegram + flujo programado (S15) · proyecto final presentado y publicado en tu página (S16) · autoevaluación y coevaluación.
+```{note}
+Cierre del **Corte 3**. Los talleres de S13–S15 (modelo, agente sobre carpeta, bot) son las piezas de este ejercicio.
+```
 
 ## 🏠 Después del curso
 

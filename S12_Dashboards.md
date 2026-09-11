@@ -37,7 +37,7 @@ Unidad 4 · c. Representación de resultados · d. Herramientas para visualizaci
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 1:50 | 🤖 **Actividad 3: Dashboard a medida con IA** | Claude Artifacts con tu CSV |
 | 1:50 – 2:15 | 🗣️ **Actividad 4: Tu historia de datos** | Estructura + ensayo en parejas |
-| 2:15 – 2:30 | 🎤 **Cierre del Corte 2** | 4 historias de 2 minutos frente al grupo |
+| 2:15 – 2:30 | 🎤 **Sustentación del Ejercicio 2** | Historias de datos de 2 minutos frente al grupo (el resto sustenta en parejas con el docente durante las actividades) |
 
 ## 🎯 Pregunta → gráfico
 
@@ -83,11 +83,19 @@ Estructura de 2 minutos:
 
 Pide a Gemini: *"Aquí están mis 3 hallazgos y mi audiencia es [X]. Escribe un guion de 2 minutos con esta estructura y luego critícalo: ¿qué objeción haría alguien escéptico?"* Ensaya con tu pareja cronometrando.
 
-## 📦 Entregable (cierre del Corte 2)
+## 🎤 Ejercicio 2 · Mi sistema publicado (35% · se sustenta hoy)
 
-En tu página: dashboard de Looker Studio + gráfico de Flourish + dashboard HTML + guion de la historia de datos.
+Tu **página web** (S7) con, como mínimo:
 
-**Portafolio del Corte 2** (35%): página web (S7) · infografía, presentación y video (S8) · app de gestión con automatización (S9) · dataset limpio y documentado (S10) · notebook con 3 preguntas (S11) · dashboard e historia (S12).
+1. Tu **sistema de gestión** en AppSheet con datos reales y su automatización funcionando (S9).
+2. Tu **dashboard** (Looker Studio o HTML) conectado al dataset que limpiaste y analizaste (S10–S12).
+3. Tu **declaración de uso de IA** para cada pieza.
+
+**Sustentación:** tu historia de datos de 2 minutos frente al grupo o en pareja con el docente, y una pregunta en vivo del tipo *"agrega un registro en tu app y muéstrame que el dashboard cambia"*. Rúbrica en {doc}`Metodologia`.
+
+```{note}
+Cierre del **Corte 2**. Los talleres de S7–S11 (multimedia, dataset, notebook) no tienen nota aparte: son las piezas de este ejercicio y viven en tu página.
+```
 
 ## 🏠 Reto para la casa (~3h)
 

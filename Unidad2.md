@@ -33,4 +33,4 @@ En la Unidad 1 aprendiste a **usar** la IA. Aquí aprendes a **hablarle bien**, 
 
 ## Manos a la obra! 💪🧠
 
-Al final de la unidad tendrás: un asistente personalizado para tu carrera, un informe de investigación con fuentes verificadas y un manifiesto de uso ético de IA hecho en equipo. Es el cierre del **Corte 1**.
+Al final de la unidad tendrás: un asistente personalizado para tu carrera, un informe de investigación con fuentes verificadas y un manifiesto de uso ético de IA hecho en equipo. Todo eso junto es el **Ejercicio 1**, que se sustenta en la Sesión 6.

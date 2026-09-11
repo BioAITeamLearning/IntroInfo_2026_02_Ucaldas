@@ -30,4 +30,4 @@ Llevas 12 sesiones **usando** IA. Ahora la abres, la entiendes, la **entrenas**,
 
 ## Manos a la obra! 💪🤖
 
-Al final de la unidad tendrás: un modelo entrenado por ti, un agente que hace una tarea real sobre tu carpeta, un bot de Telegram que responde con tus PDFs y tu **proyecto final** presentado en el Demo Day. Es el **Corte 3**.
+Al final de la unidad tendrás: un modelo entrenado por ti, un agente que hace una tarea real sobre tu carpeta, un bot de Telegram que responde con tus PDFs y tu **proyecto final** presentado en el Demo Day. El proyecto final es el **Ejercicio 3**.

@@ -1,9 +1,11 @@
 ---
 title: Proyecto final
 ---
-# Proyecto final · Mi kit de IA profesional 🚀
+# Proyecto final · Mi agente (Ejercicio 3) 🚀
 
 ## La consigna
+
+Es el **Ejercicio 3** del curso (35% de la nota), sustentado en el Demo Day.
 
 Elige **un problema real de tu carrera, trabajo, colectivo o vida** y resuélvelo combinando lo que construiste en el curso. Se presenta en el {doc}`S16_DemoDay` con una demo en vivo de 5 minutos y se publica en tu página web.
 
@@ -36,7 +38,7 @@ Elige **un problema real de tu carrera, trabajo, colectivo o vida** y resuélvel
 
 1. **Demo en vivo** (5 min) en el Demo Day + video de respaldo de 1 min.
 2. **Página del proyecto** en tu web con: problema, usuario, piezas usadas, enlaces a todo funcionando, **declaración de uso de IA** (qué herramienta, para qué, qué verificaste), limitaciones y próximos pasos.
-3. **Autoevaluación** con la rúbrica de la {doc}`S16_DemoDay`.
+3. Se califica con la rúbrica de {doc}`Metodologia`: funciona · aplicado a tu carrera · sustentación · publicado y declarado.
 
 ## Cronograma sugerido
 

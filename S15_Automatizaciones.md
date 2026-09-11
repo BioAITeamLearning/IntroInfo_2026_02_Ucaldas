@@ -38,7 +38,7 @@ Unidad 5 · b. Herramientas esenciales · c.b. Planeación · c.c. Estructuraci�
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 2:00 | ⏰ **Actividad 2: El flujo que corre solo** | Programado: cada mañana / cada registro nuevo / cada correo |
 | 2:00 – 2:20 | 🧪 **Pruebas cruzadas** | Cada uno chatea con el bot de un compañero de otra carrera. Romperlo a propósito |
-| 2:20 – 2:30 | 🚀 **Preparación del Demo Day** | Qué se presenta, cómo, rúbrica |
+| 2:20 – 2:30 | 🚀 **Preparación del Demo Day** | Qué se presenta, cómo, rúbrica del Ejercicio 3 |
 
 ## 💬 Actividad 1: Tu bot de Telegram con PDFs (45 min)
 

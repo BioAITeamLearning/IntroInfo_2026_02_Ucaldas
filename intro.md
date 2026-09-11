@@ -172,18 +172,22 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 
 ## Reglas de Juego 🕹️📏
 
-* Cada sesión: **una herramienta de IA nueva**, una actividad práctica y un entregable pequeño.
-* Todo lo que construyes se va a tu **portafolio web** (lo creamos en la Sesión 7).
+* Cada sesión: **una herramienta de IA nueva** y un taller práctico en el que sales con algo construido.
+* Todo lo que construyes se va a tu **página web** (la creamos en la Sesión 7).
 * Trae tu computador (o usa los del laboratorio) y **documentos reales de tu carrera**: PDFs, apuntes, datos.
 * La IA es tu copiloto, no tu reemplazo: siempre decimos **qué herramienta usamos y qué verificamos**.
 
 ### Evaluación
 
-| Corte | Sesiones | Peso | Qué se evalúa |
+Como dice el PIIA: talleres en clase, prácticas en el computador, sustentación en grupo e internet como medio de difusión. En concreto, **tres ejercicios, tres notas**:
+
+| Ejercicio | Sustentación | Peso | Qué entregas |
 |---|---|---|---|
-| **Corte 1** | 1 – 6 | 30% | Portafolio de actividades de clase (NotebookLM, Gem, investigación verificada) + taller de ética |
-| **Corte 2** | 7 – 12 | 35% | Página web publicada + sistema de gestión + dashboard con historia de datos |
-| **Corte 3** | 13 – 16 | 35% | Agente o automatización funcionando + proyecto final en el Demo Day |
+| **1 · Mi asistente de carrera** | Sesión 6 | 30% | Asistente (Gem / NotebookLM) con fuentes verificadas + informe corto + declaración ética |
+| **2 · Mi sistema publicado** | Sesión 12 | 35% | Página web con sistema de gestión y dashboard de datos reales |
+| **3 · Mi agente** | Sesión 16 · Demo Day | 35% | Agente, bot o automatización resolviendo un problema real |
+
+Los talleres de cada sesión preparan el ejercicio del corte y no se califican aparte.
 
 ```{note}
 Nota aprobatoria 3,0 · No habilitable · Se reprueba con 7 faltas no justificadas (15%) o 12 justificadas + no justificadas (25%). El detalle de cómo se vive cada sesión y cómo se califica cada entregable está en {doc}`Metodologia`.
