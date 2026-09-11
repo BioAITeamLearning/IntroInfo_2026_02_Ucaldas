@@ -18,7 +18,6 @@ title: Sesión 2 · Tu kit de superpoderes
 
 * Entender **qué es la IA**, cómo aprende de ejemplos, por qué a veces inventa y quién es quién en 2026.
 * Ver en vivo **10 cosas que la IA puede hacer hoy** por un biólogo, un abogado, un artista o un deportólogo.
-* Comparar distintos asistentes de IA con el mismo problema y entender que **no todos sirven para lo mismo**.
 * Convertir un documento real de tu carrera en un **podcast, un mapa mental y un quiz**.
 * Conocer el mapa del curso: todo lo que vas a construir en 16 semanas.
 
@@ -81,7 +80,7 @@ Una sola cosa: **predice la siguiente palabra**. Se entrenó leyendo una parte e
 | Meta, Mistral, DeepSeek | Llama, Mistral, DeepSeek | Modelos **abiertos**: se pueden descargar y correr en tu computador |
 | Perplexity | Perplexity | Búsqueda con fuentes citadas |
 
-Todos son primos: misma tecnología (Transformers), distintos datos, reglas y precios. Por eso hoy los vamos a comparar.
+Todos son primos: misma tecnología (Transformers), distintos datos, reglas y precios.
 
 ### Vocabulario que van a oír todo el semestre
 
@@ -119,28 +118,7 @@ Diez cosas que la IA ya hace por un biólogo, un abogado, un artista o un deport
 
 Entra con tu correo institucional a [Gemini](https://gemini.google.com) y [NotebookLM](https://notebooklm.google.com), y crea cuenta gratuita en [Claude](https://claude.ai) y [Perplexity](https://perplexity.ai). Lista completa en {doc}`KitDeCuentas`.
 
-## 🤝 Actividad 1: Speed dating con IAs
-
-Equipos de 3–4 personas **de la misma carrera**. Cada equipo recibe una tarjeta con un reto de su carrera, o escribe uno propio, por ejemplo:
-
-* *Biología:* "Explícame cómo funciona la PCR como si tuviera 12 años y luego dame 3 preguntas de examen."
-* *Derecho:* "Resume la Ley 1581 de 2012 (protección de datos) en 5 puntos y dame un ejemplo de incumplimiento."
-* *Artes:* "Propón 5 conceptos para una exposición sobre memoria y territorio, con referentes reales."
-* *Deporte:* "Diseña un plan de entrenamiento de 4 semanas para un corredor principiante de 10K."
-
-El **mismo prompt** se envía a **Gemini, ChatGPT, Claude y Perplexity**. El grupo llena la tarjeta:
-
-| Criterio (1–5) | Gemini | ChatGPT | Claude | Perplexity |
-|---|---|---|---|---|
-| ¿Respondió lo que pedí? | | | | |
-| ¿Cita fuentes reales? (¡verifiquen una!) | | | | |
-| ¿Se entiende / está bien escrito? | | | | |
-| ¿Dijo algo falso o inventado? | | | | |
-| ¿Cuál usaría para este reto? | | | | |
-
-**Lo que suele pasar:** no hay "la mejor IA"; hay la mejor para cada tarea. Y **todas** pueden inventar: por eso la Sesión 5 es sobre verificar.
-
-## 🎧 Actividad 2: Tu carrera en un podcast
+## 🎧 Actividad: Tu carrera en un podcast
 
 1. Consigue **un documento real de tu carrera**: busca en Google `filetype:pdf` + un tema tuyo (una guía clínica, una ley, un catálogo de exposición, un plan de entrenamiento), o descarga el PIIA de una materia tuya, o usa un PDF que ya tengas en el correo o en Drive.
 2. Entra a [NotebookLM](https://notebooklm.google.com) y crea un cuaderno con el nombre de tu carrera. Agrega **3 fuentes**: ese PDF, una URL de Wikipedia o de un artículo, y un video de YouTube del tema.
@@ -159,7 +137,7 @@ Pídele a NotebookLM un **Video Overview** o una **Infografía** del mismo cuade
 ## 📽️ Material
 
 * <a href="_static/sesion02/slides.html" target="_blank">Diapositivas de la sesión</a>
-* <a href="_static/sesion02/tarjetas.html" target="_blank">Tarjetas de las actividades</a>
+* <a href="_static/sesion02/tarjetas.html" target="_blank">Guía de la actividad</a>
 
 ## 📦 Lo que te llevas
 
