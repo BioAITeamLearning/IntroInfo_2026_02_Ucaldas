@@ -1,0 +1,40 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Introducción a la Informática 2026 - 02
+author: Johan Sebastián Piña Duran
+copyright: "2026"
+logo: _static/images/logosem.png
+
+# Archivos y carpetas que Sphinx NO debe indexar como parte del libro.
+exclude_patterns:
+  - .venv
+  - _build
+  - README.md
+  - "**.ipynb_checkpoints"
+  - soluciones
+  - "**/soluciones"
+
+# No ejecutar notebooks al construir el libro.
+execute:
+  execute_notebooks: off
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+launch_buttons:
+  colab_url: https://colab.research.google.com
+
+repository:
+  url: https://github.com/BioAITeamLearning/IntroInfo_2026_02_Ucaldas
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+sphinx:
+  config:
+    html_css_files:
+      - custom.css

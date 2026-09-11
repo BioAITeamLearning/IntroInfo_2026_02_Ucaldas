@@ -1,0 +1,5 @@
+.venv/
+_build/
+soluciones/
+.DS_Store
+.claude/

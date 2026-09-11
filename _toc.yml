@@ -1,0 +1,36 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: MapaDelCurso
+- file: Metodologia
+- file: KitDeCuentas
+- file: Unidad1
+  sections:
+    - file: "S01_TIC"
+    - file: "S02_KitIA"
+    - file: "S03_VidaDigital"
+- file: Unidad2
+  sections:
+    - file: "S04_Prompts"
+    - file: "S05_Investigar"
+    - file: "S06_Etica"
+- file: Unidad3
+  sections:
+    - file: "S07_PaginaWeb"
+    - file: "S08_Multimedia"
+    - file: "S09_SistemasGestion"
+- file: Unidad4
+  sections:
+    - file: "S10_Datos"
+    - file: "S11_Analisis"
+    - file: "S12_Dashboards"
+- file: Unidad5
+  sections:
+    - file: "S13_FundamentosIA"
+    - file: "S14_Agentes"
+    - file: "S15_Automatizaciones"
+    - file: "S16_DemoDay"
+- file: ProyectoFinal
