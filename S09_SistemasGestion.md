@@ -32,7 +32,7 @@ Unidad 3 · c. Herramientas de gestión y seguimiento de información · Unidad 
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
 | 0:00 – 0:20 | 🧩 **¿Qué es un sistema de gestión?** | Juego con tarjetas: entidades (Atleta, Caso, Muestra, Obra) y relaciones. Del Excel caótico a la tabla limpia: una fila = un registro, una columna = un atributo, una columna que identifica (ID) |
-| 0:20 – 0:40 | 🧹 **Actividad 1: Tu tabla, bien hecha** | Limpiar la hoja del reto con Gemini en Sheets; agregar ID, listas desplegables y validaciones |
+| 0:20 – 0:40 | 🧹 **Actividad 1: Tu tabla, bien hecha** | Elegir qué gestionas (inventario, casos, obras, atletas), crear la hoja con 10 registros y limpiarla con Gemini en Sheets; agregar ID, listas desplegables y validaciones |
 | 0:40 – 1:15 | 📱 **Actividad 2: De la hoja a la app** | AppSheet: crear app, vistas, formulario, fotos, GPS, filtros |
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 1:45 | ⚙️ **¿Qué es una automatización?** | Disparador → condición → acción. Ejemplos en su vida. Demo: Apps Script escrito por Gemini |
@@ -41,7 +41,7 @@ Unidad 3 · c. Herramientas de gestión y seguimiento de información · Unidad 
 
 ## 🧹 Actividad 1: Tu tabla, bien hecha (20 min)
 
-Abre la hoja del reto y aplica:
+Piensa en **algo que gestionas** con listas, Excel o WhatsApp (inventario del laboratorio, casos de la consulta jurídica, obras de un colectivo, atletas de un club, préstamos de equipos). Crea una hoja de Google con **10 registros reales o realistas** y al menos 5 columnas (pídele a Gemini que te genere los 10 registros de ejemplo si no tienes datos a mano). Luego aplica:
 
 1. Fila 1 = nombres de columna cortos y sin tildes (`nombre`, `fecha_ingreso`, `estado`).
 2. Columna `id` única (puedes usar `=ROW()` o dejar que AppSheet la genere).
@@ -81,12 +81,6 @@ Pega el código, autoriza, crea el *trigger* diario. Cambia una fecha para maña
 Conecta un **Google Form** público a la misma hoja: cualquier persona puede registrar un dato (inscripción, reporte, solicitud) sin tener la app, y tu bot responde. En la Sesión 15 este mismo flujo se convierte en un bot de Telegram con IA.
 ```
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
-Enlace a tu app de AppSheet (compartida con el docente) + captura del correo automático recibido + enlace publicado en tu página web.
-
-## 🏠 Reto para la casa (~3h)
-
-1. Usa tu app durante la semana con datos reales (mínimo 20 registros).
-2. Explora [datos.gov.co](https://www.datos.gov.co) y descarga **un dataset** de tu área (salud, justicia, cultura, deporte, ambiente). Tráelo en CSV.
-3. Anota 3 **preguntas** que te gustaría responder con esos datos.
+Tu app de AppSheet con su automatización, publicada en tu página web: es el sistema de gestión del **Ejercicio 2**.

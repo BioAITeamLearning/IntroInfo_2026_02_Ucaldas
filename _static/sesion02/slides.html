@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sesión 2 · Tu nuevo kit de superpoderes</title>
+<style>
+  :root{--bg:#141619;--panel:#212529;--ink:#f4f5f7;--muted:#aab2bd;--accent:#ffc857;--accent2:#4cc9f0;--ok:#7bd88f;--warn:#ff6b6b;}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .deck{position:relative;height:100vh;overflow:hidden}
+  section{position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;padding:6vh 8vw;gap:2.2vh}
+  section.active{display:flex;animation:fade .25s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  h1{font-size:6.2vh;line-height:1.1;margin:0}
+  h2{font-size:4.6vh;line-height:1.15;margin:0}
+  h3{font-size:3vh;margin:0;color:var(--accent2)}
+  p,li{font-size:2.9vh;line-height:1.4;margin:0}
+  ul,ol{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:1.2vh}
+  .kicker{color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-size:2vh;font-weight:700}
+  .big{font-size:9vh;font-weight:800;color:var(--accent);line-height:1}
+  .quote{font-size:4.2vh;font-style:italic;line-height:1.3;border-left:.6vh solid var(--accent);padding-left:3vw;max-width:80vw}
+  .muted{color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(24vw,1fr));gap:2vh}
+  .card{background:var(--panel);border-radius:1.6vh;padding:2.4vh 2.2vw;display:flex;flex-direction:column;gap:1vh}
+  .card b{color:var(--accent2);font-size:2.6vh}
+  .card p{font-size:2.2vh}
+  table{border-collapse:collapse;width:100%;font-size:2.4vh}
+  th,td{border:1px solid #3a3f45;padding:1.2vh 1vw;text-align:left;vertical-align:top}
+  th{background:var(--panel);color:var(--accent)}
+  .tool{display:inline-block;background:var(--panel);border:1px solid #3a3f45;border-radius:999px;padding:.6vh 1.4vw;font-size:2.2vh;color:var(--accent2)}
+  .demo{display:grid;grid-template-columns:18vw 1fr;gap:3vw;align-items:center}
+  .demo .num{font-size:22vh;font-weight:900;color:var(--accent);line-height:1;opacity:.9}
+  .timer{position:fixed;top:2vh;right:2vw;font-size:2vh;color:var(--muted)}
+  .foot{position:fixed;bottom:2vh;left:2vw;right:2vw;display:flex;justify-content:space-between;font-size:1.8vh;color:var(--muted)}
+  .notes{display:none;position:fixed;bottom:6vh;left:2vw;right:2vw;background:#0b0c0e;border:1px solid #3a3f45;border-radius:1vh;padding:2vh;font-size:2vh;color:var(--muted);max-height:34vh;overflow:auto}
+  body.shownotes .notes{display:block}
+  .center{text-align:center;align-items:center}
+  .pill{background:var(--accent);color:#111;border-radius:999px;padding:.6vh 1.6vw;font-weight:700;font-size:2.2vh;display:inline-block}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:3vw}
+  a{color:var(--accent2)}
+  @media print{section{display:flex!important;position:relative;height:100vh;page-break-after:always}.foot,.timer,.notes{display:none!important}}
+</style>
+</head>
+<body>
+<div class="deck">
+
+<section class="center">
+  <div class="kicker">Introducción a la Informática · UCaldas 2026-2 · Sesión 2</div>
+  <h1>Tu nuevo kit de superpoderes 🦸</h1>
+  <p class="muted">Una herramienta de IA por sesión. Hoy: Gemini + NotebookLM</p>
+  <div class="notes">Bienvenida de 1 minuto. No explicar nada todavía: ir directo al juego.</div>
+</section>
+
+<section>
+  <p class="quote">"La clase pasada vimos de qué está hecho un computador.<br>Hoy vemos de qué eres capaz <b>tú</b> con uno."</p>
+</section>
+
+<section>
+  <div class="kicker">Calentamiento · 10 min</div>
+  <h2>🎮 Quick, Draw!</h2>
+  <p><span class="tool">quickdraw.withgoogle.com</span></p>
+  <ul>
+    <li>En parejas: uno dibuja, la IA adivina. 6 dibujos, 20 segundos cada uno.</li>
+    <li>Cuando terminen, miren <b>"ver los datos"</b>: ¿qué dibujaron otras 100 000 personas?</li>
+  </ul>
+  <p class="pill">Pregunta: ¿cómo sabe la IA lo que dibujaste?</p>
+  <div class="notes">Respuesta que buscamos: aprendió de millones de dibujos de otras personas. Datos → modelo. No decir "red neuronal" todavía; eso es la Sesión 13.</div>
+</section>
+
+<section class="center">
+  <div class="kicker">Demo en vivo · 25 min</div>
+  <h1>🎩 Tour de 10 superpoderes</h1>
+  <p class="muted">Dos minutos por demo. Sin teoría. Solo miren.</p>
+  <div class="notes">Regla para el docente: no explicar cómo funciona nada. Si preguntan "¿y cómo se hace?", la respuesta es "en la Sesión X, ustedes lo van a hacer".</div>
+</section>
+
+<section><div class="demo"><div class="num">1</div><div>
+  <h2>Ver con la cámara</h2><p><span class="tool">Gemini Live</span></p>
+  <p>Apuntar el celular a una planta, un artículo del Código, una obra… y preguntar.</p>
+  <p class="muted">Ve, oye, habla. En tiempo real.</p></div></div>
+  <div class="notes">Prompt: "¿Qué es esto y qué me deberías preguntar antes de opinar?"</div>
+</section>
+
+<section><div class="demo"><div class="num">2</div><div>
+  <h2>Chatear con un PDF de 200 páginas</h2><p><span class="tool">NotebookLM</span></p>
+  <p>"¿En qué página se define X y qué excepciones menciona?"</p>
+  <p class="muted">Cada respuesta trae la cita exacta. Clic → párrafo.</p></div></div>
+</section>
+
+<section><div class="demo"><div class="num">3</div><div>
+  <h2>Convertir ese PDF en un podcast</h2><p><span class="tool">NotebookLM · Audio Overview</span></p>
+  <p>Dos voces, en español, discutiendo <b>tu</b> documento.</p>
+  <p class="muted">Esto lo hacen ustedes hoy, en 40 minutos.</p></div></div>
+  <div class="notes">Reproducir 45 segundos del podcast pregenerado. No generar en vivo (tarda 3–5 min).</div>
+</section>
+
+<section><div class="demo"><div class="num">4</div><div>
+  <h2>Crear un juego sin programar</h2><p><span class="tool">Claude Artifacts</span></p>
+  <p>"Hazme un juego de memoria con términos de anatomía del hombro."</p>
+  <p class="muted">~200 líneas de código que nadie tuvo que leer.</p></div></div>
+</section>
+
+<section><div class="demo"><div class="num">5</div><div>
+  <h2>Generar un video</h2><p><span class="tool">Gemini · Veo</span></p>
+  <p>"Un colibrí en cámara lenta sobre un frailejón en un páramo colombiano al amanecer."</p>
+  <p class="muted">Lo que hace 3 años costaba una productora. Por eso la Sesión 6 es sobre deepfakes.</p></div></div>
+</section>
+
+<section><div class="demo"><div class="num">6</div><div>
+  <h2>Analizar una carpeta entera</h2><p><span class="tool">Gemini CLI · terminal</span></p>
+  <p>"Lee estos 30 archivos y dime de qué trata cada uno en una línea."</p>
+  <p class="muted">Está leyendo el disco. Eso es un <b>agente</b>. Sesión 14.</p></div></div>
+</section>
+
+<section><div class="demo"><div class="num">7</div><div>
+  <h2>Una app desde una hoja de cálculo</h2><p><span class="tool">AppSheet</span></p>
+  <p>Inventario del laboratorio → app en el celular, con fotos y GPS, en 3 minutos.</p>
+  <p class="muted">Sistema de gestión. Sesión 9.</p></div></div>
+</section>
+
+<section><div class="demo"><div class="num">8</div><div>
+  <h2>Investigar con fuentes</h2><p><span class="tool">Gemini · Deep Research</span></p>
+  <p>Un informe de 10 páginas con citas sobre un tema de la carrera.</p>
+  <p class="muted">¿Y si una de esas fuentes no existiera? Sesión 5.</p></div></div>
+</section>
+
+<section><div class="demo"><div class="num">9</div><div>
+  <h2>Practicar otro idioma</h2><p><span class="tool">Gemini Live</span></p>
+  <p>"I'm a biologist presenting at a conference. Correct my English as I speak."</p>
+  <p class="muted">Tutor de idiomas gratis, 24/7.</p></div></div>
+</section>
+
+<section><div class="demo"><div class="num">10</div><div>
+  <h2>Una presentación en 1 minuto</h2><p><span class="tool">Gamma</span></p>
+  <p>Tres párrafos del PDF → 8 diapositivas con diseño.</p>
+  <p class="muted">Sesión 8.</p></div></div>
+</section>
+
+<section class="center">
+  <h1>¿Cuál de estos les gustaría saber hacer?</h1>
+  <p class="muted">Anótenlo en el tablero. Con eso elegimos los ejemplos de las próximas semanas.</p>
+</section>
+
+<section>
+  <div class="kicker">El mapa del curso</div>
+  <h2>Todo esto lo van a hacer ustedes</h2>
+  <div class="grid">
+    <div class="card"><b>U1 🧰 TIC y tu kit de IA</b><p>Gemini, NotebookLM, seguridad, tu primera carpeta analizada</p></div>
+    <div class="card"><b>U2 🧠 Sociedad de la información</b><p>Prompts pro, tu asistente, investigar sin que te engañen, ética</p></div>
+    <div class="card"><b>U3 🌐 Crear cosas</b><p>Tu página web, video y multimedia, sistema de gestión</p></div>
+    <div class="card"><b>U4 📊 Datos</b><p>Obtener, limpiar, analizar y contar historias con datos</p></div>
+    <div class="card"><b>U5 🤖 IA profesional</b><p>Cómo funciona, agentes, bots, automatizaciones, Demo Day</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Evaluación</div>
+  <h2>Tres ejercicios, tres notas. Y ya.</h2>
+  <table>
+    <tr><th>Ejercicio</th><th>Cuándo</th><th>Peso</th></tr>
+    <tr><td><b>1 · Mi asistente de carrera</b></td><td>Sesión 6</td><td>30%</td></tr>
+    <tr><td><b>2 · Mi sistema publicado</b></td><td>Sesión 12</td><td>35%</td></tr>
+    <tr><td><b>3 · Mi agente</b> · Demo Day</td><td>Sesión 16</td><td>35%</td></tr>
+  </table>
+  <p class="muted">Los talleres de cada clase son las piezas de los ejercicios. Todo se hace en clase; no hay tareas para la casa.</p>
+</section>
+
+<section>
+  <div class="kicker">Reglas de juego</div>
+  <ul>
+    <li>Cada sesión: <b>una herramienta de IA nueva</b> y sales con algo construido.</li>
+    <li>Todo se publica en <b>tu página web</b> (la creamos en la Sesión 7).</li>
+    <li>Trae computador (o usa el del laboratorio), celular y correo institucional.</li>
+    <li>La IA es tu copiloto: siempre decimos <b>qué usamos y qué verificamos</b>.</li>
+    <li><b>Nada confidencial</b> en un chat de IA: pacientes, clientes, contraseñas.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="kicker">Kit check · 10 min</div>
+  <h2>🎒 Cuentas listas</h2>
+  <div class="grid">
+    <div class="card"><b>Gemini</b><p>gemini.google.com · con el correo @ucaldas.edu.co</p></div>
+    <div class="card"><b>NotebookLM</b><p>notebooklm.google.com · mismo correo</p></div>
+    <div class="card"><b>Claude</b><p>claude.ai · plan gratis</p></div>
+    <div class="card"><b>Perplexity</b><p>perplexity.ai · plan gratis</p></div>
+  </div>
+  <p class="muted">Levanta la mano si algo no abre. ChatGPT también sirve si ya lo tienes.</p>
+</section>
+
+<section>
+  <div class="kicker">Actividad 1 · 25 min</div>
+  <h2>🤝 Speed dating con IAs</h2>
+  <div class="cols">
+    <ul>
+      <li>Equipos base de 3–4, <b>misma carrera</b>. Duran todo el semestre.</li>
+      <li>Tomen la tarjeta de su carrera (o escriban su propio reto).</li>
+      <li>El <b>mismo prompt</b> a Gemini, ChatGPT, Claude y Perplexity.</li>
+      <li>Llenen la tabla de la tarjeta. <b>Verifiquen una fuente.</b></li>
+    </ul>
+    <table>
+      <tr><th>Criterio (1–5)</th></tr>
+      <tr><td>¿Respondió lo que pedí?</td></tr>
+      <tr><td>¿Cita fuentes reales?</td></tr>
+      <tr><td>¿Se entiende?</td></tr>
+      <tr><td>¿Inventó algo?</td></tr>
+      <tr><td>¿Cuál usaría?</td></tr>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>Lo que suele pasar</h2>
+  <ul>
+    <li>No hay "la mejor IA". Hay la mejor <b>para cada tarea</b>.</li>
+    <li><b>Todas</b> pueden inventar. Con seguridad y buena redacción.</li>
+    <li>Por eso la Sesión 5 es entera sobre <b>verificar</b>.</li>
+  </ul>
+  <div class="notes">Pedir a 2 equipos que cuenten en 30 s qué IA ganó y por qué. Preguntar: ¿alguien encontró una fuente que no existe?</div>
+</section>
+
+<section class="center">
+  <h1>☕ Pausa · 10 min</h1>
+</section>
+
+<section>
+  <div class="kicker">Actividad 2 · 40 min</div>
+  <h2>🎧 Tu carrera en un podcast</h2>
+  <ol>
+    <li><b>Consigue un documento real</b> de tu carrera (5 min): Google <code>filetype:pdf</code> + tu tema, un PIIA, algo de tu Drive.</li>
+    <li>NotebookLM → cuaderno con el nombre de tu carrera → <b>3 fuentes</b>: el PDF, una URL, un video de YouTube.</li>
+    <li>Haz 3 preguntas en el chat. Mira las <b>citas</b>.</li>
+    <li>Studio → <b>Audio Overview</b> (en español, "para alguien nuevo en el tema") + <b>Mapa mental</b> + <b>Quiz</b>.</li>
+    <li>Escucha el primer minuto. ¿Dijo algo que <b>no está</b> en tus fuentes?</li>
+  </ol>
+  <p class="muted">Ruta pro: Video Overview o Infografía del mismo cuaderno.</p>
+</section>
+
+<section>
+  <div class="kicker">Puesta en común · 15 min</div>
+  <h2>🗣️ 30 segundos de cada podcast</h2>
+  <ul>
+    <li>Un equipo a la vez. Solo 30 segundos.</li>
+    <li>Votamos: el más claro, el más sorprendente, el que más inventó.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="kicker">Cierre</div>
+  <h2>📦 Lo que te llevas hoy</h2>
+  <ul>
+    <li>Tu cuaderno de NotebookLM: <b>primera pieza del Ejercicio 1</b>.</li>
+    <li>Cuatro IAs probadas con criterio.</li>
+    <li>En el tablero: enlace al cuaderno + 3 líneas (qué te sorprendió, qué te dio desconfianza, qué quieres construir).</li>
+  </ul>
+  <p class="pill">Próxima sesión: tu vida digital segura, ordenada y con IA 🔐📂</p>
+</section>
+
+</div>
+<div class="timer" id="timer"></div>
+<div class="foot"><span>Sesión 2 · Tu nuevo kit de superpoderes</span><span id="counter"></span><span>← → avanzar · F pantalla completa · N notas · T cronómetro</span></div>
+<script>
+  const slides=[...document.querySelectorAll('section')];let i=Math.max(0,Math.min(slides.length-1,parseInt(location.hash.slice(1))||0));
+  function show(n){slides.forEach(s=>s.classList.remove('active'));i=(n+slides.length)%slides.length;slides[i].classList.add('active');document.getElementById('counter').textContent=(i+1)+' / '+slides.length;location.hash=i;}
+  show(i);
+  let t0=null;setInterval(()=>{if(t0){const s=Math.floor((Date.now()-t0)/1000);document.getElementById('timer').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');}},500);
+  document.addEventListener('keydown',e=>{
+    if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();show(i+1);}
+    else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();show(i-1);}
+    else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);
+    else if(e.key.toLowerCase()==='f'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();}
+    else if(e.key.toLowerCase()==='n')document.body.classList.toggle('shownotes');
+    else if(e.key.toLowerCase()==='t'){t0=t0?null:Date.now();if(!t0)document.getElementById('timer').textContent='';}
+  });
+  document.addEventListener('click',e=>{if(e.target.closest('a'))return;(e.clientX>innerWidth/2)?show(i+1):show(i-1);});
+</script>
+</body>
+</html>

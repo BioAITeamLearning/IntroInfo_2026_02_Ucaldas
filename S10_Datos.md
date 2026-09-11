@@ -33,12 +33,12 @@ Unidad 4 · a. Obtención y manipulación de información · Unidad 2 · b.iii. 
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
 | 0:00 – 0:15 | 🌍 **Gapminder: ¿qué tan bien conoces el mundo?** | Test de 10 preguntas. Casi todos fallan: los datos corrigen la intuición |
-| 0:15 – 0:35 | 📥 **¿De dónde salen los datos?** | Tour por datos.gov.co, OWID, Kaggle, tu app de AppSheet, una foto de un formulario en papel. Tipos de datos y formatos (CSV, XLSX, JSON) |
+| 0:15 – 0:35 | 📥 **¿De dónde salen los datos?** | Tour por datos.gov.co, OWID, Kaggle, tu app de AppSheet, una foto de un formulario en papel. Tipos de datos y formatos (CSV, XLSX, JSON). Cada uno **descarga un dataset** de datos.gov.co de su área y escribe 3 preguntas que quiere responder |
 | 0:35 – 1:05 | 📸 **Actividad 1: Del papel/PDF a la tabla** | Gemini extrae una tabla desde una foto o PDF |
 | 1:05 – 1:15 | ☕ Pausa | |
-| 1:15 – 2:05 | 🧹 **Actividad 2: Limpieza con IA** | El dataset del reto, paso a paso con Gemini en Sheets |
+| 1:15 – 2:05 | 🧹 **Actividad 2: Limpieza con IA** | El dataset que descargaste, paso a paso con Gemini en Sheets |
 | 2:05 – 2:20 | 🔒 **Anonimizar y documentar** | Datos personales (Ley 1581): qué quitar, qué transformar. Diccionario de datos |
-| 2:20 – 2:30 | 🏠 Cierre y reto | |
+| 2:20 – 2:30 | 🏁 Cierre | Descargar `limpio.csv` a la carpeta `datos/`. Un vistazo a Seeing Theory: la próxima sesión la estadística se juega |
 
 ## 📸 Actividad 1: Del papel/PDF a la tabla (30 min)
 
@@ -49,7 +49,7 @@ Unidad 4 · a. Obtención y manipulación de información · Unidad 2 · b.iii. 
 
 ## 🧹 Actividad 2: Limpieza con IA (50 min)
 
-Con el dataset de datos.gov.co que trajiste, en Google Sheets:
+Con el dataset de datos.gov.co que descargaste, en Google Sheets:
 
 | Paso | Qué hacer | Prompt a Gemini en Sheets / función |
 |---|---|---|
@@ -76,12 +76,6 @@ Sube el CSV a **Google Colab** y escribe en una celda: *"Carga este CSV con pand
 | Dirección | Reidentificación | Dejar solo barrio/comuna o municipio |
 | Diagnóstico, antecedentes penales, orientación | Dato sensible (Ley 1581) | Solo con consentimiento y anonimizado |
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
-Hoja de Google con: pestaña `original`, pestaña `limpio`, pestaña `diccionario` + tus 3 preguntas de investigación al final. Enlace en tu página.
-
-## 🏠 Reto para la casa (~3h)
-
-1. Termina la limpieza (que no queden `?` ni categorías duplicadas).
-2. Descarga el `limpio` como CSV y súbelo a una carpeta `datos/` en tu Drive y en tu computador.
-3. Mira 20 minutos de [Seeing Theory](https://seeing-theory.brown.edu/) (capítulos 1 y 2): es estadística jugando con simuladores. Trae una pregunta.
+Hoja de Google con: pestaña `original`, pestaña `limpio`, pestaña `diccionario` + tus 3 preguntas de investigación al final. Descarga `limpio` como CSV a una carpeta `datos/` en tu computador (lo usas la próxima sesión). Enlace en tu página.

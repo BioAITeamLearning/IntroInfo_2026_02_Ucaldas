@@ -33,18 +33,18 @@ Unidad 5 · a. Fundamentos de IA · b. Herramientas esenciales de IA generativa 
 
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
-| 0:00 – 0:15 | 🎨 **Quick, Draw! visto por dentro** | ¿De dónde aprendió? De 50 millones de dibujos. Datos → modelo. Semantris: palabras que "están cerca" (embeddings) |
-| 0:15 – 0:50 | 📷 **Actividad 1: Entrena tu IA** | Teachable Machine con tus 30 fotos |
+| 0:00 – 0:15 | 🎨 **Quick, Draw! visto por dentro** | ¿De dónde aprendió? De 50 millones de dibujos: mirar los datos de un concepto. Datos → modelo. Semantris: palabras que "están cerca" (embeddings) |
+| 0:15 – 0:50 | 📷 **Actividad 1: Entrena tu IA** | Teachable Machine: elige dos cosas de tu carrera que quieras distinguir y toma las fotos con la cámara |
 | 0:50 – 1:15 | 🔤 **Un LLM por dentro** | Tiktokenizer (¿cuántos tokens tiene tu nombre?), Transformer Explainer (la siguiente palabra es una probabilidad), temperatura en AI Studio |
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 1:50 | 🗺️ **Mapa de la IA** | IA clásica vs ML vs deep learning vs generativa. Qué es un modelo, qué es un dataset, qué es un sesgo. Alucinación explicada con lo que vieron |
 | 1:50 – 2:20 | 🛠️ **Actividad 2: Dale herramientas a tu modelo** | AI Studio: sistema + búsqueda + código. Primer "agente con herramientas" |
-| 2:20 – 2:30 | 🏠 Cierre y reto | |
+| 2:20 – 2:30 | 🏁 Cierre | Cada uno escribe en 3 líneas **una tarea repetitiva con archivos** que le gustaría delegar a un agente. La próxima sesión la hacemos |
 
 ## 📷 Actividad 1: Entrena tu IA (35 min)
 
 1. [Teachable Machine](https://teachablemachine.withgoogle.com) → *Proyecto de imagen* (o *pose* si eres de deporte, *audio* si eres de artes/música).
-2. Clase 1 y Clase 2: sube tus 30 fotos o toma 30 con la cámara de cada una (dos especies, dos posturas, dos estilos, dos tipos de documento).
+2. Clase 1 y Clase 2: toma **30 fotos con la cámara** de cada una (dos objetos del salón, dos posturas, dos gestos, dos tipos de documento; o busca 30 imágenes de dos especies/estilos en Google Imágenes y súbelas).
 3. *Entrenar modelo* (1 minuto). Prueba en vivo.
 4. **Rómpelo:** muéstrale algo que no es ninguna de las dos clases. ¿Qué pasa? ¿Por qué? (Solo sabe lo que le enseñaste.)
 5. **Sesgo a propósito:** entrena de nuevo con todas las fotos de la clase 1 con fondo blanco y de la clase 2 con fondo oscuro. Ahora muéstrale un fondo blanco vacío. Eso es un sesgo del dataset.
@@ -78,12 +78,6 @@ En [AI Studio](https://aistudio.google.com):
 En AI Studio → *Build* describe una app: *"Una app que recibe una foto de una planta/lesión/obra y devuelve una ficha con 5 campos"*. AI Studio la programa y la despliega. También puedes ver el **Stream** (voz + cámara en tiempo real) y pensar qué harías con eso en tu profesión.
 ```
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
 Enlace a tu modelo de Teachable Machine + página que lo usa + captura de AI Studio con búsqueda activada respondiendo con fuentes.
-
-## 🏠 Reto para la casa (~3h)
-
-1. Instala **Node.js** y **Gemini CLI** (ver {doc}`KitDeCuentas`). Verifica que `gemini` abre en tu terminal. Si tienes problemas, trae el error en captura: lo resolvemos al inicio de la próxima clase.
-2. Crea una carpeta `agente/` con **10–20 archivos reales desordenados** de tu carrera: PDFs, imágenes, documentos, hojas de cálculo, con nombres malos (`Documento1.pdf`, `IMG_2034.jpg`).
-3. Escribe en 3 líneas **una tarea repetitiva** que haces con archivos y que te gustaría delegar.

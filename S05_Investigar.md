@@ -32,7 +32,7 @@ Unidad 2 · c.i–ii. Búsquedas indexadas de información · b.iii. Intercambio
 
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
-| 0:00 – 0:15 | 👻 **¿Cuántas fuentes eran fantasma?** | Resultados del reto: porcentaje de referencias inventadas por el grupo |
+| 0:00 – 0:15 | 👻 **¿Cuántas fuentes son fantasma?** | En vivo: cada uno pide a su Gem **5 fuentes académicas** sobre un tema y las busca en Google Scholar. Contamos cuántas existen. El porcentaje del grupo va al tablero |
 | 0:15 – 0:40 | 🔎 **Buscar como profesional** | Operadores (`"frase"`, `site:`, `filetype:pdf`, `-`), Scholar, bases de datos de la U. Demo: la misma búsqueda en Google, Scholar, Perplexity y Consensus |
 | 0:40 – 1:10 | 🏁 **Actividad 1: Carrera de verificación** | Equipos: 10 afirmaciones, ¿cuáles son ciertas y con qué fuente? |
 | 1:10 – 1:20 | ☕ Pausa | |
@@ -75,12 +75,6 @@ Sube el informe y las fuentes a tu cuaderno de **NotebookLM** y pide una *Tabla 
 | Publicar una imagen generada por IA | Sí, pero verifica la licencia de la herramienta y no imites el estilo de un artista vivo con fines comerciales |
 | Compartir un PDF de la biblioteca en un grupo de WhatsApp | No (licencia institucional); comparte el enlace |
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
-Informe en Google Docs con: bibliografía APA (Zotero), tabla de auditoría de fuentes y declaración de uso de IA.
-
-## 🏠 Reto para la casa (~3h)
-
-1. Juega [Bad News](https://www.getbadnews.com/) (15 min): aprende cómo se fabrica la desinformación.
-2. Mira dos videos y decide cuál es real: [Detect Fakes (MIT)](https://detectfakes.kellogg.northwestern.edu/). Trae tu puntaje.
-3. Calcula la huella de carbono de una consulta a IA con [ML CO2 Impact](https://mlco2.github.io/impact/) y compárala con un día de Netflix. Trae el número: lo discutimos en ética.
+Informe en Google Docs con: bibliografía APA (Zotero), tabla de auditoría de fuentes y declaración de uso de IA. Es el informe del **Ejercicio 1**.

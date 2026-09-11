@@ -32,13 +32,13 @@ Unidad 5 · b. Herramientas esenciales · c.a. Redacción de documentos · c.c. 
 
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
-| 0:00 – 0:15 | 🩺 **Clínica de instalación** | Resolver errores de Node / Gemini CLI. Quien no pueda instalar, trabaja en pareja o con Opal |
-| 0:15 – 0:35 | 🔁 **¿Qué es un agente?** | El bucle observa-piensa-actúa con un ejemplo humano (un asistente que ordena tu oficina). Demo en vivo: el docente suelta Gemini CLI en una carpeta caótica |
+| 0:00 – 0:20 | 🩺 **Instalación y carpeta** | Instalar Node.js + Gemini CLI ({doc}`KitDeCuentas`) y crear una carpeta `agente/` con 10–20 archivos reales desordenados (descargar PDFs, imágenes y hojas de Drive/correo). Quien no pueda instalar, trabaja en pareja o con Opal |
+| 0:20 – 0:35 | 🔁 **¿Qué es un agente?** | El bucle observa-piensa-actúa con un ejemplo humano (un asistente que ordena tu oficina). Demo en vivo: el docente suelta Gemini CLI en una carpeta caótica |
 | 0:35 – 1:15 | 📂 **Actividad 1: El agente ordena tu carpeta** | Solo lectura → plan → ejecutar con confirmación |
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 1:50 | 📝 **Actividad 2: El agente redacta por ti** | Del contenido de la carpeta a un documento estructurado |
 | 1:50 – 2:15 | 🧱 **Actividad 3: Agente sin código con Opal** | Un flujo de 3–4 pasos para tu carrera |
-| 2:15 – 2:30 | 🛡️ **Seguridad y cierre** | Qué nunca dejar hacer a un agente. Reto |
+| 2:15 – 2:30 | 🛡️ **Seguridad y cierre** | Qué nunca dejar hacer a un agente |
 
 ## 🔁 ¿Qué es un agente?
 
@@ -107,12 +107,6 @@ Opal lo convierte en bloques conectados que puedes editar. Ejecútalo con un tem
 | Nunca pegar claves ni contraseñas en el chat del agente | Quedan en el historial |
 | Verificar lo redactado contra la fuente | Sigue siendo un modelo que predice |
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
 `INDICE.md` + `GEMINI.md` (o `CLAUDE.md`) + el documento redactado por el agente **con tus correcciones marcadas** + enlace a tu app de Opal. Todo en tu página.
-
-## 🏠 Reto para la casa (~3h)
-
-1. Usa tu agente en la terminal para una tarea real de otra materia (ordenar, resumir, redactar). Cuenta en 5 líneas qué pasó.
-2. Instala **Telegram** y crea un bot con **@BotFather** (guarda el token en Bitwarden).
-3. Crea cuenta en **n8n** (cloud, prueba gratuita) o **Make**. Trae 3 PDFs de tu carrera con los que quieras chatear por Telegram.

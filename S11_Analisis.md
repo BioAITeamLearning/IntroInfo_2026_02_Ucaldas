@@ -37,7 +37,7 @@ Unidad 4 · b. Utilidades de análisis e interpretación de datos · c. Obtenci�
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 2:00 | 🔬 **Actividad 1: parte 2** | Preguntas 2 y 3, con gráficos. Verificación cruzada en Claude |
 | 2:00 – 2:20 | 🧗 **Ruta pro: la carpeta** | Gemini CLI sobre `datos/` (demo + quien quiera lo hace) |
-| 2:20 – 2:30 | 🏠 Cierre y reto | |
+| 2:20 – 2:30 | 🏁 Cierre | Cada uno escribe en dos líneas **quién** debería ver estos resultados y qué **decisión** tomaría. Exporta los 3 gráficos como PNG |
 
 ## 🔬 Actividad 1: Tus 3 preguntas (65 min)
 
@@ -73,12 +73,6 @@ Y dentro del agente:
 
 Después: *"Escribe un script `resumen.py` que genere un archivo `resumen.md` con esa información y ejecútalo."* Abre `resumen.md`. **Acabas de correr un agente sobre tu disco.** La Sesión 14 es toda sobre esto.
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
 Notebook de Colab (compartido) con las 3 preguntas, gráficos y el párrafo de conclusiones y limitaciones. Enlace en tu página.
-
-## 🏠 Reto para la casa (~3h)
-
-1. Piensa en **quién** debería ver tus resultados (tu jefe, tu profesor, un club, una alcaldía) y qué **decisión** debería tomar. Escríbelo en dos líneas.
-2. Mira 3 dashboards en la [galería de Looker Studio](https://lookerstudio.google.com/gallery) o en [Flourish](https://flourish.studio/examples/) y anota qué te gustó de cada uno.
-3. Exporta de Colab los 3 gráficos como PNG: los vas a necesitar.

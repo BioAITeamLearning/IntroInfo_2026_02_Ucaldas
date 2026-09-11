@@ -38,7 +38,7 @@ Unidad 3 · c.i.i. Mapas mentales · c.i.ii. Infografías · c.ii. Presentacione
 | 0:45 – 1:10 | 📊 **Actividad 2: Presentación** | Gamma desde tu informe; comparar con NotebookLM Slide Deck |
 | 1:10 – 1:20 | ☕ Pausa | |
 | 1:20 – 1:35 | 🎬 **Edición en 15 min** | Guion de 60 s (gancho · problema · idea · cierre), planos, ritmo, subtítulos, audio. Demo: CapCut |
-| 1:35 – 2:15 | 🎥 **Actividad 3: Tu video de 60 segundos** | Guion (Gemini) → voz (ElevenLabs) → imágenes/clips (Gemini, Flow, tus fotos) → montaje (CapCut) → música (Suno) |
+| 1:35 – 2:15 | 🎥 **Actividad 3: Tu video de 60 segundos** | Elige un concepto de tu carrera. Guion (Gemini) → voz (ElevenLabs) → imágenes/clips (Gemini, Flow, fotos de tu celular) → montaje (CapCut) → música (Suno) |
 | 2:15 – 2:30 | 🍿 **Festival** | Proyectar 6–8 videos. Votación. Subir a la página web |
 
 ## 🖼️ Actividad 1: Infografía (30 min)
@@ -60,7 +60,7 @@ Unidad 3 · c.i.i. Mapas mentales · c.i.ii. Infografías · c.ii. Presentacione
 |---|---|---|
 | 1. Guion de 60 s (≈ 130 palabras): gancho (5 s) · problema (15 s) · idea clave (30 s) · cierre con llamado a la acción (10 s) | Gemini | 5 min |
 | 2. Voz en off: pega el guion, elige voz en español neutro o **clona tu propia voz** (solo la tuya) | ElevenLabs | 5 min |
-| 3. Visuales: tus 5 fotos + 2–3 imágenes generadas + (opcional) un clip de 8 s con Veo | Gemini / Flow | 10 min |
+| 3. Visuales: 3–5 fotos de tu celular o de Unsplash + 2–3 imágenes generadas + (opcional) un clip de 8 s con Veo | Gemini / Flow | 10 min |
 | 4. Montaje: importar todo, cortar al ritmo de la voz, **subtítulos automáticos**, transiciones sobrias | CapCut | 15 min |
 | 5. Música de fondo al 15 % de volumen | Suno | 5 min |
 
@@ -73,12 +73,6 @@ Pide a NotebookLM un **Video Overview** de tu cuaderno y compáralo con el tuyo.
 Ética del multimedia: declara siempre el contenido generado por IA · nunca clones la voz o el rostro de otra persona · verifica que la música generada se pueda usar (licencia de Suno según plan) · las imágenes de Gemini llevan **SynthID**, un marca de agua invisible: es bueno que lo sepas y que lo digas.
 ```
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
 En tu página web: infografía + presentación (enlace público) + video de 60 s (YouTube no listado o archivo).
-
-## 🏠 Reto para la casa (~3h)
-
-1. Piensa en **algo que gestionas** en tu vida o carrera con listas, Excel o WhatsApp: inventario del laboratorio, casos de la consulta jurídica, obras de un colectivo, atletas de un club, asistencia a ensayos, préstamos de equipos.
-2. Escribe en una hoja de cálculo de Google **10 registros reales o realistas** de eso, con al menos 5 columnas (nombre, fecha, estado, responsable, notas…).
-3. Instala la app **AppSheet** en tu celular.

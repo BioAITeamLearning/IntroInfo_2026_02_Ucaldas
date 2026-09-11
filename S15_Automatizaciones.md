@@ -34,13 +34,15 @@ Unidad 5 · b. Herramientas esenciales · c.b. Planeación · c.c. Estructuraci�
 |---|---|---|
 | 0:00 – 0:15 | 🧩 **Anatomía de una automatización** | Juego: "si pasa X, entonces Y" con ejemplos de su vida (llega un correo → se guarda el adjunto en Drive → se avisa por Telegram). Demo: un flujo de n8n corriendo |
 | 0:15 – 0:30 | 📖 **¿Cómo chatea un bot con un PDF?** | RAG en 3 dibujos: trocear → indexar (embeddings, S13) → buscar lo relevante → responder citando |
-| 0:30 – 1:15 | 💬 **Actividad 1: Tu bot de Telegram con PDFs** | n8n (o Make): Telegram → agente IA con tus documentos → respuesta |
+| 0:30 – 1:15 | 💬 **Actividad 1: Tu bot de Telegram con PDFs** | Crear el bot con @BotFather y la cuenta de n8n (5 min) → n8n (o Make): Telegram → agente IA con 3 PDFs de tu carrera → respuesta |
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 2:00 | ⏰ **Actividad 2: El flujo que corre solo** | Programado: cada mañana / cada registro nuevo / cada correo |
 | 2:00 – 2:20 | 🧪 **Pruebas cruzadas** | Cada uno chatea con el bot de un compañero de otra carrera. Romperlo a propósito |
 | 2:20 – 2:30 | 🚀 **Preparación del Demo Day** | Qué se presenta, cómo, rúbrica del Ejercicio 3 |
 
 ## 💬 Actividad 1: Tu bot de Telegram con PDFs (45 min)
+
+Primero (5 min): instala Telegram, escribe a [@BotFather](https://t.me/BotFather) → `/newbot` → copia el **token** a Bitwarden. Crea tu cuenta en n8n (o Make). Elige 3 PDFs de tu cuaderno de NotebookLM.
 
 **En n8n** (plantilla que el docente comparte; se arma en vivo):
 
@@ -75,7 +77,7 @@ Elige uno y ármalo (n8n / Make / Apps Script):
 | Deporte | Nuevo formulario de RPE del atleta | Calcular carga semanal; si supera umbral → alerta | Telegram al entrenador |
 | Todos | Cada día 6 p.m. | Leer tu Google Calendar de mañana → Gemini prepara un briefing | Mensaje de Telegram |
 
-Prueba en vivo (ejecuta manualmente el disparador) y deja activo el flujo durante la semana.
+Prueba en vivo (ejecuta manualmente el disparador) y déjalo activo: para el Demo Day debe haber corrido solo al menos una vez.
 
 ```{admonition} Ruta pro 🧗
 :class: tip
@@ -90,10 +92,6 @@ Conecta tu **agente de la terminal** (S14) con la automatización: un flujo de n
 | Lo que se puede verificar fácilmente | Lo que toca datos personales sin anonimizar |
 | Lo que ahorra más tiempo del que cuesta mantener | Lo que haces una vez al año |
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
 Enlace o usuario de tu bot de Telegram (`@tubot`) + captura de las 3 pruebas + captura del flujo programado ejecutado. En tu página.
-
-## 🏠 Reto para la casa (~3h): preparar el Demo Day
-
-Ver {doc}`ProyectoFinal`. Termina tu proyecto, publica todo en tu página y prepara una demo de **5 minutos** en vivo (no diapositivas: cosas funcionando).

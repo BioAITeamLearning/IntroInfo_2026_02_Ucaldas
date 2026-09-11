@@ -33,13 +33,13 @@ Unidad 1 · a. Bienestar digital · c. Dispositivos de almacenamiento y transmis
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
 | 0:00 – 0:15 | 🧙 **Calentamiento: Gandalf** | Cada uno intenta pasar los niveles 1–3. ¿Cómo se engaña a una IA? (prompt injection, sin decir el nombre todavía) |
-| 0:15 – 0:35 | 🔓 **¿Dónde estás filtrado?** | Resultados de Have I Been Pwned. Cómo funciona una filtración, por qué reusar contraseñas es el problema |
+| 0:15 – 0:35 | 🔓 **¿Dónde estás filtrado?** | Cada uno revisa su correo en Have I Been Pwned. Cómo funciona una filtración, por qué reusar contraseñas es el problema |
 | 0:35 – 1:05 | 🔐 **Actividad 1: Blindaje en 30 min** | Bitwarden + 2FA en Google + revisión de sesiones activas + bloqueo del celular |
 | 1:05 – 1:15 | ☕ Pausa | |
 | 1:15 – 1:35 | 📂 **¿Dónde vive tu información?** | Local vs nube vs celular. Sistemas operativos de escritorio y móviles: qué hace cada uno con tus archivos. Un sistema de carpetas que funcione (PARA: Proyectos / Áreas / Recursos / Archivo) |
-| 1:35 – 2:05 | 🤖 **Actividad 2: Pregúntale a tu carpeta** | Gemini en Drive + NotebookLM con las 10+ fuentes del reto |
+| 1:35 – 2:05 | 🤖 **Actividad 2: Pregúntale a tu carpeta** | Gemini en Drive + NotebookLM: primero conseguimos 10 fuentes más, luego les preguntamos |
 | 2:05 – 2:20 | 🥽 **Actividad 3: Tu objeto en 3D** | Polycam: escanear un objeto de la carrera y verlo en realidad aumentada |
-| 2:20 – 2:30 | 🏠 Cierre y reto | |
+| 2:20 – 2:30 | 🏁 Cierre | Todos pasan el nivel 3 de Gandalf (o lo intentan). Lo conectamos con la próxima sesión: prompts |
 
 ## 🔐 Actividad 1: Blindaje en 30 minutos
 
@@ -64,7 +64,7 @@ Regla de oro para el resto del curso: **nada confidencial en un chat de IA**: da
 * "¿Cuáles de estos documentos hablan de [concepto]?"
 * "Escribe un correo a mi profesor pidiendo aclaración sobre lo que dice el documento X."
 
-**Parte B — NotebookLM como biblioteca (20 min):** en tu cuaderno de la Sesión 2 (ya con 10+ fuentes):
+**Parte B — NotebookLM como biblioteca (20 min):** en tu cuaderno de la Sesión 2 agrega primero **7–10 fuentes más** (5 min): usa *Descubrir fuentes* de NotebookLM con un tema de tu carrera, y suma PDFs de tu Drive o correo. Luego:
 
 * Pide un **Informe** tipo "guía de estudio" de todo el cuaderno.
 * Pide una **Tabla de datos** comparando las fuentes según un criterio de tu carrera (por ejemplo: método, población, año).
@@ -84,12 +84,6 @@ Si ya instalaste Node y Gemini CLI, abre la terminal **dentro** de una carpeta c
 
 Pregunta para discutir: *¿qué cambia en tu profesión cuando cualquier objeto se puede digitalizar en 2 minutos?*
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
-Captura de pantalla de tu 2FA activo (sin mostrar códigos) + enlace a tu cuaderno NotebookLM actualizado + la afirmación que verificaste (¿era cierta?).
-
-## 🏠 Reto para la casa (~3h)
-
-1. Migra **todas** tus contraseñas a Bitwarden (sí, todas).
-2. Organiza tu Drive con el sistema PARA. Sube al cuaderno de NotebookLM tus apuntes de otras materias de este semestre.
-3. Pasa el **nivel 4 de Gandalf** y escribe en dos líneas cómo lo lograste. Lo conectamos con la próxima sesión (prompts).
+Tu cuenta blindada (2FA + gestor) y tu cuaderno de NotebookLM con 10+ fuentes: la biblioteca de tu **Ejercicio 1**. En el tablero: la afirmación que verificaste (¿era cierta?).

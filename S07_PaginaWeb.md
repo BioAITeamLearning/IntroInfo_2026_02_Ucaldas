@@ -32,7 +32,7 @@ Unidad 3 · c.i.iii. Sitios web/blogs · b. Redes sociales y redes temáticas (t
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
 | 0:00 – 0:15 | 🕸️ **¿Cómo funciona la web?** | Juego: "la carta que viaja". Dominio → DNS → servidor → HTML. Ver el código fuente de una página real (clic derecho → Inspeccionar) y cambiar el titular de un periódico en vivo |
-| 0:15 – 0:45 | 🏗️ **Actividad 1: Google Sites en 30 min** | Página con inicio, sobre mí, portafolio (lo del Ejercicio 1) y contacto. Publicar |
+| 0:15 – 0:45 | 🏗️ **Actividad 1: Google Sites en 30 min** | Antes, 5 min: cada uno busca 2 páginas que le gusten y una foto suya. Luego: inicio, sobre mí, portafolio (lo del Ejercicio 1) y contacto. Publicar |
 | 0:45 – 1:15 | ✨ **Actividad 2: Vibe coding** | Lovable / Claude: la misma página, pero descrita en lenguaje natural |
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 1:55 | 🚀 **Actividad 3: Publicar el HTML** | Descargar el código generado y subirlo a Netlify Drop o GitHub Pages. Tu segunda URL |
@@ -69,12 +69,6 @@ Abre la terminal en la carpeta del `index.html` y corre `gemini` o `claude`. Pid
 
 En Claude: *"Crea un juego interactivo de [memoria / quiz / arrastrar y soltar] sobre [tema de tu carrera], con 10 preguntas, puntaje, y feedback por respuesta. En español."* Prueba, itera, publica el artefacto o descarga el HTML y súbelo a tu página.
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
-Dos URLs (Sites + vibe coding/Pages) en el tablero del curso. Desde hoy, **todo entregable se publica en tu página**.
-
-## 🏠 Reto para la casa (~3h)
-
-1. Termina el contenido real de tu página (sin textos inventados).
-2. Comparte la URL en una red social o con 3 personas y pide retroalimentación.
-3. Trae para la próxima sesión: un concepto de tu carrera que **quieras explicar en 60 segundos** y 5 fotos propias relacionadas.
+Dos URLs (Sites + vibe coding/Pages) en el tablero del curso. Desde hoy, **todo lo que construyas se publica en tu página**: es la base del **Ejercicio 2**.

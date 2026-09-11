@@ -31,7 +31,7 @@ Unidad 4 · c. Representación de resultados · d. Herramientas para visualizaci
 
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
-| 0:00 – 0:20 | 🎯 **El gráfico correcto (y el incorrecto)** | Juego: 8 gráficos, ¿cuál miente? Luego la tabla "pregunta → gráfico" |
+| 0:00 – 0:20 | 🎯 **El gráfico correcto (y el incorrecto)** | Juego: 8 gráficos, ¿cuál miente? Luego la tabla "pregunta → gráfico" y 3 dashboards de la galería de Looker Studio: ¿qué tienen en común los buenos? |
 | 0:20 – 0:55 | 📊 **Actividad 1: Dashboard en Looker Studio** | Conectar tu hoja `limpio`, 4 tarjetas de indicadores + 3 gráficos + 1 filtro |
 | 0:55 – 1:15 | ✨ **Actividad 2: Un gráfico que se mueva** | Flourish: carrera de barras o mapa con tus datos |
 | 1:15 – 1:25 | ☕ Pausa | |
@@ -96,9 +96,3 @@ Tu **página web** (S7) con, como mínimo:
 ```{note}
 Cierre del **Corte 2**. Los talleres de S7–S11 (multimedia, dataset, notebook) no tienen nota aparte: son las piezas de este ejercicio y viven en tu página.
 ```
-
-## 🏠 Reto para la casa (~3h)
-
-1. Entrena 5 minutos con [Quick, Draw!](https://quickdraw.withgoogle.com) y mira qué dibujaron **otras personas** en el mismo concepto ("mira los datos"). ¿De dónde aprende la IA?
-2. Ve el video [But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk) (3Blue1Brown, con subtítulos).
-3. Trae 30 fotos (o prepárate para tomarlas con la cámara) de **dos cosas que quieras que una IA distinga**: dos especies, dos posturas deportivas, dos estilos de obra, dos tipos de documento.

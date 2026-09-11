@@ -179,19 +179,12 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 
 ### Evaluación
 
-Como dice el PIIA: talleres en clase, prácticas en el computador, sustentación en grupo e internet como medio de difusión. En concreto, **tres ejercicios, tres notas**:
+* Talleres en clase con la herramienta del día (no se califican: son las piezas de los ejercicios).
+* **Ejercicio 1 · Mi asistente de carrera** (30%) — Sesión 6
+* **Ejercicio 2 · Mi sistema publicado** (35%) — Sesión 12
+* **Ejercicio 3 · Mi agente** (35%) — Sesión 16 · Demo Day
 
-| Ejercicio | Sustentación | Peso | Qué entregas |
-|---|---|---|---|
-| **1 · Mi asistente de carrera** | Sesión 6 | 30% | Asistente (Gem / NotebookLM) con fuentes verificadas + informe corto + declaración ética |
-| **2 · Mi sistema publicado** | Sesión 12 | 35% | Página web con sistema de gestión y dashboard de datos reales |
-| **3 · Mi agente** | Sesión 16 · Demo Day | 35% | Agente, bot o automatización resolviendo un problema real |
-
-Los talleres de cada sesión preparan el ejercicio del corte y no se califican aparte.
-
-```{note}
-Nota aprobatoria 3,0 · No habilitable · Se reprueba con 7 faltas no justificadas (15%) o 12 justificadas + no justificadas (25%). El detalle de cómo se vive cada sesión y cómo se califica cada entregable está en {doc}`Metodologia`.
-```
+Detalles en {doc}`Metodologia`.
 
 ---
 

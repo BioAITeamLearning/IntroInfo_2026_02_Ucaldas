@@ -33,9 +33,9 @@ Unidad 2 · b. Principios éticos · b.i. TIC, ciencia y desarrollo social · b.
 |---|---|---|
 | 0:00 – 0:20 | 🚗 **Moral Machine** | Cada uno juega 13 dilemas. Comparamos resultados del grupo con el promedio mundial: ¿coincidimos? |
 | 0:20 – 0:45 | ⚖️ **Sesgo: Survival of the Best Fit** | Jugar en parejas. Discusión: ¿de dónde salió el sesgo? ¿Qué pasa en selección de personal, justicia predictiva, diagnóstico médico? |
-| 0:45 – 1:10 | 🎭 **Deepfakes y desinformación** | Puntajes de Detect Fakes. Cómo se hacen (demo con una foto propia en Gemini), cómo se detectan, qué hacer si eres víctima. Casos colombianos |
+| 0:45 – 1:10 | 🎭 **Deepfakes y desinformación** | Todos juegan 5 minutos en Detect Fakes y comparamos puntajes. Cómo se hacen (demo con una foto propia en Gemini), cómo se detectan, qué hacer si eres víctima. Casos colombianos |
 | 1:10 – 1:20 | ☕ Pausa | |
-| 1:20 – 1:40 | 🌱 **El costo del planeta** | Números del reto: agua y energía por consulta, centros de datos, minería de litio/cobalto. Basura electrónica. ¿Qué podemos hacer? |
+| 1:20 – 1:40 | 🌱 **El costo del planeta** | Calculamos en vivo con ML CO2 Impact: agua y energía por consulta, centros de datos, minería de litio/cobalto. Basura electrónica. ¿Qué podemos hacer? |
 | 1:40 – 2:05 | 📜 **Actividad: Manifiesto de IA para mi profesión** | Equipos por carrera, en Miro, con la IA como abogado del diablo |
 | 2:05 – 2:30 | 🎤 **Sustentación del Ejercicio 1** | Cada equipo pone a prueba el asistente de un compañero de otra carrera |
 
@@ -82,9 +82,3 @@ Lo que traes construido de las sesiones 2 a 5, junto en un solo lugar:
 ```{note}
 Este es el cierre del **Corte 1**. Los talleres de las sesiones 2–5 no tienen nota aparte: son las piezas de este ejercicio.
 ```
-
-## 🏠 Reto para la casa (~3h)
-
-1. Piensa **qué quieres publicar en tu página web**: ¿portafolio? ¿blog? ¿la página de tu emprendimiento, colectivo o club? Trae 3 referencias de páginas que te gusten.
-2. Reúne el material: una foto tuya, un párrafo de "sobre mí", lo que construiste en el Ejercicio 1.
-3. Crea tu cuenta de **GitHub** y de **Lovable** (ver {doc}`KitDeCuentas`).

@@ -30,13 +30,13 @@ Unidad 2 · c.iii. Redacción de prompts en IA · a. Conceptos generales.
 
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
-| 0:00 – 0:15 | 🧙 **Gandalf, niveles 4–5** | ¿Cómo pasaron el nivel 4? Nombramos la técnica: *prompt injection* |
+| 0:00 – 0:15 | 🧙 **Gandalf, nivel 4** | Todos intentan el nivel 4 (10 min). Quien lo pase explica cómo. Nombramos la técnica: *prompt injection* |
 | 0:15 – 0:45 | 📐 **Anatomía de un prompt** | Del prompt malo al prompt pro en vivo, con el mismo problema |
 | 0:45 – 1:15 | ⚔️ **Actividad 1: Prompt Battle** | Torneo por parejas: mismo objetivo, gana el mejor resultado |
 | 1:15 – 1:25 | ☕ Pausa | |
 | 1:25 – 1:45 | 🎛️ **Por dentro: AI Studio** | Instrucciones de sistema, temperatura, tokens. Qué es un "agente" y por qué un Gem ya lo es (v0.1) |
 | 1:45 – 2:20 | 🤖 **Actividad 2: Tu primer agente** | Crear un Gem / Proyecto para tu carrera |
-| 2:20 – 2:30 | 🏠 Cierre y reto | |
+| 2:20 – 2:30 | 🏁 Cierre | Qué construimos hoy: tu Gem es el corazón del Ejercicio 1. La próxima sesión le exigimos fuentes reales |
 
 ## 📐 Anatomía de un prompt
 
@@ -91,12 +91,6 @@ Ideas por carrera:
 En **Google AI Studio** replica tu Gem: pega las mismas instrucciones en *System instructions*, sube 0.2 → 1.0 la **temperatura** y compara. Luego pide *Get code*: ese código es tu agente listo para vivir fuera del chat (lo usaremos en S13 y S15).
 ```
 
-## 📦 Entregable
+## 📦 Lo que te llevas
 
-Enlace a tu Gem/Proyecto compartido + tu mejor prompt de la Prompt Battle con una línea explicando por qué funcionó.
-
-## 🏠 Reto para la casa (~3h)
-
-1. Usa tu agente durante la semana para una tarea real de otra materia. Anota qué hizo bien y qué mal.
-2. Lee el capítulo 1 de *Prompt engineering para IA generativa* (Phoenix & Taylor, disponible en eLibro UCaldas).
-3. Pídele a tu agente que te dé **5 fuentes académicas** sobre un tema. Búscalas en Google Scholar. ¿Cuántas existen de verdad? Trae el resultado: es el punto de partida de la próxima sesión.
+Tu Gem/Proyecto (el corazón del **Ejercicio 1**) y tu mejor prompt de la Prompt Battle en el tablero, con una línea explicando por qué funcionó.

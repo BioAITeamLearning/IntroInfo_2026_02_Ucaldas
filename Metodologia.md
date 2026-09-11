@@ -13,22 +13,22 @@ Esto es coherente con lo que pide el PIIA (magistral al inicio, tareas 100 % pr�
 
 | Bloque | Tiempo | Quién hace | Qué pasa |
 |---|---|---|---|
-| 🎮 **Entrada** | 10–15 min | Todos | Juego o simulador relacionado con el tema + revisión rápida del reto de la semana |
+| 🎮 **Entrada** | 10–15 min | Todos | Juego o simulador relacionado con el tema |
 | 🎩 **Micro-magistral con demo** | ≤ 25 min | Docente | El concepto mínimo necesario y una demo **en vivo** ("yo hago, ustedes miran"). Nada de diapositivas de 40 láminas |
 | 🛠️ **Taller guiado** | 30–45 min | Todos, al mismo ritmo | Todos construyen lo mismo paso a paso con la herramienta del día ("hacemos juntos"). El docente circula y asesora |
 | ☕ Pausa | 10 min | | |
 | 🎯 **Aplicación a tu carrera** | 30–40 min | Equipos base | Cada equipo adapta lo construido a su contexto real ("ustedes hacen"). Aquí está la caja *Ruta pro* para quien va adelante |
 | 🗣️ **Puesta en común** | 10–15 min | Todos | Mostrar, votar, retroalimentar entre pares. Se aprende de los errores de los demás |
-| 📦 **Cierre** | 5 min | Docente | Entregable de hoy + reto para la casa |
+| 📦 **Cierre** | 5 min | Docente | Qué construimos hoy y cómo se conecta con el ejercicio del corte |
 
 ```{admonition} Equipos base
 :class: note
 Desde la Sesión 2 se forman **equipos base de 3–4 personas por afinidad de carrera** (biología con biología, derecho con derecho…). Son estables todo el semestre: en ellos se hace la parte de "aplicación" y las sustentaciones. Los **ejercicios son individuales** (cada uno publica en su propia página), salvo el manifiesto (S6) y, si se quiere, el proyecto final (parejas con responsabilidades individuales declaradas).
 ```
 
-## Las 48 horas no presenciales
+## Todo se hace en clase
 
-Cada sesión termina con un **reto para la casa (~3 h)** que prepara la siguiente: crear cuentas, traer un documento real, limpiar el dataset, instalar una herramienta, jugar un simulador. El reto **no se califica**, pero sin él la siguiente sesión no se puede hacer; por eso la revisión del reto abre cada clase.
+No hay tareas para la casa. Cuentas, instalaciones, documentos, datos y fotos se consiguen **dentro de la sesión**, con acompañamiento: así nadie llega a la siguiente clase sin lo necesario y el docente ve dónde se atasca cada quien. Las 48 horas no presenciales del PIIA son para **usar** lo que construiste en tus otras materias y para terminar de pulir tu ejercicio antes de sustentarlo.
 
 ## Cómo se evalúa
 

@@ -21,8 +21,6 @@ Esta sesión **ya se dio** en formato clásico. Queda aquí como referencia de l
 
 La próxima sesión respondemos una pregunta más interesante: *¿y todo eso, para qué me sirve a mí, hoy, con inteligencia artificial?*
 
-```{admonition} Reto para la casa 🏠
-:class: tip
-1. Crea las cuentas del {doc}`KitDeCuentas` (mínimo: Gemini, NotebookLM y Claude).
-2. Trae a la próxima clase **un documento real de tu carrera**: un PDF de un artículo, una guía, un reglamento, tus apuntes. Lo vamos a convertir en algo que no esperas.
+```{tip}
+Para la próxima sesión solo necesitas **tu computador (o uno del laboratorio), tu celular y tu correo institucional**. Las cuentas y los materiales los conseguimos en clase.
 ```

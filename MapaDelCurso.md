@@ -3,7 +3,7 @@ title: Mapa del curso
 ---
 # Mapa del curso 🗺️
 
-16 semanas · 1 sesión semanal de **2h30** · 48 horas presenciales + 48 no presenciales (retos para la casa).
+16 semanas · 1 sesión semanal de **2h30** · todo se construye en clase.
 
 Cada fila es una sesión: la unidad del PIIA que cubre, la **herramienta de IA del día** y lo que te llevas construido.
 
