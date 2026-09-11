@@ -16,6 +16,7 @@ title: Sesión 2 · Tu kit de superpoderes
 
 ## 🎯 Objetivos
 
+* Entender en 15 minutos **qué es la IA**, cómo aprende de ejemplos, por qué a veces inventa y quién es quién en 2026.
 * Ver en vivo **10 cosas que la IA puede hacer hoy** por un biólogo, un abogado, un artista o un deportólogo.
 * Comparar distintos asistentes de IA con el mismo problema y entender que **no todos sirven para lo mismo**.
 * Convertir un documento real de tu carrera en un **podcast, un mapa mental y un quiz** en menos de 10 minutos.
@@ -23,7 +24,7 @@ title: Sesión 2 · Tu kit de superpoderes
 
 ```{admonition} Cobertura PIIA
 :class: note
-Unidad 1 · h. Tecnologías emergentes (IA generativa, sistemas interactivos) · b. Estructura y aplicaciones · g. Software para texto y presentaciones (con Gemini en Docs/Slides).
+Unidad 1 · h. Tecnologías emergentes (IA generativa, sistemas interactivos) · b. Estructura y aplicaciones · g. Software para texto y presentaciones (con Gemini en Docs/Slides) · Unidad 5 · a. Fundamentos de IA (introducción; se profundiza en la Sesión 13).
 ```
 
 ## ⏱️ Agenda (2h30)
@@ -31,12 +32,13 @@ Unidad 1 · h. Tecnologías emergentes (IA generativa, sistemas interactivos) ·
 | Tiempo | Bloque | Qué pasa |
 |---|---|---|
 | 0:00 – 0:10 | 🎮 **Calentamiento: Quick, Draw!** | En parejas, uno dibuja y la IA adivina. Pregunta detonante: *¿cómo sabe la IA lo que dibujaste?* |
-| 0:10 – 0:35 | 🎩 **Tour de 10 superpoderes** (demo en vivo) | Ver tabla abajo. Dos minutos por demo, sin teoría, solo *wow* |
-| 0:35 – 0:45 | 🗺️ **El mapa del curso y las reglas** | Recorremos {doc}`MapaDelCurso`: "todo esto lo van a hacer ustedes". Tres ejercicios, tres notas |
-| 0:45 – 0:55 | 🎒 **Kit check** | Todos entran a Gemini y NotebookLM con el correo institucional y crean cuenta en Claude y Perplexity ({doc}`KitDeCuentas`) |
-| 0:55 – 1:20 | 🤝 **Actividad 1: Speed dating con IAs** | Equipos base por carrera, mismo reto en 4 asistentes distintos |
-| 1:20 – 1:30 | ☕ Pausa | |
-| 1:30 – 2:10 | 🎧 **Actividad 2: Tu carrera en un podcast** | Buscar un documento real de tu carrera y convertirlo en NotebookLM |
+| 0:10 – 0:25 | 🧠 **¿Qué es la IA?** (micro-intro) | De Quick Draw a ChatGPT en 15 minutos: qué es, cómo aprende, por qué inventa, quién es quién. Ver sección abajo |
+| 0:25 – 0:45 | 🎩 **Tour de 10 superpoderes** (demo en vivo) | Ver tabla abajo. Dos minutos por demo, sin teoría, solo *wow* |
+| 0:45 – 0:55 | 🗺️ **El mapa del curso y las reglas** | Recorremos {doc}`MapaDelCurso`: "todo esto lo van a hacer ustedes". Tres ejercicios, tres notas |
+| 0:55 – 1:05 | 🎒 **Kit check** | Todos entran a Gemini y NotebookLM con el correo institucional y crean cuenta en Claude y Perplexity ({doc}`KitDeCuentas`) |
+| 1:05 – 1:25 | 🤝 **Actividad 1: Speed dating con IAs** | Equipos base por carrera, mismo reto en 4 asistentes distintos |
+| 1:25 – 1:35 | ☕ Pausa | |
+| 1:35 – 2:10 | 🎧 **Actividad 2: Tu carrera en un podcast** | Buscar un documento real de tu carrera y convertirlo en NotebookLM |
 | 2:10 – 2:25 | 🗣️ **Puesta en común** | Cada equipo pone 30 segundos de su podcast. Votamos el mejor |
 | 2:25 – 2:30 | 🏁 Cierre | Qué construimos hoy y cómo se conecta con el Ejercicio 1 |
 
@@ -45,6 +47,82 @@ Unidad 1 · h. Tecnologías emergentes (IA generativa, sistemas interactivos) ·
 * <a href="_static/sesion02/slides.html" target="_blank">Diapositivas de la sesión</a> (flechas para avanzar, `F` pantalla completa, `N` notas del docente, `T` cronómetro).
 * <a href="_static/sesion02/tarjetas.html" target="_blank">Tarjetas para imprimir</a>: una por equipo con el reto de su carrera y la tabla de speed dating, más la guía del podcast por estudiante.
 * El guion con los prompts exactos de cada demo está al final de esta página.
+```
+
+## 🧠 ¿Qué es la IA? (lo mínimo, en 15 minutos)
+
+Arrancamos desde lo que acaban de vivir: Quick Draw adivinó sus dibujos porque **le mostraron 50 millones de dibujos de otras personas**. Nadie le explicó qué es un gato. Esa es la idea central de la IA moderna: **aprender de ejemplos, no de reglas**.
+
+### Una historia en 8 fechas
+
+| Año | Qué pasó | Por qué importa |
+|---|---|---|
+| 1950 | Alan Turing pregunta: *¿pueden pensar las máquinas?* | Nace la pregunta (y el "test de Turing") |
+| 1956 | Se inventa el término *inteligencia artificial* (Dartmouth) | Décadas de IA basada en **reglas** escritas a mano |
+| 1997 | Deep Blue le gana a Kasparov en ajedrez | Fuerza bruta + reglas: impresionante, pero solo sabe ajedrez |
+| 2012 | Una red neuronal profunda "ve" imágenes mejor que todo lo anterior (ImageNet) | Arranca el **deep learning**: aprender de millones de ejemplos |
+| 2016 | AlphaGo vence al campeón mundial de Go | Aprende jugando contra sí misma |
+| 2017 | Google publica los **Transformers** ("Attention is all you need") | La arquitectura de todos los chats de hoy |
+| Nov 2022 | Sale ChatGPT: 100 millones de usuarios en 2 meses | La IA generativa llega a todo el mundo |
+| 2024–26 | Modelos multimodales (ven, oyen, hablan) y **agentes** que actúan | Lo que vamos a usar en este curso |
+
+### Las muñecas rusas
+
+```{raw} html
+<div style="display:flex;justify-content:center;margin:1rem 0">
+<div style="background:#212529;color:#f4f5f7;border-radius:14px;padding:14px 18px;max-width:640px;width:100%">
+ <b>Inteligencia artificial</b> · software que hace cosas que creíamos que necesitaban inteligencia humana
+ <div style="background:#2f3640;border-radius:12px;padding:12px 16px;margin-top:8px">
+  <b>Aprendizaje automático (ML)</b> · aprende de ejemplos en vez de reglas
+  <div style="background:#3d4654;border-radius:10px;padding:10px 14px;margin-top:8px">
+   <b>Aprendizaje profundo</b> · redes neuronales con muchas capas; ve, oye, lee
+   <div style="background:#4c5768;border-radius:8px;padding:8px 12px;margin-top:8px">
+    <b>IA generativa</b> · produce texto, imagen, audio, video, código
+    <div style="background:#ffc857;color:#212529;border-radius:6px;padding:6px 10px;margin-top:8px">
+     <b>LLMs y agentes</b> · Gemini, ChatGPT, Claude… y las herramientas de este curso
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+</div>
+```
+
+### ¿Qué hace un chat de IA por dentro?
+
+Una sola cosa: **predice la siguiente palabra**. Se entrenó leyendo una parte enorme de internet y aprendió qué palabra suele venir después de cuál. Prueba en vivo: *"El Nevado del ___"*, *"Para interponer una tutela se necesita ___"*. De ahí salen sus dos caras:
+
+| Por eso es genial en… | Y por eso… |
+|---|---|
+| Redactar, resumir, traducir, explicar a distintos niveles, programar, ver imágenes, encontrar patrones | Puede decir algo **falso con total seguridad** ("alucinar"): no sabe, calcula probabilidades |
+| Conversar en tu idioma sobre casi cualquier tema | No tiene información de hoy si no **busca**; no conoce tu contexto si no se lo **das** |
+| Trabajar 24/7 sin cansarse | No reemplaza tu **criterio profesional**: tú firmas, tú respondes |
+
+### Quién es quién (2026)
+
+| Empresa | Modelo / producto | Lo distintivo |
+|---|---|---|
+| Google | **Gemini** (+ NotebookLM, AI Studio) | Integrado en Workspace: tu correo institucional ya lo tiene |
+| OpenAI | **ChatGPT** | El más conocido; el que arrancó la ola en 2022 |
+| Anthropic | **Claude** | Muy bueno para documentos largos y para crear apps desde el chat (Artifacts) |
+| Meta, Mistral, DeepSeek | Llama, Mistral, DeepSeek | Modelos **abiertos**: se pueden descargar y correr en tu computador |
+| Perplexity | Perplexity | Búsqueda con fuentes citadas |
+
+Todos son primos: misma tecnología (Transformers), distintos datos, reglas y precios. Por eso hoy los vamos a comparar.
+
+### Vocabulario que van a oír todo el semestre
+
+| Palabra | En cristiano |
+|---|---|
+| **Modelo** | El "cerebro" entrenado (Gemini 2.5, GPT-5, Claude…) |
+| **Prompt** | Lo que le escribes. Sesión 4 entera sobre esto |
+| **Token** | El pedacito de texto con el que trabaja el modelo (≈ ¾ de palabra) |
+| **Alucinación** | Respuesta fluida pero falsa |
+| **Multimodal** | Entiende texto, imagen, audio y video a la vez |
+| **Agente** | Una IA que además de responder **hace cosas**: busca, ejecuta, escribe archivos |
+
+```{note}
+Esto es solo la puerta de entrada. En la **Sesión 13** abrimos un modelo por dentro (tokens, atención, temperatura) y entrenamos uno propio.
 ```
 
 ## 🎩 Tour de 10 superpoderes (demos del docente)
@@ -68,7 +146,7 @@ Cada demo dura ~2 minutos. La idea es que vean el resultado, no el proceso. Adap
 Cierra el tour con la pregunta: **"¿Cuál de estos les gustaría saber hacer?"** y anótalo. Sirve para ajustar los ejemplos de las próximas sesiones.
 ```
 
-## 🤝 Actividad 1: Speed dating con IAs (25 min)
+## 🤝 Actividad 1: Speed dating con IAs (20 min)
 
 Hoy se forman los **equipos base** de 3–4 personas **de la misma carrera** (duran todo el semestre). Cada equipo recibe una tarjeta con un reto de su carrera, o escribe uno propio, por ejemplo:
 
@@ -89,7 +167,7 @@ El **mismo prompt** se envía a **Gemini, ChatGPT, Claude y Perplexity**. El gru
 
 **Conclusión guiada:** no hay "la mejor IA"; hay la mejor para cada tarea. Y **todas** pueden inventar: por eso la Sesión 5 es sobre verificar.
 
-## 🎧 Actividad 2: Tu carrera en un podcast (40 min)
+## 🎧 Actividad 2: Tu carrera en un podcast (35 min)
 
 1. Consigue **un documento real de tu carrera** (5 min): busca en Google `filetype:pdf` + un tema tuyo (una guía clínica, una ley, un catálogo de exposición, un plan de entrenamiento), o descarga el PIIA de una materia tuya, o usa un PDF que ya tengas en el correo o en Drive.
 2. Entra a [NotebookLM](https://notebooklm.google.com) y crea un cuaderno con el nombre de tu carrera. Agrega **3 fuentes**: ese PDF, una URL de Wikipedia o de un artículo, y un video de YouTube del tema.
