@@ -3,10 +3,6 @@ title: Sesión 1 · TIC
 ---
 # Sesión 1 · Fundamentos de TIC 💻
 
-```{note}
-Esta sesión **ya se dio** en formato clásico. Queda aquí como referencia de los conceptos base y de la cobertura del PIIA. A partir de la Sesión 2 el formato cambia.
-```
-
 ## Lo que vimos
 
 | Tema | Idea central |
