@@ -15,6 +15,7 @@ exclude_patterns:
   - soluciones
   - "**/soluciones"
   - docente
+  - pendientes
 
 # No ejecutar notebooks al construir el libro.
 execute:

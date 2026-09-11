@@ -13,20 +13,7 @@ Esta unidad cubre el bloque **"Tecnologías de la información y la comunicació
 |---|---|---|
 | {doc}`S01_TIC` | ¿Qué es un computador, qué lo compone y cómo lo cuido (y me cuido)? | — |
 | {doc}`S02_KitIA` | ¿Qué puede hacer la IA hoy por *mi* carrera? | Gemini + NotebookLM |
-| {doc}`S03_VidaDigital` | ¿Cómo tengo mi información segura, ordenada y analizable por IA? | Gemini en Drive + Have I Been Pwned + Polycam |
-
-## Cobertura PIIA
-
-| Tema PIIA | Dónde se ve |
-|---|---|
-| a. Bienestar digital | S1, S3 |
-| b. Estructura, composición y aplicaciones | S1, S2 |
-| c. Clasificación de dispositivos (almacenamiento, procesamiento, transmisión) | S1, S3 |
-| d. Sistemas operativos (cómputo y móviles) | S1, S3 |
-| e. Principios de administración de la información | S3 |
-| f. Protección y seguridad de la información | S3 |
-| g. Software para texto y presentaciones | S2 (Gemini en Docs/Slides), S8 |
-| h. Tecnologías emergentes: IA, realidad extendida, sistemas interactivos | S2, S3 |
+| Sesión 3 · Tu vida digital | ¿Cómo tengo mi información segura, ordenada y analizable por IA? | Gemini en Drive + Have I Been Pwned + Polycam |
 
 ## Manos a la obra! 💪🤖
 

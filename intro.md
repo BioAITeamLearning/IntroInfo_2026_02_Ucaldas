@@ -98,8 +98,6 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 :::
 
 :::{grid-item-card}
-:link: Unidad2
-:link-type: doc
 :class-header: bg-light
 :class-body: text-start
 
@@ -112,8 +110,6 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 :::
 
 :::{grid-item-card}
-:link: Unidad3
-:link-type: doc
 :class-header: bg-light
 :class-body: text-start
 
@@ -126,8 +122,6 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 :::
 
 :::{grid-item-card}
-:link: Unidad4
-:link-type: doc
 :class-header: bg-light
 :class-body: text-start
 
@@ -140,8 +134,6 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 :::
 
 :::{grid-item-card}
-:link: Unidad5
-:link-type: doc
 :class-header: bg-light
 :class-body: text-start
 
@@ -154,8 +146,6 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 :::
 
 :::{grid-item-card}
-:link: ProyectoFinal
-:link-type: doc
 :class-header: bg-light
 :class-body: text-start
 
