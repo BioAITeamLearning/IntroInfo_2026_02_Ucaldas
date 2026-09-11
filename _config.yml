@@ -14,6 +14,7 @@ exclude_patterns:
   - "**.ipynb_checkpoints"
   - soluciones
   - "**/soluciones"
+  - docente
 
 # No ejecutar notebooks al construir el libro.
 execute:
