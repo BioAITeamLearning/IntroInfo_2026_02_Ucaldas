@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Sesión 3 · Guía de las actividades</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#212529;background:#eee}
+  .page{background:#fff;width:210mm;min-height:297mm;margin:10mm auto;padding:14mm 16mm;page-break-after:always;display:flex;flex-direction:column;gap:6mm}
+  h1{font-size:20pt;margin:0}
+  h2{font-size:14pt;margin:0;color:#0d6efd}
+  p,li,td,th{font-size:10.5pt;line-height:1.35}
+  .kicker{font-size:9pt;letter-spacing:.12em;text-transform:uppercase;color:#6c757d;font-weight:700}
+  .box{border:1.5px solid #212529;border-radius:4mm;padding:5mm 6mm;display:flex;flex-direction:column;gap:3mm}
+  .reto{background:#fff8e1;border-color:#ffc857}
+  table{border-collapse:collapse;width:100%}
+  th,td{border:1px solid #212529;padding:2.2mm 2.5mm;text-align:left;vertical-align:top}
+  th{background:#f1f3f5}
+  td.blank{height:11mm}
+  ol,ul{margin:0;padding-left:5mm}
+  .foot{margin-top:auto;font-size:8.5pt;color:#6c757d;display:flex;justify-content:space-between}
+  .print{position:fixed;top:10px;right:10px;padding:8px 14px;border:0;border-radius:6px;background:#212529;color:#fff;font-size:14px;cursor:pointer}
+  @media print{body{background:#fff}.page{margin:0;width:auto;min-height:auto}.print{display:none}@page{size:A4;margin:0}}
+</style>
+</head>
+<body>
+<button class="print" onclick="window.print()">🖨️ Imprimir</button>
+
+<div class="page">
+  <div class="kicker">Sesión 3 · Actividad 1 · Blindaje digital</div>
+  <h1>🔐 Blindaje digital</h1>
+  <p><b>Nombre:</b> ______________________________  <b>Carrera:</b> ______________________</p>
+  <div class="box">
+    <h2>Marca cada paso cuando lo termines</h2>
+    <table>
+      <tr><th style="width:6%">✔</th><th>Paso</th><th style="width:34%">Anota</th></tr>
+      <tr><td>☐</td><td><b>Have I Been Pwned</b>: escribe tu correo en haveibeenpwned.com</td><td>Filtraciones: ____ &nbsp; ¿Alguna clave que aún uses? ☐ Sí ☐ No</td></tr>
+      <tr><td>☐</td><td><b>Bitwarden</b>: instala la extensión del navegador y la app del celular. Crea la contraseña maestra: una frase de 4–5 palabras que recuerdes y no uses en ningún otro sitio</td><td>Guardada en tu cabeza, no aquí 🙂</td></tr>
+      <tr><td>☐</td><td>Cambia la contraseña del <b>correo institucional</b> por una generada por Bitwarden</td><td></td></tr>
+      <tr><td>☐</td><td>Cambia la contraseña del <b>correo personal</b> por una generada por Bitwarden</td><td></td></tr>
+      <tr><td>☐</td><td><b>Verificación en dos pasos</b> en Google (myaccount.google.com → Seguridad): llave de acceso o app de autenticación</td><td>Método: ☐ Passkey ☐ App ☐ SMS</td></tr>
+      <tr><td>☐</td><td>Google → Seguridad → <b>Tus dispositivos</b>: cierra las sesiones que no reconozcas</td><td>Sesiones cerradas: ____</td></tr>
+      <tr><td>☐</td><td>Celular: bloqueo con huella/rostro · copia de seguridad activada · <b>Buscar mi dispositivo</b> activado</td><td></td></tr>
+      <tr><td>☐</td><td><b>Permisos de apps</b>: cámara, micrófono, ubicación. Quita los que no tengan por qué estar</td><td>Apps corregidas: ____</td></tr>
+      <tr><td>☐</td><td>Panel de <b>bienestar digital</b> del celular</td><td>Horas/día: ____ &nbsp; App que más usas: __________</td></tr>
+    </table>
+  </div>
+  <div class="box reto">
+    <h2>Regla de oro del curso</h2>
+    <p><b>Nada confidencial en un chat de IA</b>: datos de pacientes, expedientes con nombres, contraseñas, cuentas bancarias.</p>
+  </div>
+  <div class="foot"><span>Introducción a la Informática · UCaldas 2026-2</span><span>Una contraseña distinta por sitio · un gestor · dos pasos</span></div>
+</div>
+
+<div class="page">
+  <div class="kicker">Sesión 3 · Actividad 2 · Pregúntale a tu carpeta</div>
+  <h1>🤖 Pregúntale a tu carpeta</h1>
+  <div class="box">
+    <h2>Parte A · Gemini en Drive</h2>
+    <ol>
+      <li>En Drive crea las carpetas <b>Proyectos · Áreas · Recursos · Archivo</b>.</li>
+      <li>En <code>Recursos/</code> pon <b>5 o más documentos</b> de tu carrera (correo, Drive viejo, o Google con <code>filetype:pdf</code>).</li>
+      <li>Abre el panel de Gemini dentro de la carpeta y prueba:</li>
+    </ol>
+    <ul>
+      <li>"Resume los documentos de esta carpeta en una tabla: título, tema, fecha."</li>
+      <li>"¿Cuáles de estos documentos hablan de ______________?"</li>
+      <li>"Propón un nombre para cada archivo con el formato AAAA-MM-DD_tema_tipo."</li>
+      <li>"Escribe un correo a mi profesor pidiendo aclaración sobre lo que dice el documento ______."</li>
+    </ul>
+    <p>¿Acertó con el tema de todos los documentos? ☐ Sí ☐ No &nbsp; ¿Cuál falló? ______________________</p>
+  </div>
+  <div class="box">
+    <h2>Parte B · NotebookLM como biblioteca</h2>
+    <ol>
+      <li>Abre tu cuaderno de la Sesión 2 → <b>Descubrir fuentes</b> con un tema de tu carrera + sube los PDFs de <code>Recursos/</code>. Meta: <b>10 o más fuentes</b>. &nbsp; Fuentes ahora: ____</li>
+      <li>Studio → <b>Informe</b> tipo "guía de estudio".</li>
+      <li>Studio → <b>Tabla de datos</b>: compara las fuentes por ______________ (método, población, año…).</li>
+      <li>Studio → <b>Mapa mental</b>: una conexión que no habías visto: __________________________________</li>
+    </ol>
+  </div>
+  <div class="box reto">
+    <h2>Reto: ¿la fuente de verdad lo dice?</h2>
+    <p>Copia una afirmación del informe: ________________________________________________________________</p>
+    <p>Abre la cita. ¿La fuente lo dice tal cual? ☐ Sí ☐ Más o menos ☐ No &nbsp; ¿Qué cambió? ______________________________</p>
+  </div>
+  <div class="foot"><span>Este cuaderno es la biblioteca del Ejercicio 1 · Mi asistente de carrera (30%)</span><span>Ruta pro: <code>gemini</code> en la terminal dentro de Recursos/</span></div>
+</div>
+
+<div class="page">
+  <div class="kicker">Sesión 3 · Actividad 3 · Tu objeto en 3D</div>
+  <h1>🥽 Tu objeto en 3D</h1>
+  <div class="box">
+    <h2>Escanear</h2>
+    <ol>
+      <li>Instala <b>Scaniverse</b> (Android / iPhone, gratis).</li>
+      <li>Elige un objeto de tu carrera: hueso, libro, escultura, balón, herramienta. Mejor si es mate y está sobre una mesa con luz pareja.</li>
+      <li>Nuevo escaneo → gira <b>despacio</b> alrededor del objeto, 1–2 minutos, cubriendo arriba y los lados.</li>
+      <li>Procesa → mira el resultado → <b>Ver en AR</b> sobre la mesa.</li>
+      <li>Comparte → copia el enlace: ______________________________________________</li>
+    </ol>
+  </div>
+  <div class="box">
+    <h2>Explorar</h2>
+    <ol>
+      <li>Desde el celular entra a <b>sketchfab.com</b> y busca un modelo de tu área: <i>skull</i>, <i>heart</i>, <i>colonial house</i>, <i>running biomechanics</i>, <i>museum artifact</i>…</li>
+      <li>Ábrelo en AR (botón "View in AR").</li>
+    </ol>
+    <p>Modelo que encontraste: ______________________________________________</p>
+  </div>
+  <div class="box reto">
+    <h2>Para pensar</h2>
+    <p>¿Qué cambia en tu profesión cuando cualquier objeto se puede digitalizar en 2 minutos y cualquier documento se puede consultar en lenguaje natural?</p>
+    <p>&nbsp;</p><p>&nbsp;</p>
+  </div>
+  <div class="foot"><span>Introducción a la Informática · UCaldas 2026-2</span><span>Al tablero: la afirmación verificada + el enlace de tu objeto 3D</span></div>
+</div>
+
+</body>
+</html>

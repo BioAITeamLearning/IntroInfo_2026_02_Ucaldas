@@ -11,7 +11,7 @@ Cada fila es una sesión: la unidad del PIIA que cubre, la **herramienta de IA d
 |---|---|---|---|---|
 | 1 | {doc}`S01_TIC` | 1 · TIC | Presentación clásica (ya vista) | Conceptos base de hardware, software y bienestar digital |
 | 2 | {doc}`S02_KitIA` | 1 · TIC | **Gemini + NotebookLM** | Un podcast generado por IA sobre tu carrera |
-| 3 | Sesión 3 · Tu vida digital | 1 · TIC | **Gemini en Drive + Have I Been Pwned + Polycam** | Tu vida digital segura y tu primer análisis de una carpeta de documentos |
+| 3 | Sesión 3 · Tu vida digital | 1 · TIC | **Gemini en Drive + Have I Been Pwned + Scaniverse** | Tu vida digital segura y tu primer análisis de una carpeta de documentos |
 | 4 | Sesión 4 · Prompts pro y tu primer agente | 2 · SIC | **Gems (Gemini) / Proyectos (Claude) + Gandalf** | Tu primer asistente personalizado (agente v0.1) |
 | 5 | Sesión 5 · Investigar con IA | 2 · SIC | **Deep Research + Perplexity + Consensus** | Un informe de investigación verificado y citado |
 | 6 | Sesión 6 · Ética, deepfakes y planeta | 2 · SIC | **Moral Machine + Detect Fakes + Miro AI** | Un manifiesto de uso ético de IA para tu profesión |
