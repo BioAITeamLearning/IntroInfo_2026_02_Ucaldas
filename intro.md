@@ -32,7 +32,7 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 ```
 ^^^
 ```{only} html
-[<img src="https://seeklogo.com/images/G/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" width="25" height="20">](mailto:johan.pina@ucaldas.edu.co)
+[<img src="https://seeklogo.com/images/G/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" width="25" height="20">](mailto:johan.duran@ucaldas.edu.co)
 ```
 :::
 ::::
