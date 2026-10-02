@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sesión 3 · Prompts listos para copiar</title>
+<style>
+ *{box-sizing:border-box}
+ body{margin:0;background:#f1f3f5;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#212529}
+ header{background:#212529;color:#fff;padding:18px 22px}
+ header h1{margin:0;font-size:19px}
+ header p{margin:6px 0 0;font-size:13px;color:#aab2bd}
+ main{max-width:860px;margin:18px auto;padding:0 14px 40px}
+ .b{background:#fff;border:1px solid #dee2e6;border-radius:10px;margin-bottom:14px;overflow:hidden}
+ .h{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#f8f9fa;border-bottom:1px solid #dee2e6;padding:9px 13px;font-weight:600;font-size:14px}
+ button{border:0;border-radius:6px;background:#212529;color:#fff;padding:6px 12px;font-size:13px;cursor:pointer;white-space:nowrap}
+ button.ok{background:#2f9e44}
+ pre{margin:0;padding:13px;white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;line-height:1.5}
+ @media print{button{display:none}body{background:#fff}}
+</style></head><body>
+<header>
+ <h1>Sesión 3 · Prompts listos para copiar</h1>
+ <p>Introducción a la Informática · UCaldas 2026-2 · Lo que está entre [corchetes] lo cambias por lo tuyo</p>
+</header>
+<main>
+<div class="b"><div class="h"><span>Reto 1 · Envío 1 · solo la tarea</span><button onclick="c(this)">📋 Copiar</button></div><pre>Explica [tu tema].</pre></div>
+<div class="b"><div class="h"><span>Reto 1 · Envío 2 · + rol</span><button onclick="c(this)">📋 Copiar</button></div><pre>Eres [profesional de tu área]. Explica [tu tema].</pre></div>
+<div class="b"><div class="h"><span>Reto 1 · Envío 3 · + contexto</span><button onclick="c(this)">📋 Copiar</button></div><pre>Eres [profesional de tu área]. Explica [tu tema] para estudiantes de primer semestre que nunca han visto el tema.</pre></div>
+<div class="b"><div class="h"><span>Reto 1 · Envío 4 · + formato</span><button onclick="c(this)">📋 Copiar</button></div><pre>Eres [profesional de tu área]. Explica [tu tema] para estudiantes de primer semestre que nunca han visto el tema, en máximo 150 palabras, con una analogía cotidiana y 3 preguntas de repaso con su respuesta.</pre></div>
+<div class="b"><div class="h"><span>Reto 1 · Envío 5 · + límites</span><button onclick="c(this)">📋 Copiar</button></div><pre>Eres [profesional de tu área]. Explica [tu tema] para estudiantes de primer semestre que nunca han visto el tema, en máximo 150 palabras, con una analogía cotidiana y 3 preguntas de repaso con su respuesta. No uses las palabras &quot;[A]&quot; ni &quot;[B]&quot;, y no inventes datos.</pre></div>
+<div class="b"><div class="h"><span>Few-shot · clasificar</span><button onclick="c(this)">📋 Copiar</button></div><pre>Clasifica cada comentario como POSITIVO, NEGATIVO o SUGERENCIA.
+
+&quot;La clase estuvo muy clara&quot; → POSITIVO
+&quot;No se escuchaba nada al fondo&quot; → NEGATIVO
+&quot;Sería bueno tener las diapositivas antes&quot; → SUGERENCIA
+
+&quot;El laboratorio estaba muy frío&quot; →</pre></div>
+<div class="b"><div class="h"><span>Reto 2 · Zero-shot</span><button onclick="c(this)">📋 Copiar</button></div><pre>Resume este reglamento para un estudiante de primer semestre.</pre></div>
+<div class="b"><div class="h"><span>Reto 2 · One-shot</span><button onclick="c(this)">📋 Copiar</button></div><pre>Voy a pasarte un reglamento para que lo resumas. Primero mira el formato que quiero, con este ejemplo de otro reglamento:
+
+REGLAMENTO DE LA BIBLIOTECA — en corto
+1. Puedes llevar hasta 3 libros por 15 días.
+2. La renovación se hace en línea, antes de la fecha de vencimiento.
+3. La multa empieza a correr el mismo día del vencimiento.
+4. Los libros de reserva no salen de la sala.
+5. Perder un libro obliga a reponerlo con la misma edición.
+Ojo: la multa no se suspende en vacaciones.
+
+Ahora haz exactamente lo mismo con el reglamento que te adjunto: título en corto, cinco reglas en lenguaje claro y una advertencia final que empiece con &quot;Ojo:&quot;.</pre></div>
+<div class="b"><div class="h"><span>Reto 2 · Few-shot</span><button onclick="c(this)">📋 Copiar</button></div><pre>Voy a pasarte un reglamento para que lo resumas. Estos son tres ejemplos del formato que quiero:
+
+REGLAMENTO DE LA BIBLIOTECA — en corto
+1. Puedes llevar hasta 3 libros por 15 días.
+2. La renovación se hace en línea, antes del vencimiento.
+3. La multa empieza a correr el mismo día del vencimiento.
+4. Los libros de reserva no salen de la sala.
+5. Perder un libro obliga a reponerlo con la misma edición.
+Ojo: la multa no se suspende en vacaciones.
+
+REGLAMENTO DEL LABORATORIO — en corto
+1. Se entra con bata y zapato cerrado, sin excepción.
+2. El celular se queda fuera de la zona de trabajo.
+3. Cada grupo deja su puesto limpio antes de salir.
+4. Los residuos van al recipiente que corresponde, no a la caneca.
+5. Todo accidente se reporta el mismo día.
+Ojo: entrar sin bata anula tu nota de la práctica.
+
+REGLAMENTO DEL GIMNASIO — en corto
+1. El carné es personal: no se presta.
+2. Se reserva turno por la app, máximo una hora.
+3. Las pesas se devuelven a su sitio.
+4. Se usa toalla sobre las máquinas.
+5. No se entra con alimentos.
+Ojo: dos inasistencias sin cancelar bloquean tu reserva una semana.
+
+Ahora haz exactamente lo mismo con el reglamento que te adjunto.</pre></div>
+<div class="b"><div class="h"><span>Reto 3A · La trampa del lavadero</span><button onclick="c(this)">📋 Copiar</button></div><pre>Estoy tratando de caminar más y de bajar mi huella de carbono. El lavadero de carros queda a ocho cuadras de mi casa. ¿Me conviene ir caminando o en carro?</pre></div>
+<div class="b"><div class="h"><span>Reto 3A · La repregunta</span><button onclick="c(this)">📋 Copiar</button></div><pre>¿Y qué pasa con mi carro si voy caminando?</pre></div>
+<div class="b"><div class="h"><span>Reto 3A · La segunda trampa</span><button onclick="c(this)">📋 Copiar</button></div><pre>Tengo que recoger a mi hermana y sus tres maletas en el aeropuerto. Quiero aprovechar para hacer ejercicio. ¿Me voy en bicicleta?</pre></div>
+<div class="b"><div class="h"><span>Reto 3B · Fuentes</span><button onclick="c(this)">📋 Copiar</button></div><pre>Dame 5 fuentes académicas reales sobre [tu tema específico], con autor, año y enlace.</pre></div>
+<div class="b"><div class="h"><span>Reto 3B · Fuentes, segunda vuelta</span><button onclick="c(this)">📋 Copiar</button></div><pre>Dame 5 fuentes académicas reales sobre [tu tema específico], con autor, año y enlace. Solo cita fuentes que puedas verificar. Si no estás seguro de una, no la incluyas y dilo.</pre></div>
+<div class="b"><div class="h"><span>Modelos · la prueba de los 30 estudiantes</span><button onclick="c(this)">📋 Copiar</button></div><pre>En un salón hay 30 estudiantes. La mitad estudia biología. De los que quedan, dos tercios estudian derecho y el resto, artes. ¿Cuántos estudian artes? Responde solo con el número.</pre></div>
+<div class="b"><div class="h"><span>Uso · Investigar un tema</span><button onclick="c(this)">📋 Copiar</button></div><pre>Eres [profesional de mi área]. Quiero entender [tema] para [para qué te sirve].
+
+1. Antes de responder, hazme 3 preguntas para delimitar el tema.
+2. Después dame un panorama de máximo 400 palabras con: qué se sabe, qué está en discusión y qué no se sabe todavía.
+3. Al final, lista 5 términos de búsqueda que yo debería usar en Google Scholar para profundizar.
+4. No cites fuentes que no puedas verificar. Si no estás seguro, dilo.</pre></div>
+<div class="b"><div class="h"><span>Uso · Redactar un informe</span><button onclick="c(this)">📋 Copiar</button></div><pre>Eres [rol]. Escribe un informe sobre [tema] para [quién lo lee].
+
+Estructura exacta, en este orden:
+- Resumen (3 líneas)
+- Contexto (1 párrafo)
+- Hallazgos (3 viñetas, cada una con el dato que la sustenta)
+- Limitaciones (2 viñetas)
+- Qué sigue (2 viñetas)
+
+Usa solo la información del documento que te adjunto. Si algo no está en el documento, escribe [FALTA DATO] en vez de completarlo tú.</pre></div>
+<div class="b"><div class="h"><span>Gem · Ficha en blanco</span><button onclick="c(this)">📋 Copiar</button></div><pre>QUIÉN ERES
+Eres [rol] con experiencia en [área].
+
+PARA QUIÉN TRABAJAS
+Estudio [carrera], semestre [N], en Manizales.
+Mi nivel en el tema es [principiante / intermedio].
+
+QUÉ HACES
+Me ayudas a [tarea 1], [tarea 2] y [tarea 3].
+
+CÓMO RESPONDES SIEMPRE
+En español, máximo [N] palabras, en [tabla / pasos / párrafos cortos].
+Tono [cercano / técnico]. Explicas los términos difíciles la primera vez.
+Cuando la tarea tenga varios pasos, me muestras el desarrollo y no solo el resultado.
+
+QUÉ NUNCA HACES
+No inventas datos ni fuentes. No [prohibición propia de tu área].
+
+QUÉ HACES CUANDO NO SABES
+Lo dices. Si te falta información para responder bien, me preguntas antes.</pre></div>
+<div class="b"><div class="h"><span>Gem · Ficha de ejemplo, ya llena</span><button onclick="c(this)">📋 Copiar</button></div><pre>QUIÉN ERES
+Eres bióloga molecular con quince años de experiencia en laboratorio clínico y docente de primeros semestres.
+
+PARA QUIÉN TRABAJAS
+Estudio Biología, segundo semestre, en la Universidad de Caldas (Manizales).
+Mi nivel es principiante: entiendo los conceptos generales pero me pierdo con los protocolos y la nomenclatura.
+
+QUÉ HACES
+Me ayudas a (1) entender protocolos de laboratorio antes de ejecutarlos, (2) preparar el preinforme de cada práctica y (3) repasar para los parciales con preguntas que tú me haces a mí.
+
+CÓMO RESPONDES SIEMPRE
+En español, máximo 250 palabras, en pasos numerados cuando se trate de un procedimiento y en tabla cuando se trate de comparar.
+Tono cercano, sin dejar de ser preciso.
+La primera vez que uses un término técnico, lo explicas entre paréntesis.
+Cuando la tarea tenga varios pasos, me muestras el desarrollo y no solo el resultado.
+
+QUÉ NUNCA HACES
+No inventas datos, cifras ni fuentes.
+No me das por buenas las concentraciones ni los tiempos: siempre me recuerdas verificarlos contra el protocolo oficial del laboratorio.
+No respondes preguntas de bioseguridad sin remitirme al docente.
+
+QUÉ HACES CUANDO NO SABES
+Lo dices con todas las letras: &quot;esto no está en los documentos que me diste&quot;.
+Si te falta información para responder bien, me haces las preguntas que necesites antes de responder.
+
+EJEMPLO DE UNA BUENA RESPUESTA
+Pregunta: &quot;¿Para qué sirve el control negativo?&quot;
+Respuesta:
+1. Qué es: un tubo con todo menos la muestra.
+2. Para qué: si aparece señal, algo se coló donde no debía.
+3. Qué revisar si sale positivo: reactivos, pipetas, superficie de trabajo.
+Verifica los volúmenes contra el protocolo del laboratorio.</pre></div>
+<div class="b"><div class="h"><span>Prueba 1 del Gem</span><button onclick="c(this)">📋 Copiar</button></div><pre>Resume en cinco puntos lo más importante del documento que te subí.</pre></div>
+<div class="b"><div class="h"><span>Prueba 2 del Gem</span><button onclick="c(this)">📋 Copiar</button></div><pre>Lo mismo, pero en una tabla de tres columnas: concepto, para qué sirve, dónde aparece.</pre></div>
+<div class="b"><div class="h"><span>Prueba 3 del Gem</span><button onclick="c(this)">📋 Copiar</button></div><pre>¿Qué dice el documento sobre [algo que sabes que NO está]?</pre></div>
+<div class="b"><div class="h"><span>Prueba 4 del Gem</span><button onclick="c(this)">📋 Copiar</button></div><pre>Ayúdame con el trabajo.</pre></div>
+<div class="b"><div class="h"><span>Prueba 5 del Gem</span><button onclick="c(this)">📋 Copiar</button></div><pre>Explícame el procedimiento completo y muéstrame el desarrollo, no solo el resultado.</pre></div>
+<div class="b"><div class="h"><span>Corrección · si inventó</span><button onclick="c(this)">📋 Copiar</button></div><pre>Si la respuesta no está en los documentos adjuntos, dilo explícitamente.</pre></div>
+<div class="b"><div class="h"><span>Corrección · si respondió larguísimo</span><button onclick="c(this)">📋 Copiar</button></div><pre>Máximo 200 palabras salvo que te pida más.</pre></div>
+<div class="b"><div class="h"><span>Corrección · si no preguntó nada</span><button onclick="c(this)">📋 Copiar</button></div><pre>Si te faltan datos, pregunta antes de responder.</pre></div>
+<div class="b"><div class="h"><span>Corrección · si saltó al resultado</span><button onclick="c(this)">📋 Copiar</button></div><pre>Cuando la tarea tenga varios pasos, desarróllalos antes de concluir.</pre></div>
+<div class="b"><div class="h"><span>Corrección · si quedó muy técnico o muy simple</span><button onclick="c(this)">📋 Copiar</button></div><pre>Explica como a alguien de [tu nivel].</pre></div>
+</main>
+<script>
+function c(btn){
+ const t=btn.parentElement.parentElement.querySelector('pre').innerText;
+ navigator.clipboard.writeText(t).then(()=>{const o=btn.textContent;btn.textContent='Copiado ✓';btn.classList.add('ok');
+  setTimeout(()=>{btn.textContent=o;btn.classList.remove('ok')},1800);});
+}
+</script>
+</body></html>

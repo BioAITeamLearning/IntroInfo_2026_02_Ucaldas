@@ -11,6 +11,7 @@ title: Sesión 3 · Prompts y tu asistente
 | **Gems** (dentro de Gemini) | Montar tu asistente | [gemini.google.com/gems](https://gemini.google.com/gems) | Gratis |
 | **ChatGPT** | El equivalente, para comparar | [chatgpt.com](https://chatgpt.com) | Gratis |
 | **Google Scholar** | Comprobar si las fuentes existen | [scholar.google.com](https://scholar.google.com) | Gratis |
+| **Hoja de prompts** | Copiar y pegar todo lo de hoy | <a href="_static/sesion03/prompts.html" target="_blank">Abrir</a> | — |
 
 ## 🎯 Qué te llevas
 
@@ -148,8 +149,8 @@ Son cinco, y se diferencian en **cuántos ejemplos le das** y en **si le pides q
 | **Zero-shot** | Pedir la tarea sin darle ningún ejemplo | Tareas comunes: resumir, traducir, explicar |
 | **One-shot** | Darle **un** ejemplo del resultado que quieres | Cuando te importa el formato y es difícil describirlo con palabras |
 | **Few-shot** | Darle **entre dos y cinco** ejemplos | Cuando quieres que copie un estilo, una estructura o un criterio de clasificación |
-| **Cadena de pensamiento** | Pedirle que desarrolle los pasos antes de dar la respuesta final | Problemas con varios pasos: cálculos, comparaciones, decisiones |
-| **Modo de razonamiento** | Activar el modelo que hace eso por dentro, sin que se lo pidas | Problemas difíciles, cuando puedes esperar unos segundos más |
+| **Cadena de pensamiento** | Pedirle que muestre el desarrollo antes de concluir | Cuando necesitas **ver** y verificar el procedimiento |
+| **Modo de razonamiento** | El modelo arma esa cadena por dentro, sin que se lo pidas | Problemas difíciles, cuando puedes esperar unos segundos más |
 
 Ejemplo de **few-shot** para clasificar comentarios de una encuesta:
 
@@ -197,27 +198,46 @@ Compara con un compañero: casi nunca se les escapan las mismas.
 
 No. Genera texto **una pieza a la vez**, eligiendo cada vez la continuación más probable según lo que ya escribió. No tiene un plan previo ni revisa lo que dijo, salvo que lo vuelva a leer como parte del texto.
 
-Por eso funciona la **cadena de pensamiento**: cuando le pides que escriba los pasos, esos pasos quedan en el texto y condicionan lo que viene después. No es que "piense más": es que se dio a sí misma más material correcto sobre el cual seguir.
+Durante años hubo que escribir *"razona paso a paso"* para que acertara en problemas con varios pasos. **Eso ya casi no hace falta**: los modelos actuales traen esa cadena por dentro y resuelven solos la aritmética y la lógica sencilla.
 
-Y por eso conviene desconfiar del razonamiento que muestra: es texto generado igual que el resto, y puede sonar impecable y estar mal.
+Entonces, ¿para qué sigue sirviendo pedir el desarrollo?
 
-```{admonition} Los modelos de razonamiento
+| Para qué | Ejemplo |
+|---|---|
+| Para **poder verificarlo** | "Muéstrame el procedimiento, no solo el resultado" |
+| Para **aprender** del proceso | "Explica cada paso como si me estuvieras enseñando" |
+| Para **encontrar dónde se equivocó** | Cuando el resultado te huele mal, el desarrollo te dice en qué paso se torció |
+
+Y hay algo que ningún modelo, por grande que sea, resuelve solo: **cuando la trampa no está en el cálculo sino en la situación**.
+
+```{admonition} Los modos de razonamiento
 :class: note
-Los modos de "razonamiento" o "pensamiento" que ofrecen Gemini, ChatGPT y Claude hacen esto mismo por dentro: generan una cadena larga de pasos intermedios antes de responderte. Aciertan más en problemas difíciles y gastan más tiempo. Siguen sin entender: siguen prediciendo.
+Los modos de "razonamiento" o "pensamiento" de Gemini, ChatGPT y Claude generan por dentro una cadena larga de pasos antes de responderte. Aciertan más en problemas difíciles y tardan más. Siguen sin entender: siguen prediciendo. Y el razonamiento que te muestran es texto generado igual que el resto: puede sonar impecable y estar mal.
 ```
 
 ---
 
-## 💥 Reto 3 · Hazla fallar, y después hazla razonar
+## 💥 Reto 3 · Hazla fallar
 
-### Parte A · Lo que no ve
+### Parte A · La trampa no está en el cálculo
 
-| Pregúntale | Comprueba |
-|---|---|
-| `¿Cuántas veces aparece la letra r en la palabra refrigerador?` | Cuéntalas tú: r-e-f-r-i-g-e-r-a-d-o-r |
-| `Si una camiseta tendida al sol se seca en 1 hora, ¿cuánto tardan 5 camisetas tendidas al mismo tiempo?` | Piénsalo: ¿se secan una después de otra? |
+Cópiale esto tal cual:
 
-Ahora repite las dos agregando: *"Resuélvelo paso a paso, numerando cada letra (o cada camiseta) antes de dar la respuesta final."* ¿Cambió el resultado?
+> Estoy tratando de caminar más y de bajar mi huella de carbono. El lavadero de carros queda a ocho cuadras de mi casa. ¿Me conviene ir caminando o en carro?
+
+Lee la respuesta completa antes de seguir. ¿Te recomendó caminar? ¿Mencionó en algún momento que, si vas caminando, **el carro se queda en tu casa** y no hay nada que lavar?
+
+Ahora pregúntale: *"¿Y qué pasa con mi carro si voy caminando?"*
+
+Lo que acaba de ocurrir: la frase sobre caminar y la huella de carbono empuja la respuesta hacia un consejo que la IA ha leído miles de veces. Nada en el texto le obliga a detenerse a imaginar la escena. No es un error de cálculo: es que no hay nadie imaginando la situación.
+
+Si la pillaste al primer intento, prueba esta otra:
+
+> Tengo que recoger a mi hermana y sus tres maletas en el aeropuerto. Quiero aprovechar para hacer ejercicio. ¿Me voy en bicicleta?
+
+```{tip}
+La conclusión no es "la IA es tonta". Es que **el texto puede ser impecable y la respuesta inservible**, y que el único que mira la situación completa eres tú. Por eso en el resto del curso siempre hay un paso de verificación.
+```
 
 ### Parte B · Fuentes que no existen
 
@@ -328,9 +348,64 @@ Lo dices. Si te falta información para responder bien, me preguntas antes.
 
 [gemini.google.com](https://gemini.google.com) → **Gems** en el menú lateral → **Nuevo Gem** → nombre (`Tutor de [tu área]`) → pega la ficha en las instrucciones → sube 2 o 3 documentos de tu área → pruébalo en la vista previa → **Guardar**.
 
-Para que el Gem aproveche lo que viste hoy, agrégale **un ejemplo** de respuesta ideal dentro de las instrucciones. Eso convierte tu ficha en un prompt *one-shot* permanente.
+```{admonition} Todos los prompts de esta sesión, listos para copiar
+:class: tip
+<a href="_static/sesion03/prompts.html" target="_blank">📋 Abrir la hoja de prompts</a> — cada bloque tiene su botón de copiar: los cinco envíos del Reto 1, los tres intentos del Reto 2, las trampas del Reto 3, la ficha de ejemplo, las cinco pruebas y los prompts de investigar y redactar.
+```
+
+### Un ejemplo completo
+
+Así se ve una ficha **ya llena**. Cambia lo que está entre corchetes por lo tuyo y queda lista:
+
+```
+QUIÉN ERES
+Eres bióloga molecular con quince años de experiencia en laboratorio clínico
+y docente de primeros semestres.
+
+PARA QUIÉN TRABAJAS
+Estudio Biología, segundo semestre, en la Universidad de Caldas (Manizales).
+Mi nivel es principiante: entiendo los conceptos generales pero me pierdo
+con los protocolos y la nomenclatura.
+
+QUÉ HACES
+Me ayudas a (1) entender protocolos de laboratorio antes de ejecutarlos,
+(2) preparar el preinforme de cada práctica y (3) repasar para los parciales
+con preguntas que tú me haces a mí.
+
+CÓMO RESPONDES SIEMPRE
+En español, máximo 250 palabras, en pasos numerados cuando se trate de un
+procedimiento y en tabla cuando se trate de comparar.
+Tono cercano, sin dejar de ser preciso.
+La primera vez que uses un término técnico, lo explicas entre paréntesis.
+Cuando la tarea tenga varios pasos, me muestras el desarrollo y no solo
+el resultado.
+
+QUÉ NUNCA HACES
+No inventas datos, cifras ni fuentes.
+No me das por buenas las concentraciones ni los tiempos: siempre me recuerdas
+verificarlos contra el protocolo oficial del laboratorio.
+No respondes preguntas de bioseguridad sin remitirme al docente.
+
+QUÉ HACES CUANDO NO SABES
+Lo dices con todas las letras: "esto no está en los documentos que me diste".
+Si te falta información para responder bien, me haces las preguntas que
+necesites antes de responder.
+```
+
+Y un ejemplo de respuesta ideal dentro de las instrucciones convierte tu ficha en un *one-shot* permanente. Agrégalo al final:
+
+```
+EJEMPLO DE UNA BUENA RESPUESTA
+Pregunta: "¿Para qué sirve el control negativo?"
+Respuesta:
+1. Qué es: un tubo con todo menos la muestra.
+2. Para qué: si aparece señal, algo se coló donde no debía.
+3. Qué revisar si sale positivo: reactivos, pipetas, superficie de trabajo.
+Verifica los volúmenes contra el protocolo del laboratorio.
+```
 
 ### Lo mismo, en otras herramientas
+
 
 | Herramienta | Dónde van las instrucciones | Dónde van los documentos | ¿Gratis? |
 |---|---|---|---|
@@ -342,13 +417,13 @@ Para que el Gem aproveche lo que viste hoy, agrégale **un ejemplo** de respuest
 
 ### Paso 4 · Pásale el banco de pruebas
 
-| # | Pregúntale | Debería |
+| # | Escríbele esto | Debería |
 |---|---|---|
-| 1 | Algo que **sí está** en los documentos que le subiste | Responder y decir de dónde lo sacó |
-| 2 | Lo mismo, pero "en una tabla de tres columnas" | Obedecer el formato |
-| 3 | Algo que **no está** en esos documentos | Decir que no lo sabe, sin inventar |
-| 4 | Algo ambiguo, sin darle datos suficientes | Preguntarte antes de responder |
-| 5 | Algo con varios pasos | Desarrollar los pasos antes de concluir |
+| 1 | `Resume en cinco puntos lo más importante del documento que te subí.` | Responder y decir de dónde lo sacó |
+| 2 | `Lo mismo, pero en una tabla de tres columnas: concepto, para qué sirve, dónde aparece.` | Obedecer el formato |
+| 3 | `¿Qué dice el documento sobre [algo que sabes que NO está]?` | Decir que no lo sabe, sin inventar |
+| 4 | `Ayúdame con el trabajo.` | Preguntarte qué trabajo antes de responder |
+| 5 | `Explícame el procedimiento completo y muéstrame el desarrollo, no solo el resultado.` | Mostrar los pasos |
 
 ### Paso 5 · Corrige la ficha
 
@@ -372,6 +447,7 @@ Intercambia tu asistente con alguien de otra área. Esa persona le hace tres pre
 
 ## 📽️ Material
 
+* <a href="_static/sesion03/prompts.html" target="_blank">📋 Todos los prompts de la sesión, listos para copiar</a>
 * <a href="_static/sesion03/slides.html" target="_blank">Diapositivas de la sesión</a>
 * <a href="_static/sesion03/guia.html" target="_blank">Guía de los retos y plantilla del asistente</a>
 * <a href="_static/sesion03/texto-para-resumir.pdf" target="_blank">Reglamento para el Reto 2 (PDF)</a>
