@@ -18,6 +18,47 @@ Tu ficha de instrucciones escrita, un asistente montado con ella y probado, y ci
 
 ---
 
+## 🏋️ No todos los modelos son iguales
+
+Cuando abres Gemini o ChatGPT hay un selector de modelo. Vale la pena saber qué estás eligiendo, porque **el mismo prompt da resultados distintos según el modelo**.
+
+### Qué es un parámetro
+
+Un modelo aprende ajustando millones de números internos durante el entrenamiento. Cada uno de esos números es un **parámetro**. Piensa en perillas: el entrenamiento consiste en girar todas las perillas hasta que el modelo acierte lo más posible al predecir el texto siguiente.
+
+Un modelo abierto como Llama viene en versiones de **8 mil millones**, **70 mil millones** y **405 mil millones** de parámetros. Los modelos de Gemini, ChatGPT y Claude no publican esa cifra, pero están en ese orden de magnitud o más.
+
+```{admonition} Ojo con la palabra "billón"
+:class: warning
+En inglés *billion* son **mil millones** (1 000 000 000). En español un **billón** es un millón de millones, mil veces más. Cuando leas "70B parameters", son **70 mil millones**, no 70 billones. Es un error de traducción tan común que vale la pena tenerlo presente.
+```
+
+### Liviano contra grande
+
+Cada empresa ofrece dos o tres tamaños de la misma generación. Los nombres cambian cada pocos meses; la lógica no:
+
+| | Modelos livianos y rápidos | Modelos grandes |
+|---|---|---|
+| Cómo se llaman | *Flash*, *Lite*, *mini*, *Haiku* | *Pro*, *Opus*, y los modos de **razonamiento** o **pensamiento** |
+| Velocidad | Responden casi al instante | Se demoran, a veces bastante |
+| En qué son buenos | Resumir, traducir, reescribir, clasificar, contestar lo frecuente | Problemas con varios pasos, análisis de documentos largos, redacción exigente, código |
+| En qué fallan | Se enredan en problemas que exigen encadenar razonamientos | En nada grave, pero gastan tu cuota |
+| En un plan gratuito | Es el que te dan por defecto, con uso amplio | Tienes una cuota limitada por día |
+
+Dos cosas que conviene no olvidar:
+
+* **Más parámetros no es automáticamente mejor.** Un modelo pequeño y reciente suele ganarle a uno grande de hace dos años.
+* **El tamaño no arregla la alucinación.** Un modelo grande inventa menos, pero inventa. Lo vas a comprobar tú mismo más adelante en esta misma clase.
+
+```{admonition} Pruébalo ahora (3 minutos)
+:class: tip
+Toma este problema y mándaselo primero al modelo rápido y después al grande, sin cambiar una coma:
+
+> *En un salón hay 30 estudiantes. La mitad estudia biología. De los que quedan, dos tercios estudian derecho y el resto, artes. ¿Cuántos estudian artes? Responde solo con el número.*
+
+Resuélvelo tú también en el papel. ¿Coincidieron? ¿Cuál se demoró más? Guarda el dato: en el resto de la clase vas a volver a elegir modelo varias veces.
+```
+
 ## 🧱 Las cinco piezas de un prompt
 
 | Pieza | La pregunta que responde | Ejemplo |
