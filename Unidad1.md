@@ -13,8 +13,7 @@ Esta unidad cubre el bloque **"Tecnologías de la información y la comunicació
 |---|---|---|
 | {doc}`S01_TIC` | ¿Qué es un computador, qué lo compone y cómo lo cuido (y me cuido)? | — |
 | {doc}`S02_KitIA` | ¿Qué puede hacer la IA hoy por *mi* carrera? | Gemini + NotebookLM |
-| Sesión 3 · Tu vida digital | ¿Cómo tengo mi información segura, ordenada y analizable por IA? | Gemini en Drive + Have I Been Pwned + Scaniverse |
 
 ## Manos a la obra! 💪🤖
 
-Al final de la unidad tendrás: un podcast sobre tu carrera hecho con IA, tu cuenta protegida con dos factores y un gestor de contraseñas, y un cuaderno de NotebookLM con toda tu biblioteca de documentos lista para hacerle preguntas.
+Al final de la unidad tendrás un podcast sobre tu carrera hecho con IA y un cuaderno de NotebookLM con tu biblioteca de documentos lista para hacerle preguntas.

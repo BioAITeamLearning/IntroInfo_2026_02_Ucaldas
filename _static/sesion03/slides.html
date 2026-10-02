@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sesión 4 · Prompts y tu asistente</title>
+<title>Sesión 3 · Técnicas de prompt y tu asistente</title>
 <style>
   :root{--bg:#141619;--panel:#212529;--ink:#f4f5f7;--muted:#aab2bd;--accent:#ffc857;--accent2:#4cc9f0;--ok:#7bd88f;--warn:#ff6b6b;}
   *{box-sizing:border-box}
@@ -44,8 +44,8 @@
 <div class="deck">
 
 <section class="center">
-  <div class="kicker">Introducción a la Informática · UCaldas 2026-2 · Sesión 4</div>
-  <h1>Prompts y tu asistente 🗣️🤖</h1>
+  <div class="kicker">Introducción a la Informática · UCaldas 2026-2 · Sesión 3</div>
+  <h1>Técnicas de prompt<br>y tu asistente 🗣️🤖</h1>
 </section>
 
 <section>
@@ -61,25 +61,16 @@
 </section>
 
 <section>
-  <div class="kicker">Tres frases que sirven en cualquier prompt</div>
-  <div class="grid">
-    <div class="card"><p>"Antes de responder, hazme 3 preguntas para entender mi caso."</p></div>
-    <div class="card"><p>"Ahora critica tu propia respuesta como un jurado exigente."</p></div>
-    <div class="card"><p>"Si no tienes la información, dilo en vez de inventar."</p></div>
-  </div>
-</section>
-
-<section>
   <div class="kicker">El mismo tema, dos prompts</div>
   <div class="cols">
     <div class="card"><b>Prompt pelado</b>
       <p style="font-size:2.2vh"><i>"Explica el derecho de petición."</i></p>
-      <p style="font-size:2vh" class="muted">"El derecho de petición es un derecho fundamental consagrado en el artículo 23 de la Constitución Política… Si la administración no responde dentro del término legal se configura el silencio administrativo negativo…"</p>
+      <p style="font-size:2vh" class="muted">"…derecho fundamental consagrado en el artículo 23 de la Constitución Política… se configura el silencio administrativo negativo…"</p>
       <p style="font-size:2.2vh">≈ 350 palabras · sirve igual para un abogado que para alguien de primer semestre</p>
     </div>
     <div class="card"><b>Con las cinco piezas</b>
-      <p style="font-size:2vh"><i>"Eres abogado litigante en Colombia. Explica el derecho de petición a estudiantes de primer semestre que nunca han usado uno, en máximo 150 palabras, con una analogía cotidiana y 3 preguntas de repaso con su respuesta. No uses 'silencio administrativo' ni 'acto administrativo', y no inventes normas."</i></p>
-      <p style="font-size:2vh" class="muted">"Imagina que le dejas una nota al administrador de tu edificio pidiendo que arreglen el ascensor, y él está obligado a contestarte. Eso es el derecho de petición… Plazos: 15 días hábiles en general, 10 si pides documentos…"</p>
+      <p style="font-size:1.9vh"><i>"Eres abogado litigante en Colombia. Explica el derecho de petición a estudiantes de primer semestre que nunca han usado uno, en máximo 150 palabras, con una analogía cotidiana y 3 preguntas de repaso. No uses 'silencio administrativo' ni 'acto administrativo'."</i></p>
+      <p style="font-size:2vh" class="muted">"Imagina que le dejas una nota al administrador de tu edificio pidiendo que arreglen el ascensor, y él está obligado a contestarte…"</p>
     </div>
   </div>
   <p class="pill">350 → 140 palabras · apareció la analogía · aparecieron las preguntas · los términos prohibidos desaparecieron</p>
@@ -88,7 +79,7 @@
 <section>
   <div class="kicker">Reto 1</div>
   <h2>🔬 Sube una pieza a la vez</h2>
-  <p>Mismo tema, 5 envíos. En cada uno pegas el anterior y agregas una pieza. <b>Los prompts exactos de tu carrera están en la hoja.</b></p>
+  <p>Mismo tema, 5 envíos. En cada uno pegas el anterior y agregas una pieza. <b>Tu tema y tus palabras prohibidas están en la hoja.</b></p>
   <table>
     <tr><td><b>1</b></td><td>Tarea sola</td></tr>
     <tr><td><b>2</b></td><td>+ rol</td></tr>
@@ -96,38 +87,50 @@
     <tr><td><b>4</b></td><td>+ formato (150 palabras, analogía, 3 preguntas)</td></tr>
     <tr><td><b>5</b></td><td>+ límites (palabras prohibidas, no inventar)</td></tr>
   </table>
+  <p class="muted">Al final: <b>cuenta las palabras</b> y busca las prohibidas con <b>Ctrl+F</b>.</p>
 </section>
 
 <section>
-  <div class="kicker">Cómo se revisa</div>
+  <div class="kicker">Técnicas de prompt</div>
   <table>
-    <tr><th>Envío</th><th>Revisa</th></tr>
-    <tr><td>1</td><td>¿A quién le habla? Pega el texto en un documento: ¿cuántas palabras?</td></tr>
-    <tr><td>2</td><td>¿Cambió el vocabulario?</td></tr>
-    <tr><td>3</td><td>¿Aparecieron ejemplos o comparaciones?</td></tr>
-    <tr><td>4</td><td><b>Cuenta las palabras.</b> ¿Cumplió las 150?</td></tr>
-    <tr><td>5</td><td><b>Ctrl+F</b> con cada palabra prohibida. ¿Cuántas veces aparece?</td></tr>
+    <tr><th>Técnica</th><th>En qué consiste</th><th>Cuándo</th></tr>
+    <tr><td><b>Zero-shot</b></td><td>Pedir sin dar ejemplos</td><td>Resumir, traducir, explicar</td></tr>
+    <tr><td><b>One-shot</b></td><td>Darle <b>un</b> ejemplo del resultado</td><td>Cuando importa el formato</td></tr>
+    <tr><td><b>Few-shot</b></td><td>Darle <b>dos a cinco</b> ejemplos</td><td>Para copiar un estilo o un criterio</td></tr>
+    <tr><td><b>Cadena de pensamiento</b></td><td>Pedirle los pasos antes de la respuesta</td><td>Cálculos, comparaciones, decisiones</td></tr>
+    <tr><td><b>Modo de razonamiento</b></td><td>El modelo hace eso por dentro</td><td>Problemas difíciles</td></tr>
   </table>
+</section>
+
+<section>
+  <div class="kicker">Few-shot · los ejemplos no explican la regla, la muestran</div>
+  <div class="card" style="font-size:2.6vh">
+    <p>Clasifica cada comentario como POSITIVO, NEGATIVO o SUGERENCIA.</p>
+    <p>"La clase estuvo muy clara" → POSITIVO<br>
+       "No se escuchaba nada al fondo" → NEGATIVO<br>
+       "Sería bueno tener las diapositivas antes" → SUGERENCIA</p>
+    <p>"El laboratorio estaba muy frío" → <span class="muted">?</span></p>
+  </div>
 </section>
 
 <section>
   <div class="kicker">Reto 2</div>
-  <h2>✍️ Tres encargos</h2>
-  <p>Una cosa por prompt. Escribe el prompt completo antes de enviarlo.</p>
+  <h2>✍️ La misma tarea en zero, one y few shot</h2>
+  <p>Vas a resumir el mismo reglamento tres veces.</p>
   <table>
-    <tr><td><b>1</b></td><td>Correo al coordinador pidiendo el laboratorio (archivo / cancha / salón de ensayo) el sábado de 8 a 12 para un trabajo de clase</td></tr>
-    <tr><td><b>2</b></td><td>5 preguntas de opción múltiple del tema del Reto 1, con la explicación de por qué las incorrectas están mal</td></tr>
-    <tr><td><b>3</b></td><td>Resumen del reglamento: media página para alguien de primer semestre + 5 reglas en lenguaje claro</td></tr>
+    <tr><td><b>Zero-shot</b></td><td>"Resume este reglamento para un estudiante de primer semestre."</td></tr>
+    <tr><td><b>One-shot</b></td><td>Lo mismo, pegando antes <b>un ejemplo</b> de resumen con la forma que quieres</td></tr>
+    <tr><td><b>Few-shot</b></td><td>Lo mismo con <b>tres ejemplos</b></td></tr>
   </table>
+  <p class="muted">¿Cuál se parece más a lo que necesitabas? ¿Cuánto esfuerzo costó cada uno?</p>
 </section>
 
 <section>
-  <div class="kicker">Encargo 3 · el documento</div>
+  <div class="kicker">El documento</div>
   <h2>📄 El reglamento</h2>
-  <p>Está en la página del curso, en PDF para adjuntar y en versión para copiar.</p>
-  <p class="muted">Es un texto de práctica: un reglamento ficticio, escrito como están escritos los reglamentos de verdad.</p>
+  <p>En la página del curso: PDF para adjuntar y versión para copiar.</p>
   <div class="card">
-    <b>Cuando tengas tu resumen, revisa si incluye:</b>
+    <b>Revisa si tu mejor resumen incluye:</b>
     <ul>
       <li>El plazo para sacar tu información cuando pierdes la cuenta institucional.</li>
       <li>Qué está prohibido escribir en una herramienta de IA, y qué hay que declarar.</li>
@@ -137,52 +140,83 @@
   <p class="muted">Compara con un compañero: casi nunca se les escapan las mismas.</p>
 </section>
 
-<section>
-  <div class="kicker">Reto 3</div>
-  <h2>💥 Hazla fallar</h2>
-  <ol>
-    <li>Pídele <b>5 fuentes académicas reales</b> (autor, año, enlace) sobre un tema muy específico: la rana dorada en el Chocó · teletrabajo en la Corte Constitucional · muralismo urbano en Manizales · entrenamiento en altura en Colombia.</li>
-    <li>Búscalas en <b>scholar.google.com</b>. ¿Cuántas existen? ___ de 5</li>
-    <li>Repite agregando: <i>"Solo cita fuentes que puedas verificar. Si no estás seguro de una, no la incluyas y dilo."</i> ___ de 5</li>
-  </ol>
-</section>
-
-<section>
-  <h2>Alucinación</h2>
-  <p>No está mintiendo: está prediciendo texto que suena correcto.</p>
-  <p class="muted">Por eso los prompts llevan límites. Y por eso tu asistente va a tener <b>documentos propios</b>.</p>
-</section>
-
 <section class="center">
   <h1>☕ Pausa</h1>
 </section>
 
-<section class="center">
-  <h1>🤖 Tu asistente</h1>
-  <p class="muted">un modelo + tus instrucciones fijas + tus documentos</p>
-  <p class="pill">Lo que importa es la ficha, no la herramienta</p>
+<section>
+  <h2>🧠 ¿La IA piensa?</h2>
+  <p><b>No.</b> Genera texto una pieza a la vez, eligiendo cada vez la continuación más probable según lo que ya escribió.</p>
+  <p>No tiene un plan previo. No revisa lo que dijo, salvo que lo vuelva a leer como parte del texto.</p>
 </section>
 
 <section>
-  <div class="kicker">Paso 1</div>
-  <h2>¿Para qué sirve el tuyo?</h2>
-  <p style="font-size:3.4vh">"Un asistente que me ayuda a __________ cuando __________."</p>
-  <div class="grid">
-    <div class="card"><b>Biología</b><p>Entender protocolos antes de ejecutarlos</p></div>
-    <div class="card"><b>Derecho</b><p>Redactar documentos, pidiendo los hechos primero</p></div>
-    <div class="card"><b>Artes</b><p>Analizar una obra y encontrar referentes</p></div>
-    <div class="card"><b>Deporte</b><p>Planear entrenamientos preguntando por lesiones</p></div>
+  <div class="kicker">Por eso funciona pedirle los pasos</div>
+  <h2>Cadena de pensamiento</h2>
+  <p>Cuando escribe los pasos, esos pasos <b>quedan en el texto</b> y condicionan lo que viene después.</p>
+  <p class="muted">No es que piense más: es que se dio a sí misma más material correcto sobre el cual seguir.</p>
+  <p class="pill">Desconfía del razonamiento que muestra: es texto generado igual que el resto, y puede sonar impecable y estar mal</p>
+</section>
+
+<section>
+  <div class="kicker">Reto 3 · parte A</div>
+  <h2>💥 Lo que no ve</h2>
+  <table>
+    <tr><th>Pregúntale</th><th>Comprueba</th></tr>
+    <tr><td>"¿Cuántas veces aparece la letra <b>r</b> en la palabra <b>refrigerador</b>?"</td><td>Cuéntalas tú</td></tr>
+    <tr><td>"Si una camiseta tendida al sol se seca en 1 hora, ¿cuánto tardan 5 camisetas tendidas al mismo tiempo?"</td><td>¿Se secan una después de otra?</td></tr>
+  </table>
+  <p class="muted">Ahora repite las dos agregando: <i>"Resuélvelo paso a paso, numerando cada letra (o cada camiseta) antes de dar la respuesta final."</i></p>
+</section>
+
+<section>
+  <div class="kicker">Reto 3 · parte B</div>
+  <h2>Fuentes que no existen</h2>
+  <ol>
+    <li>Pídele <b>5 fuentes académicas reales</b> (autor, año, enlace) sobre un tema muy específico de tu área.</li>
+    <li>Búscalas en <b>scholar.google.com</b>. ¿Cuántas existen? ___ de 5</li>
+    <li>Repite agregando: <i>"Solo cita fuentes que puedas verificar. Si no estás seguro de una, no la incluyas y dilo."</i> ___ de 5</li>
+  </ol>
+  <p class="pill">Alucinación: no miente, completa texto plausible</p>
+</section>
+
+<section>
+  <div class="kicker">Dos usos para todo el semestre</div>
+  <h2>📚 Investigar un tema</h2>
+  <div class="card" style="font-size:2.3vh">
+    <p>Eres [profesional de mi área]. Quiero entender [tema] para [para qué].</p>
+    <p>1. Antes de responder, hazme 3 preguntas para delimitar el tema.<br>
+       2. Después dame un panorama de máximo 400 palabras: qué se sabe, qué está en discusión, qué no se sabe.<br>
+       3. Al final, 5 términos de búsqueda para Google Scholar.<br>
+       4. No cites fuentes que no puedas verificar.</p>
   </div>
+  <p class="muted">Las fuentes las buscas tú con esos términos. La IA te ahorra el mapa, no la lectura.</p>
+</section>
+
+<section>
+  <h2>📝 Redactar un informe</h2>
+  <div class="card" style="font-size:2.3vh">
+    <p>Estructura exacta, en este orden:<br>
+      – Resumen (3 líneas) · Contexto (1 párrafo) · Hallazgos (3 viñetas con su dato) · Limitaciones (2) · Qué sigue (2)</p>
+    <p>Usa solo la información del documento adjunto. Si algo no está en el documento, escribe <b>[FALTA DATO]</b> en vez de completarlo tú.</p>
+  </div>
+  <p class="muted">El [FALTA DATO] te deja ver de inmediato qué tienes que conseguir tú.</p>
+</section>
+
+<section class="center">
+  <h1>🤖 Tu asistente</h1>
+  <p class="muted">un modelo + unas instrucciones fijas + tus documentos</p>
+  <p class="pill">Lo que importa es la ficha, no la herramienta</p>
 </section>
 
 <section>
   <div class="kicker">Paso 2 · primero en la hoja</div>
   <h2>La ficha de instrucciones</h2>
-  <div class="card" style="font-size:2.3vh">
+  <div class="card" style="font-size:2.2vh">
     <p><b>QUIÉN ERES</b> · Eres [rol] con experiencia en [área].</p>
     <p><b>PARA QUIÉN TRABAJAS</b> · Estudio [carrera], semestre [N]. Mi nivel es [principiante / intermedio].</p>
     <p><b>QUÉ HACES</b> · Me ayudas a [1], [2] y [3].</p>
-    <p><b>CÓMO RESPONDES SIEMPRE</b> · En español, máximo [N] palabras, en [formato]. Tono [cercano / técnico].</p>
+    <p><b>CÓMO RESPONDES SIEMPRE</b> · En español, máximo [N] palabras, en [formato]. Cuando la tarea tenga varios pasos, los desarrollas antes de concluir.</p>
     <p><b>QUÉ NUNCA HACES</b> · No inventas datos ni fuentes. No [tu prohibición].</p>
     <p><b>CUANDO NO SABES</b> · Lo dices. Si te falta información, preguntas antes.</p>
   </div>
@@ -190,17 +224,27 @@
 
 <section>
   <div class="kicker">Paso 3</div>
-  <h2>Móntalo en AI Studio</h2>
-  <p><span class="tool">aistudio.google.com</span> — la consola donde se ve lo que normalmente está escondido detrás del chat.</p>
+  <h2>Móntala en un Gem</h2>
   <ol>
-    <li>Entra con tu cuenta de Google y abre un <b>Chat</b>.</li>
-    <li>Pega tu ficha en <b>System instructions</b>.</li>
-    <li>Con <b>+</b> adjunta 2 o 3 documentos tuyos.</li>
-    <li>Pregunta algo y mira la respuesta.</li>
-    <li>Mueve la <b>temperatura</b> de 0 a 1 y vuelve a preguntar lo mismo.</li>
-    <li><b>Guarda</b>: queda en tu Drive y puedes compartir el enlace.</li>
+    <li>gemini.google.com → <b>Gems</b> → <b>Nuevo Gem</b></li>
+    <li>Nombre: Tutor de [tu área]</li>
+    <li>Pega la ficha en las instrucciones</li>
+    <li>Sube 2–3 documentos tuyos</li>
+    <li>Pruébalo en la vista previa → <b>Guardar</b></li>
   </ol>
-  <p class="muted">Si no te abre: la misma ficha sirve en Gems, en Proyectos de Claude, o pegada al inicio de cualquier chat.</p>
+  <p class="pill">Agrégale un ejemplo de respuesta ideal: tu ficha se vuelve un one-shot permanente</p>
+</section>
+
+<section>
+  <div class="kicker">Lo mismo, en otras herramientas</div>
+  <table>
+    <tr><th>Herramienta</th><th>Instrucciones</th><th>Documentos</th><th>¿Gratis?</th></tr>
+    <tr><td><b>Gemini · Gems</b></td><td>Instrucciones del Gem</td><td>Archivos del Gem</td><td>Sí</td></tr>
+    <tr><td><b>ChatGPT · Proyectos</b></td><td>Instrucciones del proyecto</td><td>Archivos del proyecto</td><td>Sí</td></tr>
+    <tr><td><b>ChatGPT · GPT propio</b></td><td>Configuración del GPT</td><td>Conocimiento</td><td>No: requiere plan pago</td></tr>
+    <tr><td><b>Claude · Proyectos</b></td><td>Instrucciones</td><td>Conocimiento</td><td>Según tu cuenta</td></tr>
+    <tr><td><b>Cualquier chat</b></td><td>Pegar la ficha al inicio</td><td>Adjuntar archivos</td><td>Sí</td></tr>
+  </table>
 </section>
 
 <section>
@@ -212,7 +256,7 @@
     <tr><td>Lo mismo, "en una tabla de tres columnas"</td><td>Obedecer el formato</td></tr>
     <tr><td>Algo que <b>no está</b></td><td>Decir que no lo sabe, sin inventar</td></tr>
     <tr><td>Algo ambiguo, sin datos suficientes</td><td>Preguntarte antes de responder</td></tr>
-    <tr><td>"¿Y eso por qué?"</td><td>Mantener el hilo</td></tr>
+    <tr><td>Algo con varios pasos</td><td>Desarrollar los pasos antes de concluir</td></tr>
   </table>
 </section>
 
@@ -224,14 +268,14 @@
     <tr><td>Inventó</td><td>"Si no está en los documentos adjuntos, dilo explícitamente."</td></tr>
     <tr><td>Larguísimo</td><td>"Máximo 200 palabras salvo que te pida más."</td></tr>
     <tr><td>No preguntó</td><td>"Si te faltan datos, pregunta antes de responder."</td></tr>
-    <tr><td>Muy técnico o muy simple</td><td>"Explica como a alguien de [nivel]."</td></tr>
+    <tr><td>Saltó al resultado</td><td>"Cuando la tarea tenga varios pasos, desarróllalos antes de concluir."</td></tr>
   </table>
-  <p class="muted">Casi nunca queda bien al primer intento. Cada línea que agregues, agrégala también al Google Doc.</p>
+  <p class="muted">Casi nunca queda bien al primer intento. Cada línea, también al Google Doc.</p>
 </section>
 
 <section>
   <h2>🔄 Prueba cruzada</h2>
-  <p>Intercambia tu asistente con alguien de otra carrera.</p>
+  <p>Intercambia tu asistente con alguien de otra área.</p>
   <ul>
     <li>Te hace 3 preguntas: una que sí está, una que no está, una ambigua.</li>
     <li>Te dice en una frase qué falló.</li>
@@ -242,7 +286,8 @@
 <section>
   <h2>📦 Lo que te llevas</h2>
   <ul>
-    <li>El Google Doc con tu ficha y el asistente montado con ella.</li>
+    <li>El Google Doc con tu ficha y el Gem montado con ella.</li>
+    <li>Cinco técnicas: zero, one, few shot, cadena de pensamiento, razonamiento.</li>
     <li>Al tablero: enlace del asistente · fuentes reales ___ de 5.</li>
   </ul>
   <p class="pill">Es el centro del Ejercicio 1 · Mi asistente de carrera</p>
@@ -250,7 +295,7 @@
 
 </div>
 <div class="timer" id="timer"></div>
-<div class="foot"><span>Sesión 4 · Prompts y tu asistente</span><span id="counter"></span><span>← → avanzar · F pantalla completa · T cronómetro</span></div>
+<div class="foot"><span>Sesión 3 · Técnicas de prompt y tu asistente</span><span id="counter"></span><span>← → avanzar · F pantalla completa · T cronómetro</span></div>
 <script>
   const slides=[...document.querySelectorAll('section')];let i=Math.max(0,Math.min(slides.length-1,parseInt(location.hash.slice(1))||0));
   function show(n){slides.forEach(s=>s.classList.remove('active'));i=(n+slides.length)%slides.length;slides[i].classList.add('active');document.getElementById('counter').textContent=(i+1)+' / '+slides.length;location.hash=i;}

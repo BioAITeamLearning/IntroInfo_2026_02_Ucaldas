@@ -16,4 +16,4 @@ chapters:
     - file: "S02_KitIA"
 - file: Unidad2
   sections:
-    - file: "S04_Prompts"
+    - file: "S03_Prompts"

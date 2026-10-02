@@ -13,10 +13,10 @@ En la Unidad 1 aprendiste a **usar** la IA. Aquí aprendes a **hablarle bien**, 
 
 | Sesión | Pregunta que responde | Herramienta del día |
 |---|---|---|
-| {doc}`S04_Prompts` | ¿Cómo le pido a la IA para que haga exactamente lo que necesito? ¿Cómo creo mi asistente? | Gemini + Google AI Studio |
-| Sesión 5 · Investigar con IA | ¿Cómo investigo con IA y sé que las fuentes existen? | Deep Research + Perplexity + Consensus |
-| Sesión 6 · Ética, deepfakes y planeta | ¿Cuándo está bien usar IA, y qué le hace al planeta y a la verdad? | Moral Machine + Detect Fakes + Miro |
+| {doc}`S03_Prompts` | ¿Cómo le pido a la IA para que haga exactamente lo que necesito? ¿Cómo creo mi asistente? | Gemini + Gems |
+| Sesión 4 · Investigar con IA | ¿Cómo investigo con IA y sé que las fuentes existen? | Deep Research + Perplexity + Consensus |
+| Sesión 5 · Ética, deepfakes y planeta | ¿Cuándo está bien usar IA, y qué le hace al planeta y a la verdad? | Moral Machine + Detect Fakes + Miro |
 
 ## Manos a la obra! 💪🧠
 
-Al final de la unidad tendrás: un asistente personalizado para tu carrera, un informe de investigación con fuentes verificadas y un manifiesto de uso ético de IA hecho en equipo. Todo eso junto es el **Ejercicio 1**, que se sustenta en la Sesión 6.
+Al final de la unidad tendrás: un asistente personalizado para tu carrera, un informe de investigación con fuentes verificadas y un manifiesto de uso ético de IA hecho en equipo. Todo eso junto es el **Ejercicio 1**, que se sustenta en la Sesión 5.
