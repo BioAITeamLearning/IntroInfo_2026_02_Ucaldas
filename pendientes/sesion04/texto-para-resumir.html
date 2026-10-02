@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sesión 4 · Texto para resumir</title>
+<style>
+ *{box-sizing:border-box}
+ body{margin:0;background:#eee;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#212529}
+ .page{background:#fff;max-width:190mm;margin:10mm auto;padding:14mm 16mm}
+ h1{font-size:17pt;margin:0 0 2mm}
+ .aviso{background:#fff8e1;border:1.5px solid #ffc857;border-radius:3mm;padding:4mm 5mm;font-size:10pt;margin:4mm 0 6mm}
+ pre{white-space:pre-wrap;font-family:Georgia,"Times New Roman",serif;font-size:11pt;line-height:1.5;margin:0}
+ .barra{position:sticky;top:0;background:#212529;padding:8px 12px;display:flex;gap:8px;justify-content:flex-end}
+ button{padding:7px 14px;border:0;border-radius:6px;background:#ffc857;color:#212529;font-size:14px;font-weight:600;cursor:pointer}
+ button.sec{background:#495057;color:#fff}
+ #ok{color:#7bd88f;font-size:13px;align-self:center;margin-right:auto;padding-left:6px}
+ @media print{.barra{display:none}body{background:#fff}.page{margin:0;max-width:none}@page{size:A4;margin:18mm}}
+</style></head><body>
+<div class="barra"><span id="ok"></span>
+ <button onclick="copiar()">📋 Copiar todo el texto</button>
+ <button class="sec" onclick="window.print()">🖨️ Imprimir</button>
+</div>
+<div class="page">
+ <h1>Reglamento de uso de recursos informáticos y servicios digitales</h1>
+ <div class="aviso"><b>Documento de práctica.</b> Texto ficticio elaborado para el curso Introducción a la Informática. No corresponde al reglamento vigente de ninguna institución. Se usa únicamente como material de trabajo para el ejercicio de resumen.</div>
+ <pre id="t">CAPÍTULO I. DISPOSICIONES GENERALES
+
+Artículo 1. Objeto. El presente reglamento tiene por objeto establecer las condiciones, obligaciones, limitaciones y responsabilidades aplicables al acceso, uso y aprovechamiento de los recursos informáticos, la infraestructura de red de datos y los servicios digitales dispuestos por la institución, con el fin de garantizar la disponibilidad, integridad y confidencialidad de la información institucional, así como el cumplimiento de la normatividad vigente en materia de protección de datos personales.
+
+Artículo 2. Ámbito de aplicación. Las disposiciones contenidas en el presente acto vinculan a la totalidad de los usuarios, entendidos como estudiantes matriculados, docentes de planta y catedráticos, personal administrativo, contratistas, visitantes autorizados y cualquier tercero a quien se le haya concedido acceso, con independencia de que dicho acceso se efectúe desde equipos de propiedad institucional o desde dispositivos personales conectados a la red institucional o a sus servicios en la nube.
+
+Artículo 3. Definiciones. Para los efectos del presente reglamento se entenderá por: a) Recurso informático: todo equipo de cómputo, dispositivo periférico, elemento de red, licencia de software, espacio de almacenamiento o servicio en la nube provisto por la institución; b) Cuenta institucional: el conjunto de credenciales asignadas de manera nominal que habilitan el acceso a los servicios digitales; c) Incidente de seguridad: todo evento, confirmado o presunto, que comprometa o pueda comprometer la confidencialidad, integridad o disponibilidad de la información; d) Dato personal sensible: aquel que afecte la intimidad del titular o cuyo uso indebido pueda generar discriminación, en los términos de la Ley 1581 de 2012.
+
+CAPÍTULO II. DE LAS CUENTAS INSTITUCIONALES
+
+Artículo 4. Titularidad. La cuenta institucional es personal e intransferible. El usuario es responsable de la totalidad de las actuaciones que se realicen con sus credenciales, salvo que acredite que su utilización por un tercero obedeció a una vulneración previamente reportada conforme al artículo 10 del presente reglamento.
+
+Parágrafo 1. La cesión, el préstamo, la publicación o el uso compartido de credenciales con terceros, aun cuando no medie ánimo de lucro ni se derive perjuicio, constituirá falta susceptible de las medidas previstas en el Capítulo V.
+
+Parágrafo 2. El usuario deberá configurar un segundo factor de autenticación dentro de los quince (15) días hábiles siguientes a la activación de la cuenta.
+
+Artículo 5. Vigencia y terminación. La cuenta institucional permanecerá activa mientras subsista el vínculo que dio origen a su asignación. Perdida dicha calidad, el usuario dispondrá de treinta (30) días calendario para migrar la información de carácter personal que repose en los servicios institucionales; vencido dicho término, los contenidos no migrados serán eliminados de manera definitiva sin que se requiera comunicación previa adicional.
+
+CAPÍTULO III. CONDICIONES DE USO ACEPTABLE
+
+Artículo 6. Usos permitidos. Los recursos informáticos se destinarán prioritariamente a actividades de docencia, investigación, extensión, gestión administrativa y formación. Se admite un uso personal de carácter incidental, siempre que no comprometa el desempeño de la infraestructura, no genere costos adicionales y no contravenga lo dispuesto en el artículo siguiente.
+
+Artículo 7. Usos restringidos. Sin perjuicio de otras conductas que resulten contrarias al ordenamiento jurídico, queda expresamente prohibido: a) instalar o ejecutar servicios de distribución de archivos no autorizados; b) destinar la infraestructura a procesos de minería de criptoactivos; c) realizar pruebas de intrusión, escaneo de puertos o análisis de vulnerabilidades sin autorización escrita previa; d) eludir los controles de filtrado, los registros de auditoría o los mecanismos de autenticación; e) almacenar o difundir material que infrinja derechos de autor.
+
+Artículo 8. Uso de herramientas de inteligencia artificial generativa. Se autoriza el uso de herramientas de inteligencia artificial generativa en actividades académicas y administrativas, siempre que dicho uso sea declarado expresamente en el producto resultante, indicando la herramienta empleada y la finalidad para la cual fue utilizada. En todo caso, queda prohibido el ingreso, carga o transcripción, en dichas herramientas, de datos personales sensibles, de información sometida a reserva legal o de datos de terceros respecto de los cuales no se cuente con autorización previa, expresa e informada del titular. La responsabilidad sobre la veracidad, pertinencia y corrección del contenido producido con asistencia de estas herramientas recaerá íntegramente en el usuario.
+
+CAPÍTULO IV. SEGURIDAD DE LA INFORMACIÓN
+
+Artículo 9. Obligaciones del usuario. Son obligaciones del usuario: a) custodiar sus credenciales y abstenerse de registrarlas en medios no cifrados; b) mantener actualizados el sistema operativo y las aplicaciones de los dispositivos personales que conecte a la red institucional; c) bloquear la sesión al ausentarse del puesto de trabajo; d) abstenerse de conectar dispositivos de almacenamiento extraíble de procedencia desconocida.
+
+Artículo 10. Reporte de incidentes. Todo incidente de seguridad, confirmado o presunto, deberá ser reportado a la mesa de servicios dentro de las veinticuatro (24) horas siguientes a su detección. La omisión del reporte oportuno, cuando de ella se deriven consecuencias que pudieran haberse evitado, será valorada como circunstancia de agravación.
+
+Artículo 11. Monitoreo. La institución podrá conservar registros de conexión, autenticación y tráfico por un término de doce (12) meses, con finalidades de seguridad, auditoría y atención de requerimientos de autoridad competente. Dicha facultad se ejercerá con sujeción a los principios de finalidad, necesidad y proporcionalidad, y no habilita la inspección del contenido de las comunicaciones personales salvo orden judicial.
+
+CAPÍTULO V. RÉGIMEN DE RESPONSABILIDAD
+
+Artículo 12. Medidas. El incumplimiento de las disposiciones precedentes dará lugar, según la gravedad y la reiteración de la conducta, a la suspensión temporal del acceso, a la revocatoria de permisos específicos o a la remisión del caso a la instancia disciplinaria competente, sin perjuicio de las acciones civiles o penales a que hubiere lugar.
+
+Artículo 13. Remisión normativa. En lo no previsto se aplicarán las disposiciones de la Ley 1581 de 2012 y las demás normas que la modifiquen, adicionen o reglamenten.</pre>
+</div>
+<script>
+function copiar(){
+  const t=document.getElementById('t').innerText;
+  navigator.clipboard.writeText(t).then(()=>{document.getElementById('ok').textContent='Texto copiado ✓';
+    setTimeout(()=>document.getElementById('ok').textContent='',2500);});
+}
+</script>
+</body></html>

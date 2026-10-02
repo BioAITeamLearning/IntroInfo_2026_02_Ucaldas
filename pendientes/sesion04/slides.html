@@ -112,14 +112,29 @@
 
 <section>
   <div class="kicker">Reto 2</div>
-  <h2>⚔️ Duelo de prompts</h2>
-  <p>En parejas. Mismo encargo, cada uno escribe su prompt por aparte. Comparan el resultado <b>sin retocarlo</b>.</p>
+  <h2>✍️ Tres encargos</h2>
+  <p>Una cosa por prompt. Escribe el prompt completo antes de enviarlo.</p>
   <table>
     <tr><td><b>1</b></td><td>Correo al coordinador pidiendo el laboratorio (archivo / cancha / salón de ensayo) el sábado de 8 a 12 para un trabajo de clase</td></tr>
-    <tr><td><b>2</b></td><td>5 preguntas de opción múltiple del tema del Reto 1, con explicación de por qué las incorrectas están mal</td></tr>
-    <tr><td><b>3</b></td><td>Resumen de media página de un texto difícil, para alguien que no estudió eso</td></tr>
+    <tr><td><b>2</b></td><td>5 preguntas de opción múltiple del tema del Reto 1, con la explicación de por qué las incorrectas están mal</td></tr>
+    <tr><td><b>3</b></td><td>Resumen del reglamento: media página para alguien de primer semestre + 5 reglas en lenguaje claro</td></tr>
   </table>
-  <p class="muted">Gana el que se pueda usar tal cual. El ganador lee su prompt.</p>
+</section>
+
+<section>
+  <div class="kicker">Encargo 3 · el documento</div>
+  <h2>📄 El reglamento</h2>
+  <p>Está en la página del curso, en PDF para adjuntar y en versión para copiar.</p>
+  <p class="muted">Es un texto de práctica: un reglamento ficticio, escrito como están escritos los reglamentos de verdad.</p>
+  <div class="card">
+    <b>Cuando tengas tu resumen, revisa si incluye:</b>
+    <ul>
+      <li>El plazo para sacar tu información cuando pierdes la cuenta institucional.</li>
+      <li>Qué está prohibido escribir en una herramienta de IA, y qué hay que declarar.</li>
+      <li>En cuánto tiempo hay que reportar un incidente de seguridad.</li>
+    </ul>
+  </div>
+  <p class="muted">Compara con un compañero: casi nunca se les escapan las mismas.</p>
 </section>
 
 <section>
@@ -145,6 +160,7 @@
 <section class="center">
   <h1>🤖 Tu asistente</h1>
   <p class="muted">un modelo + tus instrucciones fijas + tus documentos</p>
+  <p class="pill">Lo que importa es la ficha, no la herramienta</p>
 </section>
 
 <section>
@@ -161,7 +177,7 @@
 
 <section>
   <div class="kicker">Paso 2 · primero en la hoja</div>
-  <h2>Las instrucciones</h2>
+  <h2>La ficha de instrucciones</h2>
   <div class="card" style="font-size:2.3vh">
     <p><b>QUIÉN ERES</b> · Eres [rol] con experiencia en [área].</p>
     <p><b>PARA QUIÉN TRABAJAS</b> · Estudio [carrera], semestre [N]. Mi nivel es [principiante / intermedio].</p>
@@ -174,11 +190,17 @@
 
 <section>
   <div class="kicker">Paso 3</div>
-  <h2>Créalo</h2>
-  <div class="cols">
-    <div class="card"><b>Gemini · Gems</b><ol><li>gemini.google.com</li><li>Menú lateral → <b>Gems</b> → Nuevo Gem</li><li>Nombre: Tutor de [tu carrera]</li><li>Pega las instrucciones</li><li>Sube 2–3 documentos tuyos</li><li>Prueba en la vista previa → <b>Guardar</b></li></ol></div>
-    <div class="card"><b>Claude · Proyectos</b><ol><li>claude.ai</li><li><b>Proyectos</b> → Crear proyecto</li><li>Instrucciones del proyecto</li><li>Conocimiento del proyecto = tus archivos</li></ol></div>
-  </div>
+  <h2>Móntalo en AI Studio</h2>
+  <p><span class="tool">aistudio.google.com</span> — la consola donde se ve lo que normalmente está escondido detrás del chat.</p>
+  <ol>
+    <li>Entra con tu cuenta de Google y abre un <b>Chat</b>.</li>
+    <li>Pega tu ficha en <b>System instructions</b>.</li>
+    <li>Con <b>+</b> adjunta 2 o 3 documentos tuyos.</li>
+    <li>Pregunta algo y mira la respuesta.</li>
+    <li>Mueve la <b>temperatura</b> de 0 a 1 y vuelve a preguntar lo mismo.</li>
+    <li><b>Guarda</b>: queda en tu Drive y puedes compartir el enlace.</li>
+  </ol>
+  <p class="muted">Si no te abre: la misma ficha sirve en Gems, en Proyectos de Claude, o pegada al inicio de cualquier chat.</p>
 </section>
 
 <section>
@@ -196,7 +218,7 @@
 
 <section>
   <div class="kicker">Paso 5</div>
-  <h2>Por cada prueba que falló, una línea más</h2>
+  <h2>Por cada prueba que falló, una línea más en la ficha</h2>
   <table>
     <tr><th>Si falló</th><th>Agrega</th></tr>
     <tr><td>Inventó</td><td>"Si no está en los documentos adjuntos, dilo explícitamente."</td></tr>
@@ -204,7 +226,7 @@
     <tr><td>No preguntó</td><td>"Si te faltan datos, pregunta antes de responder."</td></tr>
     <tr><td>Muy técnico o muy simple</td><td>"Explica como a alguien de [nivel]."</td></tr>
   </table>
-  <p class="muted">Casi nunca queda bien al primer intento.</p>
+  <p class="muted">Casi nunca queda bien al primer intento. Cada línea que agregues, agrégala también al Google Doc.</p>
 </section>
 
 <section>
@@ -220,8 +242,8 @@
 <section>
   <h2>📦 Lo que te llevas</h2>
   <ul>
-    <li>Tu asistente guardado, con las instrucciones corregidas.</li>
-    <li>Al tablero: enlace del asistente · tu mejor prompt · fuentes reales ___ de 5.</li>
+    <li>El Google Doc con tu ficha y el asistente montado con ella.</li>
+    <li>Al tablero: enlace del asistente · fuentes reales ___ de 5.</li>
   </ul>
   <p class="pill">Es el centro del Ejercicio 1 · Mi asistente de carrera</p>
 </section>

@@ -8,13 +8,12 @@ title: Sesión 4 · Prompts y tu asistente
 | Herramienta | Para qué | Enlace |
 |---|---|---|
 | **Gemini** | Escribir y comparar prompts | [gemini.google.com](https://gemini.google.com) |
-| **Gems** (dentro de Gemini) | Crear tu asistente propio | [gemini.google.com/gems](https://gemini.google.com/gems) |
-| **Claude · Proyectos** | Alternativa a los Gems | [claude.ai](https://claude.ai) |
 | **Google Scholar** | Comprobar si las fuentes existen | [scholar.google.com](https://scholar.google.com) |
+| **Google AI Studio** | Montar el asistente y ver los controles por dentro | [aistudio.google.com](https://aistudio.google.com) |
 
 ## 🎯 Qué te llevas
 
-Un asistente propio para tu carrera: con instrucciones escritas por ti, con tus documentos adentro, probado y corregido. Es la pieza central del **Ejercicio 1**.
+Tu ficha de instrucciones escrita y un asistente montado con ella, con tus documentos adentro, probado y corregido. Es la pieza central del **Ejercicio 1**.
 
 ---
 
@@ -128,19 +127,29 @@ Al terminar, pon el envío 1 y el 5 lado a lado y decide cuál pieza produjo el 
 
 ---
 
-## ⚔️ Reto 2 · Duelo de prompts
+## ✍️ Reto 2 · Tres encargos
 
-En parejas. El mismo encargo, cada uno escribe su prompt por aparte, comparan el resultado **sin retocarlo**. Gana el que se pueda usar tal cual.
+Tres cosas para producir, una por prompt. Escribe el prompt completo —con las cinco piezas— antes de enviarlo.
 
-| Ronda | Encargo |
-|---|---|
-| 1 | Un correo para pedir permiso de usar el laboratorio (o el archivo, la cancha, el salón de ensayo) el sábado de 8 a 12, para un trabajo de clase, dirigido al coordinador del programa |
-| 2 | Cinco preguntas de opción múltiple sobre el tema que usaste en el Reto 1, cada una con las cuatro opciones y la explicación de por qué las tres incorrectas están mal |
-| 3 | Un resumen de media página de un texto difícil de tu carrera, para alguien que no estudió eso |
+| # | Encargo | Qué tiene que salir |
+|---|---|---|
+| 1 | Pedir permiso para usar el laboratorio (o el archivo, la cancha, el salón de ensayo) el sábado de 8 a 12 para un trabajo de clase, escribiéndole al coordinador del programa | Un correo que puedas enviar sin cambiarle nada |
+| 2 | Cinco preguntas de opción múltiple sobre el tema que usaste en el Reto 1 | Las cuatro opciones de cada una y la explicación de por qué las tres incorrectas están mal |
+| 3 | Resumir el reglamento que está abajo | Media página para alguien de primer semestre, más cinco reglas en lenguaje claro |
 
-Después de cada ronda, el que ganó lee su prompt en voz alta.
+### El documento del encargo 3
 
----
+<a href="_static/sesion04/texto-para-resumir.pdf" target="_blank">📄 Reglamento (PDF para adjuntar)</a> · <a href="_static/sesion04/texto-para-resumir.html" target="_blank">📋 Versión para leer y copiar</a>
+
+Es un texto de práctica: un reglamento ficticio escrito en el lenguaje con el que suelen estar escritos los reglamentos de verdad. Adjúntalo o pégalo en el chat.
+
+Cuando tengas tu resumen, revisa si incluye estas tres obligaciones, que son fáciles de pasar por alto al leer rápido:
+
+* El plazo que tienes para sacar tu información cuando pierdes la cuenta institucional.
+* Qué está prohibido escribir dentro de una herramienta de inteligencia artificial, y qué hay que declarar al usarla.
+* En cuánto tiempo hay que reportar un incidente de seguridad.
+
+Compara tu resumen con el de un compañero: casi nunca se les escapan las mismas.
 
 ## 💥 Reto 3 · Hazla fallar
 
@@ -163,7 +172,7 @@ A esto se le llama **alucinación**: la IA no está mintiendo, está prediciendo
 
 ## 🤖 Construye tu asistente
 
-Un asistente es un modelo + tus instrucciones fijas + tus documentos. Lo armas una vez y lo usas todo el semestre.
+Un asistente es un modelo + unas instrucciones fijas + tus documentos. Lo importante no es la herramienta donde lo montes, sino la **ficha de instrucciones** que escribas: esa ficha la guardas en un documento tuyo y la puedes volver a usar en cualquier herramienta, hoy y el año entrante.
 
 ### Paso 1 · Para qué sirve el tuyo
 
@@ -176,9 +185,9 @@ Completa: *"Un asistente que me ayuda a ______________ cuando ______________."*
 | Artes | Me ayuda a analizar una obra y encontrar referentes |
 | Deporte | Me ayuda a planear entrenamientos preguntando por lesiones previas |
 
-### Paso 2 · Escribe las instrucciones
+### Paso 2 · Escribe la ficha
 
-Llénala primero en la hoja impresa y después cópiala al computador:
+Llénala en la hoja impresa y después cópiala a un **Google Doc llamado `Ficha de mi asistente`**. Ese documento es tuyo y no depende de ninguna plataforma.
 
 ```
 QUIÉN ERES
@@ -202,11 +211,21 @@ QUÉ HACES CUANDO NO SABES
 Lo dices. Si te falta información para responder bien, me preguntas antes.
 ```
 
-### Paso 3 · Créalo
+### Paso 3 · Móntalo en AI Studio
 
-**En Gemini:** [gemini.google.com](https://gemini.google.com) → **Gems** en el menú lateral → **Nuevo Gem** → nombre (`Tutor de [tu carrera]`) → pega las instrucciones → sube 2 o 3 documentos de tu carrera → pruébalo en la vista previa → **Guardar**.
+[aistudio.google.com](https://aistudio.google.com) es la consola donde Google deja ver lo que normalmente está escondido detrás del chat.
 
-**En Claude:** [claude.ai](https://claude.ai) → **Proyectos** → **Crear proyecto** → las instrucciones van en *Instrucciones del proyecto* y los archivos en *Conocimiento del proyecto*.
+1. Entra con tu cuenta de Google (si la institucional no te deja, usa la personal) y abre un **Chat**.
+2. Busca el campo **System instructions** (instrucciones del sistema) y pega ahí tu ficha completa.
+3. Con el botón **+** adjunta 2 o 3 documentos de tu carrera.
+4. Escribe una pregunta en el chat y mira la respuesta.
+5. En el panel de ajustes, mueve la **temperatura** de 0 a 1 y vuelve a preguntar lo mismo. Vas a ver de qué depende que la IA sea más predecible o más suelta.
+6. **Guarda** el prompt: queda en tu Drive y puedes compartir el enlace.
+
+```{admonition} Si AI Studio no te abre
+:class: tip
+Tu ficha funciona igual en otros lugares: **Gems** de Gemini ([gemini.google.com](https://gemini.google.com) → Gems → Nuevo Gem), **Proyectos** de Claude ([claude.ai](https://claude.ai) → Proyectos), o simplemente pegándola al inicio de cualquier conversación nueva. Lo que se evalúa es la ficha y que el asistente responda como dice la ficha.
+```
 
 ### Paso 4 · Pásale el banco de pruebas
 
@@ -218,7 +237,7 @@ Lo dices. Si te falta información para responder bien, me preguntas antes.
 | 4 | Algo ambiguo, sin darle datos suficientes | Preguntarte antes de responder |
 | 5 | "¿Y eso por qué?" | Mantener el hilo de la respuesta anterior |
 
-### Paso 5 · Corrige las instrucciones
+### Paso 5 · Corrige la ficha
 
 Por cada prueba que falló, agrega una línea y vuelve a probar:
 
@@ -229,9 +248,7 @@ Por cada prueba que falló, agrega una línea y vuelve a probar:
 | No preguntó nada | "Si te faltan datos, pregunta antes de responder." |
 | Muy técnico o muy simple | "Explica como a alguien de [tu nivel]." |
 
-Casi nunca queda bien al primer intento: corregir las instrucciones es parte del trabajo.
-
----
+Casi nunca queda bien al primer intento: corregir la ficha es parte del trabajo. Cada línea que agregues, agrégala también al Google Doc.
 
 ## 🔄 Prueba cruzada
 
@@ -246,4 +263,4 @@ Intercambia tu asistente con alguien de otra carrera. Esa persona le hace tres p
 
 ## 📦 Lo que te llevas
 
-Tu asistente guardado y funcionando, con las instrucciones corregidas después de las pruebas. En el tablero del curso: el enlace al asistente, tu mejor prompt del duelo y el resultado del Reto 3 (**___ de 5** fuentes existían).
+El Google Doc con tu ficha de instrucciones y el asistente montado y funcionando. En el tablero del curso: el enlace al asistente y el resultado del Reto 3 (**___ de 5** fuentes existían).
