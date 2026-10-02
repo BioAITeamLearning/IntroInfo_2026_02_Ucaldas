@@ -35,8 +35,8 @@ Lo que queremos que sepan hacer al final: usar asistentes con criterio, chatear 
 |---|---|---|---|
 | 1 | Fundamentos de TIC | ✅ Dictada (formato clásico, ya publicada) | — |
 | 2 | Tu nuevo kit de superpoderes | ✅ Dictada el 11 sep. Publicada con diapositivas y guía (`_static/sesion02/`) | Recoger qué "superpoder" quisieron aprender (está en el tablero) para ajustar ejemplos |
-| 3 | Tu vida digital: segura, ordenada y con IA | 🟡 **Completa, sin prender**: página + `sesion03/slides.html` + `sesion03/guia.html` + guía docente | Probar Gemini en Drive y 2FA con la cuenta institucional antes de dictarla |
-| 4 | Prompts pro y tu primer agente (Gems) | 🔵 Página lista y limpia | Diapositivas, guía imprimible (tarjetas de la Prompt Battle), guía docente con demos |
+| 3 | **Prompts y tu asistente** | 🟡 **Completa, sin prender**: página + `sesion03/slides.html` + `sesion03/guia.html` (4 páginas imprimibles) + guía docente | Verificar la ruta a **Gems** con la cuenta institucional antes de dictarla |
+| — | Tu vida digital (seguridad, PARA, carpetas, AR) | 🟡 Completa, **sin número**: `VidaDigital.md` + `vida-digital/` + `docente/VidaDigital_guia.md` | Decidir en qué semana entra (ver §7) |
 | 5 | Investigar con IA (Deep Research, Consensus, Zotero) | 🔵 Página lista y limpia | Diapositivas, las 10 afirmaciones de la "carrera de verificación" (5 reales, 3 falsas, 2 medio ciertas), guía docente |
 | 6 | Ética, deepfakes y planeta · **sustentación Ejercicio 1** | 🔵 Página lista y limpia | Diapositivas, formato de sustentación en parejas, guía docente |
 | 7 | Tu página web (Sites + Lovable + GitHub Pages) | 🔵 Página lista y limpia | Diapositivas, guía docente, probar Lovable/Bolt con cuentas gratuitas |
@@ -98,11 +98,19 @@ Luego: agregar `- file: "S04_Prompts"` en `_toc.yml` bajo su unidad; en `MapaDel
 
 **Ojo con el historial**: las sesiones 3–16 están en el historial de git (commits del 10–11 sep) y ahora también en `pendientes/`; el repo es público, así que un estudiante curioso podría leerlas en GitHub. Johan lo sabe; lo que importa es que no estén en el libro.
 
-## 6. Pendientes concretos, en orden
+## 6. Cambio de plan del 2 de octubre
 
-1. **Sesión 3** (próxima): Johan prueba Gemini en Drive y 2FA con la cuenta institucional. Si algo no está disponible, aplicar el plan B de `docente/S03_guia.md`. Prender y publicar el día de la clase.
-2. **Sesión 4**: diapositivas + tarjetas de la Prompt Battle (3 rondas, por carrera) + guía docente. Es la sesión donde crean el Gem: corazón del Ejercicio 1.
-3. **Sesión 5**: preparar las 10 afirmaciones de la carrera de verificación con fuentes primarias; diapositivas; guía docente.
+Se perdieron dos semanas de clase. Johan decidió **saltarse por ahora "Tu vida digital"** y pasar directo a **prompts + construir el asistente**, porque es lo que alimenta el Ejercicio 1. Consecuencias:
+
+* La **Sesión 3 ahora es "Prompts y tu asistente"** (`pendientes/S03_Prompts.md`). Absorbe lo que era la antigua sesión 4; el archivo `S04_Prompts.md` se eliminó.
+* **"Tu vida digital"** quedó sin número (`pendientes/VidaDigital.md`, materiales en `pendientes/vida-digital/`, guía en `docente/VidaDigital_guia.md`), lista para entrar donde se decida.
+* **Falta recalibrar el calendario**: quedan menos semanas que las 16 planeadas. Hay que decidir qué se funde o se recorta (candidatos naturales: fundir multimedia con página web; dejar "Vida digital" como media sesión al inicio de otra). **Esto lo decide Johan**, no se ha hecho.
+* El formato que Johan pidió para esta sesión y las siguientes: **poca explicación, mucho ejercicio continuo y comparativo**. La Sesión 3 es el modelo a seguir — mira cómo está armada antes de montar otra.
+
+## 7. Pendientes concretos, en orden
+
+1. **Sesión 3** (próxima): Johan verifica la ruta a Gems con la cuenta institucional. Si no aparece, plan B en `docente/S03_guia.md`. Prender y publicar el día de la clase.
+2. **Sesión 5**: preparar las 10 afirmaciones de la carrera de verificación con fuentes primarias; diapositivas; guía docente.
 4. **Sesión 6**: diseñar la sustentación del Ejercicio 1 (parejas de carreras distintas, 3 preguntas: una que está, una que no, una trampa) y cómo registrar la nota.
 5. De la 7 en adelante, mismo patrón. Prioridad a lo que requiere prueba técnica previa: Lovable/Bolt (S7), AppSheet + Apps Script (S9), Colab Data Science Agent y Gemini CLI (S11), n8n + Telegram (S15).
 6. **Transversal**: crear el "tablero compartido del curso" donde pegan enlaces y respuestas (hoy es informal; puede ser un Google Sheet o un Padlet).

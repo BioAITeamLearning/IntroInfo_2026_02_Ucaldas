@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sesión 3 · Tu vida digital</title>
+<title>Sesión 3 · Prompts y tu asistente</title>
 <style>
   :root{--bg:#141619;--panel:#212529;--ink:#f4f5f7;--muted:#aab2bd;--accent:#ffc857;--accent2:#4cc9f0;--ok:#7bd88f;--warn:#ff6b6b;}
   *{box-sizing:border-box}
@@ -45,196 +45,180 @@
 
 <section class="center">
   <div class="kicker">Introducción a la Informática · UCaldas 2026-2 · Sesión 3</div>
-  <h1>Tu vida digital: segura, ordenada y con IA 🔐📂</h1>
-  <p class="muted">Hoy: Gandalf · Have I Been Pwned · Bitwarden · Gemini en Drive · NotebookLM · Scaniverse</p>
+  <h1>Prompts que funcionan<br>y tu asistente propio 🗣️🤖</h1>
+  <p class="muted">Hoy casi no hablo yo. Ustedes van a estar escribiendo toda la clase.</p>
 </section>
 
 <section>
-  <p class="quote">"Tu información vale más que tu computador.<br>Hoy la protegemos, la ordenamos y le ponemos una IA encima."</p>
+  <p class="quote">"Hoy no vas a ver cómo se usa la IA.<br>Vas a estar usándola toda la clase, comparando qué funciona y qué no."</p>
 </section>
 
 <section>
-  <div class="kicker">Calentamiento</div>
-  <h2>🧙 Gandalf</h2>
-  <p><span class="tool">gandalf.lakera.ai</span></p>
-  <ul>
-    <li>Gandalf tiene una contraseña y la orden de no decirla.</li>
-    <li>Tu misión: <b>que te la diga</b>. Niveles 1 a 3.</li>
-  </ul>
-  <p class="pill">¿Cómo se engaña a una IA?</p>
-</section>
-
-<section>
-  <div class="kicker">Lo que acabas de hacer tiene nombre</div>
-  <h2>Prompt injection</h2>
-  <p>Una IA se engaña con palabras, igual que a una persona se le engaña con un correo falso.</p>
-  <p class="muted">Guárdalo: cuando tu IA tenga poderes (leer tus archivos, enviar correos), esto importa mucho.</p>
-</section>
-
-<section>
-  <div class="kicker">Cómo te roban una cuenta</div>
-  <div class="grid">
-    <div class="card"><b>1 · Filtración</b><p>Una empresa pierde su base de datos. Tu correo + contraseña quedan en listas públicas.</p><p class="muted">LinkedIn 2012 · Adobe 2013 · Canva 2019 · Dropbox…</p></div>
-    <div class="card"><b>2 · Reuso</b><p>Prueban esa misma contraseña en tu Gmail, Instagram, banco, plataforma de la U. Millones de intentos por hora.</p></div>
-    <div class="card"><b>3 · Entran</b><p>Si la reusaste y no tienes segundo factor, ya está.</p></div>
-  </div>
-  <p class="muted">El atajo: <b>phishing</b>. Un mensaje que parece de la U o del banco, con un enlace a una página idéntica donde tú mismo escribes la contraseña.</p>
-</section>
-
-<section>
-  <div class="kicker">¿Dónde estás filtrado?</div>
-  <h2>🔓 Have I Been Pwned</h2>
-  <p><span class="tool">haveibeenpwned.com</span></p>
-  <ul>
-    <li>Escribe tu correo. Mira la lista.</li>
-    <li>¿En cuántas filtraciones apareces? ¿Alguna con una contraseña que todavía usas?</li>
-  </ul>
-</section>
-
-<section>
-  <div class="kicker">Longitud &gt; complejidad</div>
+  <div class="kicker">Lo mínimo</div>
+  <h2>Las 5 piezas de un prompt</h2>
   <table>
-    <tr><th>Contraseña</th><th>Tiempo para romperla</th></tr>
-    <tr><td><code>Tr0ub4dor&amp;3</code></td><td>horas</td></tr>
-    <tr><td><code>caballo correcto batería grapa</code></td><td>siglos</td></tr>
-    <tr><td><code>Xq7#mL9!vB2$pR4w</code> (generada)</td><td>milenios, y no la tienes que recordar</td></tr>
+    <tr><th>Pieza</th><th>La pregunta que responde</th></tr>
+    <tr><td><b>Rol</b></td><td>¿Quién quiero que sea?</td></tr>
+    <tr><td><b>Contexto</b></td><td>¿Qué necesita saber de mí?</td></tr>
+    <tr><td><b>Tarea</b></td><td>¿Qué debe hacer?</td></tr>
+    <tr><td><b>Formato</b></td><td>¿Cómo lo quiero?</td></tr>
+    <tr><td><b>Límites</b></td><td>¿Qué NO debe hacer?</td></tr>
   </table>
-  <p class="muted">Una frase larga que recuerdes vence a un símbolo raro. Y para todo lo demás, un gestor.</p>
 </section>
 
 <section>
-  <div class="kicker">Lo que de verdad protege</div>
-  <ul>
-    <li><b>Una contraseña distinta por sitio</b> → una filtración deja de abrir todas tus puertas.</li>
-    <li><b>Gestor de contraseñas</b> → 80 contraseñas distintas, tú recuerdas una.</li>
-    <li><b>Verificación en dos pasos</b> → les falta tu celular. Mejor app o llave de acceso que SMS.</li>
-    <li><b>Revisar sesiones y permisos</b> → si hay algo que no reconoces, ciérralo.</li>
-    <li><b>Desconfiar del enlace</b> → entra por tu cuenta, no por el mensaje.</li>
-  </ul>
-</section>
-
-<section>
-  <div class="kicker">Actividad 1</div>
-  <h2>🔐 Blindaje digital</h2>
-  <div class="cols">
-    <ul>
-      <li>Have I Been Pwned con tu correo</li>
-      <li><b>Bitwarden</b>: extensión + app. Contraseña maestra: frase de 4–5 palabras</li>
-      <li>Correo institucional y personal: contraseña <b>generada</b></li>
-      <li><b>2FA</b> en Google: llave de acceso o app</li>
-    </ul>
-    <ul>
-      <li>Google → Seguridad → <b>Tus dispositivos</b></li>
-      <li>Celular: bloqueo, copia, <b>Buscar mi dispositivo</b></li>
-      <li><b>Permisos</b> de apps: cámara, micrófono, ubicación</li>
-      <li>Panel de <b>bienestar digital</b></li>
-    </ul>
+  <div class="kicker">Tres trucos para todo el semestre</div>
+  <div class="grid">
+    <div class="card"><b>Pregúntame primero</b><p>"Antes de responder, hazme 3 preguntas para entender mi caso."</p></div>
+    <div class="card"><b>Critícate</b><p>"Ahora critica tu propia respuesta como un jurado exigente."</p></div>
+    <div class="card"><b>Dímelo si no sabes</b><p>"Si no tienes la información, dilo en vez de inventar."</p></div>
   </div>
-  <p class="muted">Lista completa en la guía impresa.</p>
+  <p class="pill">Eso es toda la teoría. A trabajar.</p>
 </section>
 
 <section>
-  <div class="kicker">Regla de oro del curso</div>
-  <h2>Nada confidencial en un chat de IA</h2>
-  <p>Datos de pacientes · expedientes con nombres · contraseñas · cuentas bancarias.</p>
-  <p class="muted">Si necesitas analizar datos sensibles, se anonimizan primero (Unidad 4).</p>
+  <div class="kicker">Reto 1</div>
+  <h2>🔬 Sube una pieza a la vez</h2>
+  <p>Mismo tema, <b>5 envíos</b>. En cada uno agregas una pieza y no borras las anteriores.</p>
+  <table>
+    <tr><td><b>1</b></td><td>"Explica ______"</td></tr>
+    <tr><td><b>2</b></td><td>+ <b>rol</b>: "Eres ______. Explica…"</td></tr>
+    <tr><td><b>3</b></td><td>+ <b>contexto</b>: "…para alguien que nunca ha visto el tema"</td></tr>
+    <tr><td><b>4</b></td><td>+ <b>formato</b>: "…en 150 palabras, con una analogía y 3 preguntas"</td></tr>
+    <tr><td><b>5</b></td><td>+ <b>límite</b>: "…sin usar los términos ___ y ___, sin inventar datos"</td></tr>
+  </table>
+  <p class="muted">Anota en la hoja qué cambió en cada paso.</p>
+</section>
+
+<section class="center">
+  <h1>Compara el envío 1 con el 5</h1>
+  <p class="muted">¿Cuál pieza produjo el salto más grande?</p>
+</section>
+
+<section>
+  <div class="kicker">Reto 2</div>
+  <h2>⚔️ Duelo de prompts</h2>
+  <p>En parejas. Mismo encargo, cada uno escribe su prompt <b>por aparte</b>. Comparan el resultado sin retocarlo.</p>
+  <table>
+    <tr><td><b>Ronda 1</b></td><td>Correo formal de 5 líneas pidiendo acceso a un archivo, laboratorio, cancha o colección</td></tr>
+    <tr><td><b>Ronda 2</b></td><td>Examen de 5 preguntas de opción múltiple con retroalimentación por opción</td></tr>
+    <tr><td><b>Ronda 3</b></td><td>Resumen de un texto difícil para alguien que no estudió eso</td></tr>
+  </table>
+  <p class="pill">Gana el que se pueda usar tal cual</p>
+</section>
+
+<section>
+  <div class="kicker">Reto 3</div>
+  <h2>💥 Hazla fallar</h2>
+  <ol>
+    <li>Pídele <b>5 fuentes académicas reales</b> de tu tema: autor, año, enlace.</li>
+    <li>Búscalas en <b>scholar.google.com</b>. ¿Cuántas existen? ___ de 5</li>
+    <li>Repite agregando: <i>"Solo cita fuentes que puedas verificar. Si no estás seguro, no la incluyas y dilo."</i></li>
+    <li>Compara.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Alucinación</h2>
+  <p>No está mintiendo: está <b>prediciendo texto que suena correcto</b>.</p>
+  <p class="muted">Por eso el prompt lleva límites. Y por eso tu asistente va a tener <b>documentos propios</b>.</p>
 </section>
 
 <section class="center">
   <h1>☕ Pausa</h1>
 </section>
 
-<section>
-  <div class="kicker">¿Dónde vive tu información?</div>
-  <table>
-    <tr><th>Lugar</th><th>Cómo se pierde</th><th>Cómo se protege</th></tr>
-    <tr><td><b>Local</b> (disco)</td><td>Se daña, te lo roban, borras sin querer</td><td>Copia en nube + disco externo</td></tr>
-    <tr><td><b>Nube</b> (Drive, iCloud)</td><td>Te roban la cuenta</td><td>2FA + exportar de vez en cuando</td></tr>
-    <tr><td><b>Celular</b></td><td>Se pierde, se rompe, se moja</td><td>Copia automática + bloqueo + Buscar mi dispositivo</td></tr>
-  </table>
-  <p class="pill">3-2-1: tres copias · dos medios · una fuera de casa</p>
+<section class="center">
+  <div class="kicker">Segunda mitad</div>
+  <h1>🤖 Tu asistente</h1>
+  <p class="muted">modelo + tus instrucciones fijas + tus documentos</p>
+  <p class="pill">Lo armas hoy y lo usas todo el semestre</p>
 </section>
 
 <section>
-  <div class="kicker">El sistema operativo</div>
-  <h2>El portero de tus archivos</h2>
-  <p>Windows · macOS · Linux · Android · iOS. Todos hacen lo mismo: guardan en carpetas, deciden qué programa toca qué (<b>permisos</b>), respaldan, cifran.</p>
-  <p class="muted">Dos hábitos que valen más que cualquier antivirus: <b>actualizar</b> cuando lo pide y <b>revisar permisos</b> de lo que instalas.</p>
-</section>
-
-<section>
-  <div class="kicker">Un sistema de carpetas que funcione</div>
-  <h2>PARA</h2>
+  <div class="kicker">Paso 1</div>
+  <h2>¿Para qué sirve el tuyo?</h2>
+  <p style="font-size:3.6vh">"Un asistente que me ayuda a __________ cuando __________."</p>
   <div class="grid">
-    <div class="card"><b>P · Proyectos</b><p>Tiene fecha de entrega: Tesis, Exposición-noviembre, Caso-Pérez, Temporada-2026</p></div>
-    <div class="card"><b>A · Áreas</b><p>Responsabilidad sin fecha final: Laboratorio, Clientes, Colectivo, Atletas</p></div>
-    <div class="card"><b>R · Recursos</b><p>Referencias: Artículos, Leyes, Referentes, Plantillas</p></div>
-    <div class="card"><b>A · Archivo</b><p>Lo terminado o inactivo</p></div>
+    <div class="card"><b>Biología</b><p>Explica protocolos de laboratorio paso a paso</p></div>
+    <div class="card"><b>Derecho</b><p>Pide los hechos antes de redactar cualquier documento</p></div>
+    <div class="card"><b>Artes</b><p>Analiza una obra y propone referentes</p></div>
+    <div class="card"><b>Deporte</b><p>Siempre pregunta por lesiones previas</p></div>
   </div>
-  <p class="muted">Nombre de archivo que se entienda en un año: <code>AAAA-MM-DD_tema_tipo</code> → <code>2026-09-13_protocolo-PCR_guia.pdf</code></p>
 </section>
 
 <section>
-  <div class="kicker">Actividad 2 · Parte A</div>
-  <h2>🤖 Pregúntale a tu carpeta · Gemini en Drive</h2>
-  <ol>
-    <li>Crea en Drive la estructura PARA.</li>
-    <li>En <code>Recursos/</code>: 5+ documentos de tu carrera (correo, Drive viejo, <code>filetype:pdf</code>).</li>
-    <li>Abre Gemini en Drive dentro de la carpeta y pregunta.</li>
-  </ol>
-  <div class="card"><p>"Resume los documentos de esta carpeta en una tabla: título, tema, fecha."<br>"¿Cuáles hablan de [concepto]?"<br>"Propón un nombre para cada archivo con el formato AAAA-MM-DD_tema_tipo."</p></div>
+  <div class="kicker">Paso 2 · en la hoja</div>
+  <h2>Las instrucciones</h2>
+  <div class="card" style="font-size:2.4vh">
+    <p><b>QUIÉN ERES</b> · Eres [rol] con experiencia en [área].</p>
+    <p><b>PARA QUIÉN TRABAJAS</b> · Estudio [carrera], semestre [N]. Mi nivel es [principiante/intermedio].</p>
+    <p><b>QUÉ HACES</b> · Me ayudas a [1], [2] y [3].</p>
+    <p><b>CÓMO RESPONDES</b> · En español, [extensión], en [formato]. Tono [cercano/técnico].</p>
+    <p><b>QUÉ NUNCA HACES</b> · No inventas datos ni fuentes. No [tu prohibición].</p>
+    <p><b>CUANDO NO SABES</b> · Lo dices. Si te falta información, preguntas antes de responder.</p>
+  </div>
 </section>
 
 <section>
-  <div class="kicker">Actividad 2 · Parte B</div>
-  <h2>📚 NotebookLM como biblioteca</h2>
-  <ol>
-    <li>Tu cuaderno de la Sesión 2 → <b>Descubrir fuentes</b> + los PDFs de <code>Recursos/</code>. Meta: 10+ fuentes.</li>
-    <li><b>Informe</b> tipo guía de estudio.</li>
-    <li><b>Tabla de datos</b> comparando fuentes (método, población, año…).</li>
-    <li><b>Mapa mental</b>: ¿qué conexión no habías visto?</li>
-    <li>Reto: una afirmación del informe → ¿la fuente de verdad lo dice?</li>
-  </ol>
+  <div class="kicker">Paso 3</div>
+  <h2>Créalo</h2>
+  <div class="cols">
+    <div class="card"><b>Gemini · Gems</b><ol><li>gemini.google.com</li><li>Menú lateral → <b>Gems</b> → Nuevo Gem</li><li>Nombre: Tutor de [tu carrera]</li><li>Pega las instrucciones</li><li>Sube 2–3 documentos tuyos</li><li>Prueba a la derecha → <b>Guardar</b></li></ol></div>
+    <div class="card"><b>Claude · Proyectos</b><ol><li>claude.ai</li><li><b>Proyectos</b> → Crear proyecto</li><li>Instrucciones del proyecto</li><li>Conocimiento del proyecto = tus archivos</li></ol></div>
+  </div>
 </section>
 
 <section>
-  <div class="kicker">Ruta pro 🧗</div>
-  <h2>Un agente leyendo tu disco</h2>
-  <p>Terminal dentro de <code>Recursos/</code> → <code>gemini</code> → <i>"Lista los archivos de esta carpeta y dime de qué trata cada uno en una línea. No modifiques nada."</i></p>
-  <p class="muted">Lo hacemos todos en la Sesión 14.</p>
+  <div class="kicker">Paso 4</div>
+  <h2>🧪 Banco de pruebas</h2>
+  <table>
+    <tr><th>Pregúntale…</th><th>Debería…</th></tr>
+    <tr><td>Algo que <b>sí está</b> en tus documentos</td><td>Responder y decir de dónde lo sacó</td></tr>
+    <tr><td>Algo con formato ("tabla de 3 columnas")</td><td>Obedecer el formato</td></tr>
+    <tr><td>Algo que <b>no está</b></td><td>Decir que no sabe, <b>no inventar</b></td></tr>
+    <tr><td>Algo ambiguo, con datos faltantes</td><td>Preguntarte antes de responder</td></tr>
+    <tr><td>"¿Y eso por qué?"</td><td>Mantener el hilo</td></tr>
+  </table>
 </section>
 
 <section>
-  <div class="kicker">Actividad 3</div>
-  <h2>🥽 Tu objeto en 3D</h2>
-  <ol>
-    <li><b>Scaniverse</b> en el celular → escanea un objeto (hueso, libro, escultura, balón). Gira despacio, 1–2 minutos.</li>
-    <li>Míralo en <b>realidad aumentada</b> sobre la mesa. Comparte el enlace.</li>
-    <li><b>Sketchfab</b> desde el celular: un modelo de tu área, en AR.</li>
-  </ol>
-  <p class="pill">¿Qué cambia en tu profesión cuando cualquier objeto se digitaliza en 2 minutos?</p>
+  <div class="kicker">Paso 5 · esto es el trabajo real</div>
+  <h2>Por cada "No", una línea más</h2>
+  <table>
+    <tr><th>Si falló…</th><th>Agrega…</th></tr>
+    <tr><td>Inventó</td><td>"Si no está en los documentos adjuntos, dilo explícitamente."</td></tr>
+    <tr><td>Larguísimo</td><td>"Máximo 200 palabras salvo que te pida más."</td></tr>
+    <tr><td>No preguntó</td><td>"Si te faltan datos, pregunta antes de responder."</td></tr>
+    <tr><td>Muy técnico / muy simple</td><td>"Explica como a alguien de [nivel]."</td></tr>
+  </table>
+  <p class="muted">Repite hasta que pasen las 5. El primer intento <b>nunca</b> queda.</p>
+</section>
+
+<section>
+  <div class="kicker">Reto final</div>
+  <h2>🔄 Prueba cruzada</h2>
+  <p>Intercambia tu asistente con alguien <b>de otra carrera</b>.</p>
+  <ul>
+    <li>Le hace 3 preguntas: una que sí está, una que no está, una trampa.</li>
+    <li>Te dice en una frase qué falló.</li>
+    <li><b>Arreglas una cosa en vivo</b> y se la muestras funcionando.</li>
+  </ul>
 </section>
 
 <section>
   <div class="kicker">Cierre</div>
-  <h2>📦 Lo que te llevas hoy</h2>
+  <h2>📦 Lo que te llevas</h2>
   <ul>
-    <li>Cuenta blindada: gestor + 2FA.</li>
-    <li>Drive con estructura PARA.</li>
-    <li>Cuaderno de NotebookLM con 10+ fuentes: la biblioteca del <b>Ejercicio 1</b>.</li>
-    <li>Al tablero: la afirmación que verificaste y el enlace a tu objeto 3D.</li>
+    <li>Tu asistente guardado, con instrucciones corregidas después de las pruebas.</li>
+    <li>Al tablero: enlace del asistente · tu mejor prompt · fuentes reales ___ de 5.</li>
   </ul>
-  <p class="pill">Próxima sesión: prompts de nivel pro y tu primer agente 🗣️🤖</p>
-</section>
-
-<section class="center">
-  <h1>🧙 Antes de irte: Gandalf, nivel 3</h1>
-  <p class="muted">Quien lo pase, cuenta cómo. La próxima clase entendemos por qué funcionó.</p>
+  <p class="pill">Es el corazón del Ejercicio 1 · Mi asistente de carrera</p>
 </section>
 
 </div>
 <div class="timer" id="timer"></div>
-<div class="foot"><span>Sesión 3 · Tu vida digital</span><span id="counter"></span><span>← → avanzar · F pantalla completa · T cronómetro</span></div>
+<div class="foot"><span>Sesión 3 · Prompts y tu asistente</span><span id="counter"></span><span>← → avanzar · F pantalla completa · T cronómetro</span></div>
 <script>
   const slides=[...document.querySelectorAll('section')];let i=Math.max(0,Math.min(slides.length-1,parseInt(location.hash.slice(1))||0));
   function show(n){slides.forEach(s=>s.classList.remove('active'));i=(n+slides.length)%slides.length;slides[i].classList.add('active');document.getElementById('counter').textContent=(i+1)+' / '+slides.length;location.hash=i;}
