@@ -3,7 +3,7 @@ title: Mapa del curso
 ---
 # Mapa del curso 🗺️
 
-16 sesiones · 1 sesión semanal de **2h30** · todo se construye en clase.
+17 sesiones · 1 sesión semanal de **2h30** · todo se construye en clase.
 
 Cada fila es una sesión: la unidad del PIIA que cubre, la **herramienta de IA del día** y lo que te llevas construido.
 
@@ -13,18 +13,19 @@ Cada fila es una sesión: la unidad del PIIA que cubre, la **herramienta de IA d
 | 2 | {doc}`S02_KitIA` | 1 · TIC | **Gemini + NotebookLM** | Un podcast generado por IA sobre tu carrera |
 | 3 | {doc}`S03_Prompts` | 2 · SIC | **Gemini + Gems** | Técnicas de prompt, tu ficha de instrucciones y tu asistente montado con ella |
 | 4 | {doc}`S04_Asistentes` | 2 · SIC · 4 · Datos | **Gems + Sheets, Docs y Slides** | Tres asistentes que producen: reporte con métricas, respuestas con plantilla y presentaciones con tu estilo |
-| 5 | Sesión 5 · Investigar con IA | 2 · SIC | **Deep Research + Perplexity + Consensus** | Un informe de investigación verificado y citado |
-| 6 | Sesión 6 · Ética, deepfakes y planeta | 2 · SIC | **Moral Machine + Detect Fakes + Miro AI** | Un manifiesto de uso ético de IA para tu profesión |
-| 7 | Sesión 7 · Tu página web | 3 · Uso y apropiación | **Google Sites + Lovable / Claude Artifacts** | Tu página web / portafolio publicado |
-| 8 | Sesión 8 · Multimedia con IA | 3 · Uso y apropiación | **Canva IA + Gamma + Veo/Flow + ElevenLabs** | Infografía, presentación y video de 60 s |
-| 9 | Sesión 9 · Sistemas de gestión sin código | 3 · Uso y apropiación | **Google AppSheet + Apps Script** | Un sistema de gestión funcionando en tu celular + tu primera automatización |
-| 10 | Sesión 10 · Obtener y limpiar datos | 4 · Datos | **Sheets con Gemini + datos.gov.co** | Un dataset limpio de tu área |
-| 11 | Sesión 11 · Analizar con IA | 4 · Datos | **Colab Data Science Agent + Gemini CLI** | Tres preguntas respondidas con datos |
-| 12 | Sesión 12 · Dashboards y data storytelling | 4 · Datos | **Looker Studio + Flourish + Claude Artifacts** | Un dashboard y una historia de datos |
-| 13 | Sesión 13 · Cómo funciona la IA | 5 · IA profesional | **Teachable Machine + Transformer Explainer + AI Studio** | Un modelo entrenado por ti |
-| 14 | Sesión 14 · Agentes | 5 · IA profesional | **Gemini CLI / Claude Code + Opal** | Un agente que hace una tarea real en tu carpeta |
-| 15 | Sesión 15 · Automatizaciones y bots | 5 · IA profesional | **n8n / Make + Telegram + Gemini API** | Un bot que chatea con tus PDFs |
-| 16 | Sesión 16 · Demo Day | 5 · IA profesional | **Todo tu kit** | Proyecto final presentado |
+| 5 | {doc}`S05_Asistente` | 2 · SIC · 5 · IA profesional | **Gems con herramientas** | El asistente de tu programa, con tus documentos adentro |
+| 6 | Sesión 6 · Investigar con IA | 2 · SIC | **Deep Research + Perplexity + Consensus** | Un informe de investigación verificado y citado |
+| 7 | Sesión 7 · Ética, deepfakes y planeta | 2 · SIC | **Moral Machine + Detect Fakes + Miro AI** | Un manifiesto de uso ético de IA para tu profesión |
+| 8 | Sesión 8 · Tu página web | 3 · Uso y apropiación | **Google Sites + Lovable / Claude Artifacts** | Tu página web / portafolio publicado |
+| 9 | Sesión 9 · Multimedia con IA | 3 · Uso y apropiación | **Canva IA + Gamma + Veo/Flow + ElevenLabs** | Infografía, presentación y video de 60 s |
+| 10 | Sesión 10 · Sistemas de gestión sin código | 3 · Uso y apropiación | **Google AppSheet + Apps Script** | Un sistema de gestión funcionando en tu celular + tu primera automatización |
+| 11 | Sesión 11 · Obtener y limpiar datos | 4 · Datos | **Sheets con Gemini + datos.gov.co** | Un dataset limpio de tu área |
+| 12 | Sesión 12 · Analizar con IA | 4 · Datos | **Colab Data Science Agent + Gemini CLI** | Tres preguntas respondidas con datos |
+| 13 | Sesión 13 · Dashboards y data storytelling | 4 · Datos | **Looker Studio + Flourish + Claude Artifacts** | Un dashboard y una historia de datos |
+| 14 | Sesión 14 · Cómo funciona la IA | 5 · IA profesional | **Teachable Machine + Transformer Explainer + AI Studio** | Un modelo entrenado por ti |
+| 15 | Sesión 15 · Agentes | 5 · IA profesional | **Gemini CLI / Claude Code + Opal** | Un agente que hace una tarea real en tu carpeta |
+| 16 | Sesión 16 · Automatizaciones y bots | 5 · IA profesional | **n8n / Make + Telegram + Gemini API** | Un bot que chatea con tus PDFs |
+| 17 | Sesión 17 · Demo Day | 5 · IA profesional | **Todo tu kit** | Proyecto final presentado |
 
 ## Hilos que atraviesan todo el curso
 

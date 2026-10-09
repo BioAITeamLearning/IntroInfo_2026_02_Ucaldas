@@ -14,7 +14,7 @@ En la sesión pasada montaste un asistente que **conversa**. Hoy montas tres que
 | **Google Docs** | Donde termina la respuesta redactada | [docs.google.com](https://docs.google.com) |
 | **Google Slides** | Donde termina la presentación | [slides.google.com](https://slides.google.com) |
 | **Hoja de prompts** | Todo lo de hoy, listo para copiar | <a href="_static/sesion04/prompts.html" target="_blank">Abrir</a> |
-| **Fichas de Gems** | Once asistentes listos para montar, uno por programa | <a href="_static/sesion04/gems.html" target="_blank">Abrir</a> |
+| **Fichas de Gems** | Once asistentes listos para montar, uno por programa | <a href="_static/sesion05/gems.html" target="_blank">Abrir</a> |
 
 ## 📂 Archivos de práctica
 
@@ -324,7 +324,7 @@ Escoge **uno** de los tres asistentes y adáptalo a algo que de verdad tengas qu
 
 ## 📽️ Material
 
-* <a href="_static/sesion04/gems.html" target="_blank">🧩 Once fichas de Gems listas para montar</a> — una por programa, con su herramienta, su documento de conocimiento y sus pruebas
+* <a href="_static/sesion05/gems.html" target="_blank">🧩 Once fichas de Gems listas para montar</a> — una por programa, con su herramienta, su documento de conocimiento y sus pruebas
 * <a href="_static/sesion04/prompts.html" target="_blank">📋 Todos los prompts y las tres fichas, listos para copiar</a>
 * <a href="_static/sesion04/slides.html" target="_blank">Diapositivas de la sesión</a>
 * <a href="_static/sesion04/guia.html" target="_blank">Guía de los tres casos</a>
