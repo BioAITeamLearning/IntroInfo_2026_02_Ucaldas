@@ -126,6 +126,98 @@ Al compartirlo se ven los **títulos** de sus archivos de conocimiento. El conte
 
 ---
 
+## 🧠 Cómo se plantea un asistente antes de montarlo
+
+Montar un Gem toma diez minutos. Pensarlo bien es lo que decide si lo vas a seguir usando en dos semanas o si lo vas a abandonar. Antes de abrir Gemini, piénsalo **como si fueras a contratar a alguien**.
+
+### Un asistente es como un empleado nuevo
+
+Es capaz, pero no sabe nada de tu trabajo hasta que se lo das:
+
+| Pieza | En un empleado nuevo | En el Gem |
+|---|---|---|
+| **El modelo** | La persona que llega | Gemini |
+| **Instrucciones** | Su inducción y su descripción de cargo | El campo Instrucciones |
+| **Conocimiento** | Los manuales y formatos de la oficina | El campo Conocimientos |
+| **Herramientas** | Su computador, su teléfono | Canvas, imagen, música, Deep Research |
+| **Memoria** | Su libreta de notas | La conversación actual |
+| **Disparador** | El horario o el aviso que lo pone a trabajar | Que tú le escribas |
+| **Control** | La firma del jefe | Tú, antes de usar lo que produjo |
+
+Casi siempre que un asistente "no sirve", lo que falta no es el modelo: es la inducción o los manuales.
+
+### ¿Esto necesita un asistente, o algo más simple?
+
+| | Qué es | Ejemplo |
+|---|---|---|
+| **Una pregunta suelta** | Le pides una cosa puntual y listo | "Reescribe este correo en tono formal" |
+| **Un flujo** | Pasos fijos, siempre los mismos | Formulario → fila en la hoja → aviso por correo |
+| **Un asistente** | Recibe un objetivo y decide los pasos | "Toma esta consulta, busca lo que aplica, redacta y dime si hay que derivarla" |
+
+La diferencia no es la tecnología: es **quién decide el camino**. Si los pasos son siempre iguales, no necesitas un asistente, necesitas un flujo — y eso lo vemos en la sesión de sistemas de gestión.
+
+### Los cinco pasos para diseñarlo
+
+**Paso 0 · Elige el proceso.** Lista cinco cosas repetitivas que haces y escoge una. Buen candidato: pasa seguido, te cuesta tiempo, si sale mal no es grave, y no exige juicio profesional insustituible.
+
+| Qué preguntarte | Buen candidato | Mal candidato |
+|---|---|---|
+| ¿Cada cuánto lo hago? | Varias veces por semana | Una vez al año |
+| ¿Cuánto me cuesta? | Media hora o más | Dos minutos |
+| ¿Qué pasa si sale mal? | Lo corrijo y ya | Afecta a una persona o a un derecho |
+| ¿Exige mi criterio profesional? | Poco: es ordenar y redactar | Todo: es decidir |
+
+**Paso 1 · El problema que resuelve.** ¿Qué te quita más de media hora cada semana? ¿Qué se te olvida y luego te arrepientes? ¿Qué información revisas en tres lugares distintos?
+
+**Paso 2 · Rol y tono.** Elige qué clase de asistente necesitas:
+
+| Rol | Cómo se comporta |
+|---|---|
+| **Asistente cuidadoso** | Formal, atento al detalle, revisa dos veces antes de entregar |
+| **Jefe de gabinete** | Directo, prioriza por ti, te quita de encima lo que no importa |
+| **Coach honesto** | Te confronta, no te endulza nada |
+| **Compañero de trabajo** | Informal, te habla de tú, comparte el contexto |
+| **Curador silencioso** | Solo aparece cuando hay algo que de verdad importa |
+
+Ojo: hay **dos tonos** en juego. Cómo te habla a ti, y cómo escribe lo que va a leer otra persona. No tienen por qué ser el mismo.
+
+**Paso 3 · La tarea principal.** Completa esta frase y no sigas hasta que quede concreta:
+
+> *"Mi asistente va a **[verbo]** **[objeto específico]** **[cuándo o con qué disparador]** para que yo pueda **[resultado para mí]**."*
+
+**La prueba de claridad:** ¿alguien que no te conoce entendería exactamente qué hace y para quién? Si no, está demasiado abstracto. "Me ayuda con los correos" no pasa la prueba.
+
+**Paso 4 · La métrica.** Dos frases:
+
+> *"Está funcionando si en una semana típica ______ pasa al menos ______ veces."*
+> *"Claramente NO está funcionando si ______."*
+
+La segunda es la línea roja. Casi siempre es *"si inventa un dato"* o *"si promete algo que no puedo cumplir"*.
+
+**Paso 5 · La caja de herramientas.** Lista todo lo que te gustaría que hiciera y después **recorta a lo mínimo que ya te ahorra tiempo**. Por cada capacidad pregúntate: ¿si solo tuviera esta, ya me sirve? Lo que no pase el filtro, fuera de la primera versión.
+
+### ¿Cuánta autonomía le das?
+
+| Nivel | Qué hace | Cuándo |
+|---|---|---|
+| **1 · Sugiere** | Te propone, tú decides y haces | Lo normal al empezar |
+| **2 · Prepara** | Deja el borrador listo, tú apruebas | Donde vive casi todo lo útil |
+| **3 · Actúa e informa** | Lo hace y te avisa | Cosas sin consecuencias |
+| **4 · Actúa solo** | Sin revisión | Casi nunca, y nunca con personas de por medio |
+
+Regla para este curso: **todo lo que afecte a otra persona se queda en nivel 1 o 2**. Un informe a un cliente, una respuesta a una familia, una ficha de un paciente, un concepto jurídico: borrador y revisión. Siempre.
+
+### El semáforo de los datos
+
+| | Qué es | Dónde puede ir |
+|---|---|---|
+| 🟢 **Verde** | Datos públicos o inventados para practicar | Cualquier herramienta |
+| 🟡 **Amarillo** | Información interna sin personas: procedimientos, plantillas, totales | Tu cuenta institucional |
+| 🔴 **Rojo** | Datos personales o sensibles: nombres, cédulas, historias clínicas, expedientes, datos de menores | **No entran.** Se anonimizan antes |
+
+En Colombia esto no es una recomendación: la Ley 1581 de 2012 regula el tratamiento de datos personales, y los datos sensibles tienen protección reforzada. Si vas a trabajar con información de personas reales —pacientes, clientes, familias, atletas, estudiantes— **se anonimiza primero**.
+
+
 ## 📊 Caso 1 · De una hoja de cálculo a un reporte
 
 **El encargo:** te pasan `registro-solicitudes.xlsx` y te piden "un informe de cómo vamos".
