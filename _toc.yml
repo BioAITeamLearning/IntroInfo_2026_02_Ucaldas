@@ -17,3 +17,4 @@ chapters:
 - file: Unidad2
   sections:
     - file: "S03_Prompts"
+    - file: "S04_Asistentes"

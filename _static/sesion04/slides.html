@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sesión 4 · Asistentes que trabajan con tus documentos</title>
+<style>
+  :root{--bg:#141619;--panel:#212529;--ink:#f4f5f7;--muted:#aab2bd;--accent:#ffc857;--accent2:#4cc9f0;--ok:#7bd88f;--warn:#ff6b6b;}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .deck{position:relative;height:100vh;overflow:hidden}
+  section{position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;padding:6vh 8vw;gap:2.2vh}
+  section.active{display:flex;animation:fade .25s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  h1{font-size:6.2vh;line-height:1.1;margin:0}
+  h2{font-size:4.6vh;line-height:1.15;margin:0}
+  h3{font-size:3vh;margin:0;color:var(--accent2)}
+  p,li{font-size:2.9vh;line-height:1.4;margin:0}
+  ul,ol{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:1.2vh}
+  .kicker{color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-size:2vh;font-weight:700}
+  .big{font-size:9vh;font-weight:800;color:var(--accent);line-height:1}
+  .quote{font-size:4.2vh;font-style:italic;line-height:1.3;border-left:.6vh solid var(--accent);padding-left:3vw;max-width:80vw}
+  .muted{color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(24vw,1fr));gap:2vh}
+  .card{background:var(--panel);border-radius:1.6vh;padding:2.4vh 2.2vw;display:flex;flex-direction:column;gap:1vh}
+  .card b{color:var(--accent2);font-size:2.6vh}
+  .card p{font-size:2.2vh}
+  table{border-collapse:collapse;width:100%;font-size:2.4vh}
+  th,td{border:1px solid #3a3f45;padding:1.2vh 1vw;text-align:left;vertical-align:top}
+  th{background:var(--panel);color:var(--accent)}
+  .tool{display:inline-block;background:var(--panel);border:1px solid #3a3f45;border-radius:999px;padding:.6vh 1.4vw;font-size:2.2vh;color:var(--accent2)}
+  .demo{display:grid;grid-template-columns:18vw 1fr;gap:3vw;align-items:center}
+  .demo .num{font-size:22vh;font-weight:900;color:var(--accent);line-height:1;opacity:.9}
+  .timer{position:fixed;top:2vh;right:2vw;font-size:2vh;color:var(--muted)}
+  .foot{position:fixed;bottom:2vh;left:2vw;right:2vw;display:flex;justify-content:space-between;font-size:1.8vh;color:var(--muted)}
+  .center{text-align:center;align-items:center}
+  .pill{background:var(--accent);color:#111;border-radius:999px;padding:.6vh 1.6vw;font-weight:700;font-size:2.2vh;display:inline-block}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:3vw}
+  a{color:var(--accent2)}
+  @media print{section{display:flex!important;position:relative;height:100vh;page-break-after:always}.foot,.timer{display:none!important}}
+</style>
+</head>
+<body>
+<div class="deck">
+
+<section class="center">
+  <div class="kicker">Introducción a la Informática · UCaldas 2026-2 · Sesión 4</div>
+  <h1>Asistentes que trabajan<br>con tus documentos 📊📄🖼️</h1>
+  <p class="muted">La clase pasada montaste uno que conversa. Hoy montas tres que producen.</p>
+</section>
+
+<section>
+  <div class="kicker">Los tres casos de hoy</div>
+  <div class="grid">
+    <div class="card"><b>📊 Excel → reporte</b><p>Una hoja de cálculo entra, salen métricas, hallazgos y una gráfica.</p></div>
+    <div class="card"><b>📄 Plantilla → respuestas</b><p>Un formato institucional entra, salen documentos que respetan su estructura y su tono.</p></div>
+    <div class="card"><b>🖼️ Presentación → estilo</b><p>Una presentación base entra, salen presentaciones nuevas con el mismo estilo.</p></div>
+  </div>
+  <p class="pill">Los tres son cosas que te van a pedir en un trabajo</p>
+</section>
+
+<section>
+  <div class="kicker">Descarga los archivos antes de empezar</div>
+  <h2>📂 Material de práctica</h2>
+  <table>
+    <tr><td><b>registro-solicitudes.xlsx</b></td><td>62 filas con errores a propósito</td></tr>
+    <tr><td><b>plantilla-respuesta.docx</b></td><td>Cinco secciones y sus reglas de redacción</td></tr>
+    <tr><td><b>ejemplo-respuesta-diligenciada.docx</b></td><td>Una respuesta ya escrita, para copiar el tono</td></tr>
+    <tr><td><b>solicitudes-para-responder.docx</b></td><td>Tres solicitudes para contestar</td></tr>
+    <tr><td><b>presentacion-base.pptx</b></td><td>El estilo que vamos a reutilizar</td></tr>
+  </table>
+  <p class="muted">Todo en la página del curso. Son archivos ficticios, hechos para la clase.</p>
+</section>
+
+<section>
+  <div class="kicker">Lo mínimo</div>
+  <h2>Qué puede y qué no puede un Gem</h2>
+  <div class="cols">
+    <div class="card"><b style="color:var(--ok)">Puede</b><ul>
+      <li>Leer los archivos que le subas</li>
+      <li>Guardar documentos como <b>conocimiento permanente</b></li>
+      <li>Calcular, comparar, clasificar, redactar</li>
+      <li>Devolverte el resultado listo para exportar</li></ul></div>
+    <div class="card"><b style="color:var(--warn)">No puede</b><ul>
+      <li><b>Modificar</b> tus archivos</li>
+      <li>Acordarse de lo que adjuntaste en otra conversación</li>
+      <li>Garantizar que la cuenta está bien</li>
+      <li>Saber lo que no está en sus documentos</li></ul></div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Dos lugares distintos</div>
+  <table>
+    <tr><th>Conocimiento del Gem</th><th>Adjunto en el chat</th></tr>
+    <tr><td>Define cómo trabaja <b>siempre</b></td><td>El material <b>de hoy</b></td></tr>
+    <tr><td>La plantilla, la guía de estilo, el instructivo</td><td>El Excel de este mes, la solicitud de este estudiante</td></tr>
+    <tr><td>Se carga una vez</td><td>Se adjunta cada vez</td></tr>
+  </table>
+</section>
+
+<section class="center">
+  <div class="kicker">Caso 1</div>
+  <h1>📊 De una hoja de cálculo a un reporte</h1>
+  <p class="muted">"Te paso el registro y me cuentas cómo vamos"</p>
+</section>
+
+<section>
+  <h2>Lo que le pedimos al Gem que haga <i>antes</i> de calcular</h2>
+  <ol>
+    <li>Revisar la <b>calidad de los datos</b> y decirme qué encontró.</li>
+    <li><b>Preguntarme</b> qué hago con cada problema.</li>
+    <li>Solo entonces, calcular y armar el reporte.</li>
+  </ol>
+  <p class="pill">Ese orden es lo que separa un reporte confiable de uno bonito</p>
+</section>
+
+<section>
+  <div class="kicker">El archivo trae errores puestos a propósito</div>
+  <table>
+    <tr><td>Filas duplicadas</td><td>Una dependencia vacía</td></tr>
+    <tr><td>Fechas en tres formatos distintos</td><td>La misma oficina escrita de tres maneras</td></tr>
+    <tr><td>Un valor de días negativo</td><td>Una calificación de 9 en una escala de 1 a 5</td></tr>
+  </table>
+  <p class="muted">Si tu asistente no los menciona, el que está fallando es el prompt, no los datos.</p>
+</section>
+
+<section>
+  <div class="kicker">Caso 1 · manos a la obra</div>
+  <table>
+    <tr><td><b>1</b></td><td>Adjunta el Excel y pide: <i>"Revisa la calidad de estos datos antes de calcular nada."</i></td></tr>
+    <tr><td><b>2</b></td><td><b>Abre la hoja</b> y busca dos de los problemas que mencionó. ¿Existen? ¿Se le escapó alguno?</td></tr>
+    <tr><td><b>3</b></td><td>Dile qué hacer con cada problema y pide el reporte</td></tr>
+    <tr><td><b>4</b></td><td>Pide la gráfica. Si no la genera, hazla en Sheets con la tabla que te dé</td></tr>
+    <tr><td><b>5</b></td><td>Exporta a Docs y a Sheets</td></tr>
+  </table>
+</section>
+
+<section class="center">
+  <h1>⚠️ Verificación obligatoria</h1>
+  <p>Toma <b>dos</b> números del reporte y recalcúlalos tú en la hoja con una fórmula.</p>
+  <p class="muted">Un reporte bonito con una cifra mal calculada es peor que no tener reporte.</p>
+</section>
+
+<section class="center">
+  <div class="kicker">Caso 2</div>
+  <h1>📄 De una plantilla a respuestas</h1>
+  <p class="muted">Responder sin que se note que cambió quién escribe</p>
+</section>
+
+<section>
+  <div class="kicker">Caso 2 · el montaje</div>
+  <table>
+    <tr><th>Dónde</th><th>Qué va</th></tr>
+    <tr><td><b>Conocimiento</b> del Gem</td><td>La plantilla + el ejemplo ya diligenciado</td></tr>
+    <tr><td><b>Instrucciones</b></td><td>Pregunta antes de redactar · respeta las cinco secciones · imita el tono del ejemplo · si falta una norma escribe [VERIFICAR NORMA]</td></tr>
+    <tr><td><b>Chat</b></td><td>La solicitud de hoy</td></tr>
+  </table>
+</section>
+
+<section>
+  <div class="kicker">Caso 2 · qué revisar</div>
+  <ul>
+    <li>¿Te <b>hizo preguntas</b> antes de redactar? Si redactó de una, le falta la instrucción.</li>
+    <li>¿Están las cinco secciones, con sus títulos?</li>
+    <li>¿Alguna frase pasa de 25 palabras?</li>
+    <li>¿Dónde quedaron los <b>[VERIFICAR NORMA]</b>? Ahí es donde trabajas tú.</li>
+  </ul>
+  <p class="pill">Prueba el límite: pídele la devolución del dinero sin darle la política de reembolsos</p>
+</section>
+
+<section class="center">
+  <div class="kicker">Caso 3</div>
+  <h1>🖼️ De una presentación base a tu estilo</h1>
+</section>
+
+<section>
+  <h2>Seamos claros con lo que pasa aquí</h2>
+  <p><b>El Gem no rediseña tu PowerPoint.</b></p>
+  <p>Lo que hace: saca las reglas de estilo de la presentación base y escribe el contenido nuevo respetándolas, lámina por lámina.</p>
+  <p class="muted">El diseño lo aplicas tú una sola vez, con un tema guardado en Slides. Después solo pegas.</p>
+</section>
+
+<section>
+  <div class="kicker">Caso 3 · los dos pasos</div>
+  <table>
+    <tr><td><b>1</b></td><td>Subes la presentación base y le pides la <b>guía de estilo</b>: colores, tipografía, tipos de lámina, reglas de composición</td></tr>
+    <tr><td><b>2</b></td><td>Esa guía se vuelve el <b>conocimiento</b> del Gem «Diseñador de presentaciones»</td></tr>
+  </table>
+  <p class="muted">Entrega una lámina por bloque: título · cuerpo · notas del orador.</p>
+</section>
+
+<section>
+  <div class="kicker">Cierre</div>
+  <h2>🔄 ¿Cuál de los tres te sirve ya?</h2>
+  <p>Escoge <b>uno</b> y adáptalo a algo que de verdad tengas que hacer este semestre.</p>
+  <table>
+    <tr><td>Biología · Alimentos</td><td>Analista de resultados de laboratorio</td></tr>
+    <tr><td>Derecho</td><td>Redactor de derechos de petición con tus formatos</td></tr>
+    <tr><td>Estudios de familia</td><td>Sistematizador de entrevistas en matriz de categorías</td></tr>
+    <tr><td>Diseño visual · Artes</td><td>Guía de estilo viva sobre tu portafolio</td></tr>
+    <tr><td>Deporte</td><td>Analista de cargas con alertas por atleta</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>📦 Lo que te llevas</h2>
+  <ul>
+    <li>Tres asistentes montados y probados con archivos reales.</li>
+    <li>Uno de ellos adaptado a algo tuyo.</li>
+    <li>Al tablero: cuál adaptaste, para qué, y los dos números que recalculaste a mano.</li>
+  </ul>
+</section>
+
+</div>
+<div class="timer" id="timer"></div>
+<div class="foot"><span>Sesión 4 · Asistentes que trabajan</span><span id="counter"></span><span>← → avanzar · F pantalla completa · T cronómetro</span></div>
+<script>
+  const slides=[...document.querySelectorAll('section')];let i=Math.max(0,Math.min(slides.length-1,parseInt(location.hash.slice(1))||0));
+  function show(n){slides.forEach(s=>s.classList.remove('active'));i=(n+slides.length)%slides.length;slides[i].classList.add('active');document.getElementById('counter').textContent=(i+1)+' / '+slides.length;location.hash=i;}
+  show(i);
+  let t0=null;setInterval(()=>{if(t0){const s=Math.floor((Date.now()-t0)/1000);document.getElementById('timer').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');}},500);
+  document.addEventListener('keydown',e=>{
+    if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();show(i+1);}
+    else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();show(i-1);}
+    else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);
+    else if(e.key.toLowerCase()==='f'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();}
+    else if(e.key.toLowerCase()==='t'){t0=t0?null:Date.now();if(!t0)document.getElementById('timer').textContent='';}
+  });
+  document.addEventListener('click',e=>{if(e.target.closest('a'))return;(e.clientX>innerWidth/2)?show(i+1):show(i-1);});
+</script>
+</body>
+</html>

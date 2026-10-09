@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Sesión 4 · Guía de los tres casos</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#212529;background:#eee}
+  .page{background:#fff;width:210mm;min-height:297mm;margin:10mm auto;padding:14mm 16mm;page-break-after:always;display:flex;flex-direction:column;gap:6mm}
+  h1{font-size:20pt;margin:0}
+  h2{font-size:14pt;margin:0;color:#0d6efd}
+  p,li,td,th{font-size:10.5pt;line-height:1.35}
+  .kicker{font-size:9pt;letter-spacing:.12em;text-transform:uppercase;color:#6c757d;font-weight:700}
+  .box{border:1.5px solid #212529;border-radius:4mm;padding:5mm 6mm;display:flex;flex-direction:column;gap:3mm}
+  .reto{background:#fff8e1;border-color:#ffc857}
+  table{border-collapse:collapse;width:100%}
+  th,td{border:1px solid #212529;padding:2.2mm 2.5mm;text-align:left;vertical-align:top}
+  th{background:#f1f3f5}
+  td.blank{height:11mm}
+  ol,ul{margin:0;padding-left:5mm}
+  .foot{margin-top:auto;font-size:8.5pt;color:#6c757d;display:flex;justify-content:space-between}
+  .print{position:fixed;top:10px;right:10px;padding:8px 14px;border:0;border-radius:6px;background:#212529;color:#fff;font-size:14px;cursor:pointer}
+  @media print{body{background:#fff}.page{margin:0;width:auto;min-height:auto}.print{display:none}@page{size:A4;margin:0}}
+  code{font-size:9.5pt;background:#f1f3f5;padding:0 1mm}
+</style>
+</head>
+<body>
+<button class="print" onclick="window.print()">🖨️ Imprimir</button>
+
+<div class="page">
+  <div class="kicker">Sesión 4 · Caso 1 · De una hoja de cálculo a un reporte</div>
+  <h1>📊 Analista de reportes</h1>
+  <p><b>Nombre:</b> ____________________________  <b>Área:</b> ______________________</p>
+  <div class="box">
+    <h2>Paso 1 · Que revise la calidad antes de calcular</h2>
+    <p>Adjunta <code>registro-solicitudes.xlsx</code> y escribe: <code>Revisa la calidad de estos datos antes de calcular nada.</code></p>
+    <table>
+      <tr><th style="width:52%">Problema que debería encontrar</th><th style="width:16%">¿Lo mencionó?</th><th>¿Lo comprobaste tú en la hoja?</th></tr>
+      <tr><td>Filas duplicadas</td><td>☐ Sí ☐ No</td><td>☐ Sí ☐ No</td></tr>
+      <tr><td>Fechas en formatos distintos</td><td>☐ Sí ☐ No</td><td>☐ Sí ☐ No</td></tr>
+      <tr><td>La misma dependencia escrita de varias maneras</td><td>☐ Sí ☐ No</td><td>☐ Sí ☐ No</td></tr>
+      <tr><td>Una dependencia vacía</td><td>☐ Sí ☐ No</td><td>☐ Sí ☐ No</td></tr>
+      <tr><td>Un valor de días negativo</td><td>☐ Sí ☐ No</td><td>☐ Sí ☐ No</td></tr>
+      <tr><td>Una calificación fuera de la escala de 1 a 5</td><td>☐ Sí ☐ No</td><td>☐ Sí ☐ No</td></tr>
+      <tr><td>Otro que encontró y no estaba en esta lista:</td><td colspan="2" class="blank"></td></tr>
+    </table>
+  </div>
+  <div class="box reto">
+    <h2>Paso 5 · Verificación obligatoria</h2>
+    <p>Toma dos métricas del reporte y recalcúlalas tú con una fórmula en la hoja.</p>
+    <table>
+      <tr><th style="width:34%">Métrica</th><th style="width:16%">Valor del reporte</th><th style="width:28%">Fórmula que usaste</th><th>Tu resultado</th></tr>
+      <tr><td class="blank"></td><td></td><td></td><td></td></tr>
+      <tr><td class="blank"></td><td></td><td></td><td></td></tr>
+    </table>
+    <p>¿Coincidieron? ☐ Sí ☐ No &nbsp;&nbsp; Si no: ¿de dónde salió la diferencia? ______________________________________</p>
+    <p>Gráfico que recomendó: ____________________ ¿Por qué ese y no otro? ______________________________________</p>
+  </div>
+  <div class="foot"><span>Introducción a la Informática · UCaldas 2026-2</span><span>Un reporte bonito con una cifra mal calculada es peor que no tener reporte</span></div>
+</div>
+
+<div class="page">
+  <div class="kicker">Sesión 4 · Caso 2 · De una plantilla a respuestas</div>
+  <h1>📄 Redactor de respuestas</h1>
+  <div class="box">
+    <h2>El montaje</h2>
+    <table>
+      <tr><th style="width:28%">Dónde</th><th>Qué va</th><th style="width:14%">Listo</th></tr>
+      <tr><td><b>Conocimiento</b> del Gem</td><td><code>plantilla-respuesta.docx</code> y <code>ejemplo-respuesta-diligenciada.docx</code></td><td>☐</td></tr>
+      <tr><td><b>Instrucciones</b></td><td>La ficha de la hoja de prompts</td><td>☐</td></tr>
+      <tr><td><b>Chat</b></td><td>La solicitud que escogiste: ☐ 1 (salón) ☐ 2 (certificado) ☐ 3 (devolución)</td><td>☐</td></tr>
+    </table>
+  </div>
+  <div class="box reto">
+    <h2>Revisa la respuesta</h2>
+    <table>
+      <tr><th style="width:62%">Revisa</th><th>Resultado</th></tr>
+      <tr><td>¿Te hizo preguntas <b>antes</b> de redactar? ¿Cuáles?</td><td class="blank"></td></tr>
+      <tr><td>¿Están las cinco secciones con sus títulos?</td><td>☐ Sí ☐ Faltó: ____</td></tr>
+      <tr><td>¿Alguna frase pasa de 25 palabras?</td><td>☐ No ☐ Sí: ____</td></tr>
+      <tr><td>¿Usó "se le informa que" o alguna sigla sin explicar?</td><td>☐ No ☐ Sí</td></tr>
+      <tr><td>¿Dónde quedaron los <code>[VERIFICAR NORMA]</code>?</td><td class="blank"></td></tr>
+    </table>
+  </div>
+  <div class="box">
+    <h2>Prueba el límite</h2>
+    <p>Pídele la respuesta de la <b>solicitud 3</b> (devolución del dinero) <b>sin</b> darle la política de reembolsos.</p>
+    <p>¿Se inventó una política? ☐ Sí ☐ No &nbsp;&nbsp; ¿Qué hizo en vez de inventarla? ______________________________</p>
+    <p>Si se la inventó, ¿qué línea le agregarías a la ficha? ______________________________________________</p>
+  </div>
+  <div class="foot"><span>Las preguntas que te hace antes de redactar son la señal de que la ficha quedó bien</span><span>UCaldas 2026-2</span></div>
+</div>
+
+<div class="page">
+  <div class="kicker">Sesión 4 · Caso 3 · De una presentación base a tu estilo</div>
+  <h1>🖼️ Diseñador de presentaciones</h1>
+  <div class="box">
+    <h2>Paso 1 · Extrae la guía de estilo</h2>
+    <p>Sube <code>presentacion-base.pptx</code> y pide la guía de estilo (el prompt está en la hoja). Anota lo que encontró:</p>
+    <table>
+      <tr><th style="width:30%">Elemento</th><th>Lo que dijo</th></tr>
+      <tr><td>Colores y para qué se usa cada uno</td><td class="blank"></td></tr>
+      <tr><td>Tipografía</td><td class="blank"></td></tr>
+      <tr><td>Tipos de lámina</td><td class="blank"></td></tr>
+      <tr><td>Reglas de composición que se repiten</td><td class="blank"></td></tr>
+    </table>
+    <p>Ábrelo tú y compara: ¿acertó? ¿se le escapó algo? ______________________________________________</p>
+  </div>
+  <div class="box reto">
+    <h2>Paso 2 · El Gem</h2>
+    <p>Conocimiento: la guía de estilo que acabas de generar. Instrucciones: la ficha de la hoja de prompts.</p>
+    <p>Pídele: <code>Con el reporte del Caso 1, arma una presentación de 6 láminas para el jefe de la oficina.</code></p>
+    <table>
+      <tr><th style="width:62%">Revisa</th><th>Resultado</th></tr>
+      <tr><td>¿Los títulos dicen el hallazgo o solo el tema?</td><td>☐ Hallazgo ☐ Tema</td></tr>
+      <tr><td>¿Alguna lámina pasa de 4 viñetas o de 12 palabras por viñeta?</td><td>☐ No ☐ Sí: lámina ____</td></tr>
+      <tr><td>¿Entregó notas del orador?</td><td>☐ Sí ☐ No</td></tr>
+      <tr><td>¿Usó los tipos de lámina de la guía?</td><td>☐ Sí ☐ No</td></tr>
+    </table>
+  </div>
+  <div class="box">
+    <h2>Cierre · ¿cuál de los tres te sirve ya?</h2>
+    <p>Escojo adaptar el asistente: ☐ Analista de reportes ☐ Redactor de respuestas ☐ Diseñador de presentaciones</p>
+    <p>Lo voy a usar para: ______________________________________________________________________</p>
+    <p>Los documentos que le voy a dar como conocimiento son: ______________________________________</p>
+  </div>
+  <div class="foot"><span>Al tablero: cuál adaptaste, para qué, y los dos números que recalculaste a mano</span><span>UCaldas 2026-2</span></div>
+</div>
+
+</body>
+</html>
