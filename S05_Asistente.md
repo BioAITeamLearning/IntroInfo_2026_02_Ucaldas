@@ -12,6 +12,7 @@ Hasta ahora montaste asistentes con documentos que te dimos nosotros. Hoy montas
 | **Gems** (Gemini) | El asistente | [gemini.google.com/gems](https://gemini.google.com/gems) |
 | **Fichas de Gems** | Lo que va en cada campo, listo para copiar | <a href="_static/sesion05/gems.html" target="_blank">Abrir</a> |
 | **Google Docs** | Donde aterriza lo que produce Canvas | [docs.google.com](https://docs.google.com) |
+| **Todos los materiales** | Los PDF y los archivos de trabajo, en un solo ZIP | <a href="_static/sesion05/materiales-sesion05.zip">⬇️ Descargar</a> |
 
 ## 🎯 Qué te llevas
 
@@ -52,8 +53,25 @@ Las once fichas están <a href="_static/sesion05/gems.html" target="_blank">en e
 | **9 · Vigilancia de normativa y mercado** | Cualquiera | Deep Research | — |
 | **10 · Tutor de mi materia** | Cualquiera | Aprendizaje guiado | Tus propios apuntes |
 | **11 · Ambientación sonora** | Artes · Diseño | Crear música | — |
+| **12 · Analista de reportes** | Cualquiera, con datos | Canvas | Ninguno: la hoja se adjunta en el chat |
+| **13 · Diseñador de presentaciones** | Cualquiera | Canvas | La guía de estilo que armes en clase |
 
 Los PDF son **documentos de práctica**: están escritos como se escriben los formatos de verdad, pero son ficticios. Más adelante los vas a reemplazar por los tuyos.
+
+### Archivos de trabajo
+
+Las fichas 12 y 13 no llevan PDF de conocimiento: trabajan sobre un archivo que **adjuntas en el chat**, porque es el dato de hoy y no una regla permanente. Esa es la diferencia que conviene tener clara.
+
+| Archivo | Para qué | |
+|---|---|---|
+| **registro-solicitudes.xlsx** | Oficina universitaria. Sirve para cualquier programa | <a href="_static/sesion05/archivos/registro-solicitudes.xlsx">⬇️</a> |
+| **deportes-cargas-semanales.xlsx** | Sesiones, RPE, sueño y dolor por atleta | <a href="_static/sesion05/archivos/deportes-cargas-semanales.xlsx">⬇️</a> |
+| **alimentos-control-proceso.xlsx** | Temperatura, pH y Brix por lote y etapa | <a href="_static/sesion05/archivos/alimentos-control-proceso.xlsx">⬇️</a> |
+| **geologia-muestras.xlsx** | Muestras, coordenadas, litología y análisis | <a href="_static/sesion05/archivos/geologia-muestras.xlsx">⬇️</a> |
+| **presentacion-base.pptx** | La presentación de la que se saca la guía de estilo | <a href="_static/sesion05/archivos/presentacion-base.pptx">⬇️</a> |
+| **plantilla-respuesta.docx** y **solicitudes-para-responder.docx** | Para la ficha 6, de Derecho | <a href="_static/sesion05/archivos/plantilla-respuesta.docx">⬇️</a> <a href="_static/sesion05/archivos/solicitudes-para-responder.docx">⬇️</a> |
+
+Las cuatro hojas de cálculo traen **errores sembrados a propósito**: duplicados, celdas vacías, fechas en varios formatos, la misma categoría escrita de distintas maneras y valores imposibles. Son para que el asistente los encuentre y tú los compruebes.
 
 ---
 
