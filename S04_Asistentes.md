@@ -216,32 +216,60 @@ No usas "se le informa que", ni siglas sin explicar.
 
 Prueba el límite: pídele que responda la **solicitud 3** (la devolución del dinero) sin darle ninguna información sobre la política de reembolsos. Debería decirte que le falta ese dato, no inventarse una política.
 
+```{admonition} Probado el 9 de octubre
+:class: note
+Con la plantilla y las solicitudes adjuntas, devolvió la carta con **las cinco secciones y sus títulos exactos**, frases cortas, `[VERIFICAR]` en la fecha y en la firma, y en el punto 2 escribió *"No existe un procedimiento ni norma específica citada"* en vez de inventarse una norma.
+
+Dos cosas que sí hay que vigilar: **decidió por su cuenta** conceder la solicitud (nadie se lo dijo), y escribió "adjuntamos el documento" cuando nadie mencionó un adjunto. Por eso la ficha del Gem lleva la línea *"la decisión la tomo yo"*: sin ella, decide él.
+```
+
 ---
 
 ## 🖼️ Caso 3 · De una presentación base a tu estilo
 
 **El encargo:** existe una presentación institucional y todas las demás deben parecerse a ella.
 
-Aquí hay que ser claro con lo que pasa: **el Gem no rediseña tu PowerPoint**. Lo que hace es sacar las reglas de estilo de la presentación base y escribir el contenido nuevo respetándolas, lámina por lámina. El diseño lo aplicas tú una sola vez, con un tema guardado en Slides.
+```{admonition} Lo que probamos y no funcionó
+:class: warning
+Le subimos la presentación a Gemini con la cuenta institucional y le pedimos la guía de estilo. Respondió: *"Lo que me pides está fuera de mis capacidades programadas. Solo genero texto."* Lo mismo al subirle una **imagen** de la lámina.
 
-### Primero, extrae el estilo
+En cambio, **sí lee el texto** del archivo: le preguntamos cuántas láminas tiene y qué dice cada título, y respondió bien (aunque se saltó una lámina: hay que verificar).
 
-Sube `presentacion-base.pptx` a Gemini y pídele:
-
-```
-Analiza esta presentación y escríbeme su guía de estilo: colores que usa
-y para qué, tipografía, cuántas palabras tiene en promedio cada lámina,
-qué tipos de lámina existen (portada, agenda, separador, contenido, cifras,
-cierre) y qué reglas de composición se repiten. Devuélvemelo como una lista
-de reglas que yo pueda darle a otra persona para que haga una presentación
-igual sin ver esta.
+Conclusión: en esta cuenta, **la IA no te va a describir colores ni tipografías**. El diseño lo miras tú. Ella se encarga del contenido.
 ```
 
-Esa lista es el documento de conocimiento del siguiente Gem.
+Así que el trabajo se reparte: **tú escribes las reglas visuales mirando la presentación**, y **Gemini extrae las reglas de estructura** desde el texto del archivo. Las dos juntas son la guía de estilo.
 
-### Monta el Gem
+### Paso 1 · Las reglas visuales las escribes tú
 
-Nombre: `Diseñador de presentaciones`. En **Conocimientos**, la guía de estilo que acabas de generar (pégala en un Doc y súbela). En **Instrucciones**:
+Abre `presentacion-base.pptx` y llena esto mirando (está también en la guía impresa):
+
+| Elemento | Lo que ves |
+|---|---|
+| Color de fondo de la portada y los separadores | |
+| Color de fondo de las láminas de contenido | |
+| Color de los acentos: cifras, barras, detalles | |
+| Tipografía | |
+| ¿Qué elemento gráfico se repite en todas las láminas? | |
+
+Mirar y nombrar lo que ves es la mitad del oficio de quien diseña. Hoy te toca a ti.
+
+### Paso 2 · Las reglas de estructura las saca Gemini
+
+Sube la presentación y pídele:
+
+```
+Lee el texto de esta presentación y dime: cuántas láminas tiene, qué dice
+el título de cada una, qué tipos de lámina identificas (portada, agenda,
+separador, contenido, cifras, cierre) y cuántas palabras tiene en promedio
+cada una. Solo el texto, no me describas el diseño.
+```
+
+**Verifica**: abre la presentación y cuenta. En nuestra prueba se saltó una lámina.
+
+### Paso 3 · Monta el Gem
+
+Nombre: `Diseñador de presentaciones`. En **Conocimientos**, un documento con las dos listas: tus reglas visuales y las reglas de estructura. En **Instrucciones**:
 
 ```
 QUIÉN ERES
@@ -261,24 +289,17 @@ Respetas el número de láminas que te pida.
 Respetas los tipos de lámina de la guía y los usas en el mismo orden lógico.
 El título de cada lámina dice el hallazgo, no el tema.
 Lo que no cabe en la lámina va a las notas del orador.
-Si me ves metiendo mucho texto en una lámina, me lo adviertes y la partes.
+Nunca describes ni cambias el diseño: de eso me encargo yo en Slides.
 ```
 
-### Úsalo
+### Paso 4 · Úsalo
 
 | Paso | Qué haces |
 |---|---|
-| 1 | Pídele: `Con el reporte del Caso 1, arma una presentación de 6 láminas para el jefe de la oficina.` |
-| 2 | Abre Slides, crea una presentación, y aplica el tema una vez: colores y tipografía de la guía (*Diapositiva → Cambiar tema*, o edita el patrón) |
+| 1 | `Con el reporte del Caso 1, arma una presentación de 6 láminas para el jefe de la oficina.` |
+| 2 | En Slides, aplica **una vez** los colores y la tipografía que anotaste en el paso 1 |
 | 3 | Pega el contenido lámina por lámina, incluidas las notas del orador |
-| 4 | Compara con `presentacion-base.pptx` abierta al lado. ¿Se parecen? |
-
-```{admonition} Atajo
-:class: tip
-Si en Slides creas **una** presentación con tu estilo y la guardas como plantilla, no vuelves a hacer este paso nunca: abres una copia y pegas el contenido que te dé el Gem.
-```
-
----
+| 4 | Guarda esa presentación como tu plantilla: no vuelves a hacer el paso 2 nunca |
 
 ## 🔄 Cierre · ¿cuál de los tres te sirve ya?
 
