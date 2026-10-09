@@ -14,6 +14,7 @@ En la sesión pasada montaste un asistente que **conversa**. Hoy montas tres que
 | **Google Docs** | Donde termina la respuesta redactada | [docs.google.com](https://docs.google.com) |
 | **Google Slides** | Donde termina la presentación | [slides.google.com](https://slides.google.com) |
 | **Hoja de prompts** | Todo lo de hoy, listo para copiar | <a href="_static/sesion04/prompts.html" target="_blank">Abrir</a> |
+| **Fichas de Gems** | Once asistentes listos para montar, uno por programa | <a href="_static/sesion04/gems.html" target="_blank">Abrir</a> |
 
 ## 📂 Archivos de práctica
 
@@ -33,15 +34,23 @@ Descárgalos antes de empezar, o ábrelos desde la <a href="https://drive.google
 
 | Puede | No puede |
 |---|---|
-| Leer los archivos que le subas y trabajar con ellos | **Modificar** tus archivos. No te devuelve el Excel corregido ni el PowerPoint rediseñado |
+| Leer los archivos que le subas y trabajar con ellos | **Escribir dentro** de tus archivos de Drive. No te añade la fila al Excel ni rediseña el PowerPoint |
+| Con **Canvas**, devolverte un documento editable que vas puliendo en la conversación y exportas a Docs | Recordar lo que hiciste en otra conversación |
 | Guardar documentos como **conocimiento permanente**: los tiene siempre a mano | Acordarse de un archivo que adjuntaste suelto en una conversación anterior |
 | Calcular, comparar, clasificar y redactar sobre esos datos | Garantizar que la cuenta está bien: eso lo verificas tú |
 | Devolverte el resultado listo para exportar a Docs, Sheets o Slides | Saber cosas que no estén ni en los documentos ni en su entrenamiento |
 
 Dos lugares distintos para poner un archivo, y conviene no confundirlos:
 
-* **Conocimiento del Gem**: lo que define cómo trabaja siempre. Ahí va la plantilla, la guía de estilo, el instructivo. Se carga una vez.
+* **Conocimiento del Gem**: lo que define cómo trabaja siempre. Ahí va la plantilla, la guía de estilo, el instructivo. Se carga una vez. Si lo vinculas **desde Drive**, el Gem lee siempre la versión más reciente: tú editas el archivo y él lo ve al instante.
 * **Adjunto en el chat**: el material de hoy. Ahí va el Excel de este mes, la solicitud de este estudiante.
+
+```{admonition} ¿Y si quiero que la bitácora se escriba sola?
+:class: note
+El Gem no escribe dentro de tu hoja. Las rutas que sí funcionan, de menos a más trabajo: que el Gem te **devuelva la fila lista** y tú la pegues · un **Google Form** que añade la fila solo · **Gemini en Sheets** desde el panel lateral de la hoja abierta · un **Apps Script** con `appendRow`, que el propio Gemini te escribe · o una app de **AppSheet**. Las tres últimas son la sesión de sistemas de gestión.
+
+Lo que sí cambia el juego hoy es **Canvas**: el Gem mantiene el documento abierto y le va agregando, y tú lo exportas a Docs cuando quieras. Es lo más cerca que vas a estar de "ir dictándole y que se vaya escribiendo".
+```
 
 ### Varios archivos a la vez
 
@@ -315,6 +324,7 @@ Escoge **uno** de los tres asistentes y adáptalo a algo que de verdad tengas qu
 
 ## 📽️ Material
 
+* <a href="_static/sesion04/gems.html" target="_blank">🧩 Once fichas de Gems listas para montar</a> — una por programa, con su herramienta, su documento de conocimiento y sus pruebas
 * <a href="_static/sesion04/prompts.html" target="_blank">📋 Todos los prompts y las tres fichas, listos para copiar</a>
 * <a href="_static/sesion04/slides.html" target="_blank">Diapositivas de la sesión</a>
 * <a href="_static/sesion04/guia.html" target="_blank">Guía de los tres casos</a>
