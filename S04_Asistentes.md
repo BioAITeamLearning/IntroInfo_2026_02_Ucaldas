@@ -43,6 +43,32 @@ Dos lugares distintos para poner un archivo, y conviene no confundirlos:
 * **Conocimiento del Gem**: lo que define cómo trabaja siempre. Ahí va la plantilla, la guía de estilo, el instructivo. Se carga una vez.
 * **Adjunto en el chat**: el material de hoy. Ahí va el Excel de este mes, la solicitud de este estudiante.
 
+### Varios archivos a la vez
+
+Puedes adjuntar **más de un archivo en el mismo mensaje**: la hoja de cálculo, la plantilla y las solicitudes juntas. Quedan disponibles durante toda la conversación y el asistente puede cruzarlas.
+
+Dos cosas que aprendimos probándolo:
+
+* **Una petición por mensaje.** Si le pides tres cosas numeradas de una vez, es muy probable que responda *"solo soy un modelo de lenguaje"* y no haga nada. Separado en tres mensajes, funciona sin problema.
+* **Verás un enlace "Mostrar código"** encima de la respuesta. Ahí está el programa que escribió para leer tu archivo y hacer las cuentas. Ábrelo: es la forma de comprobar qué filas usó y cuáles excluyó.
+
+### Elige Flash, no Thinking
+
+```{admonition} Esto importa hoy
+:class: warning
+Probado el 9 de octubre en la cuenta institucional: con el modelo **Thinking** seleccionado, Gemini respondió *"No puedo ayudarte porque solo soy un modelo de lenguaje"* a cualquier pregunta sobre los archivos adjuntos. Con **Flash**, la misma pregunta y los mismos archivos funcionaron perfecto: auditoría completa, métricas y gráfica.
+
+Si tu asistente se niega a trabajar con un archivo, **lo primero que debes mirar es el selector de modelo**.
+```
+
+Con Flash, y con los mismos tres archivos adjuntos, el resultado fue este:
+
+* Encontró los **dos duplicados exactos** (SOL-008 y SOL-041), indicando en qué filas están.
+* Encontró la dependencia vacía (SOL-023), los **tres formatos de fecha** con ejemplos, las variantes *Bienestar / BIENESTAR / "Bienestar "* y hasta la inconsistencia en el nombre del responsable.
+* Encontró los valores imposibles: días en −3 y satisfacción de 9 sobre 5.
+* Encontró dos incoherencias que **no estaban en la lista**: una solicitud cerrada sin días de respuesta y una "en trámite" que sin embargo tiene calificación.
+* Cuando se le pidió limpiar y graficar, **generó una gráfica de barras de verdad** con la demora promedio por dependencia: Biblioteca 11,71 días · Registro Académico 11,00 · Bienestar 9,29.
+
 ### La pantalla de creación, campo por campo
 
 Entra a [gemini.google.com/gems/create](https://gemini.google.com/gems/create). Vas a ver esto:
