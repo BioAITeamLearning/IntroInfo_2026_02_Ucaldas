@@ -1,0 +1,462 @@
+Exportación de la bandeja de compras@cafelacumbre.example · julio a septiembre de 2026
+
+======== CORREO 1 ========
+De: Conecta Fibra <cobros@conectafibra.example>
+Para: compras@cafelacumbre.example
+Fecha: Thu, 02 Jul 2026 12:09:00 -0500
+Asunto: Factura electrónica CF-9931 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica CF-9931.
+
+Concepto: Internet empresarial 300 Mb - julio
+Valor total: $189.900 (IVA incluido)
+Fecha de vencimiento: 15/07/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Conecta Fibra
+
+======== CORREO 2 ========
+De: "Energía del Eje E.S.P." <facturacion@energiadeleje.example>
+Para: compras@cafelacumbre.example
+Fecha: Sat, 04 Jul 2026 13:41:00 -0500
+Asunto: Factura electrónica EE-55120 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica EE-55120.
+
+Concepto: Energía eléctrica bodega y tostión - junio
+Valor total: $1.284.500 (IVA incluido)
+Fecha de vencimiento: 20/07/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Energía del Eje E.S.P.
+
+======== CORREO 3 ========
+De: Reservas Hotel Termales del Ruiz <compras@termalesdelruiz.example>
+Para: compras@cafelacumbre.example
+Fecha: Thu, 09 Jul 2026 07:04:00 -0500
+Asunto: Pedido café para el restaurante
+
+Buenos días,
+
+Queremos hacer el pedido del mes: 40 kg de café en grano (bolsa de 2,5 kg) y 60 paquetes de molido de 250 g para las habitaciones.
+Necesitamos que llegue antes del 18 de julio, tenemos un evento grande.
+
+Gracias,
+Marta Liliana Cárdenas
+Jefe de compras
+
+======== CORREO 4 ========
+De: Boletín Cafetero Semanal <noticias@boletincafetero.example>
+Para: compras@cafelacumbre.example
+Fecha: Wed, 15 Jul 2026 15:06:00 -0500
+Asunto: Precio interno del café esta semana
+
+Esta semana el precio interno de referencia subió. Lea el análisis completo en nuestro sitio.
+
+======== CORREO 5 ========
+De: Inmobiliaria Los Cerros <administracion@loscerros.example>
+Para: compras@cafelacumbre.example
+Fecha: Sat, 01 Aug 2026 12:37:00 -0500
+Asunto: Factura electrónica IL-3301 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica IL-3301.
+
+Concepto: Canon de arrendamiento bodega Cra 23 - agosto
+Valor total: $3.800.000 (IVA incluido)
+Fecha de vencimiento: 05/08/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Inmobiliaria Los Cerros
+
+======== CORREO 6 ========
+De: Conecta Fibra <cobros@conectafibra.example>
+Para: compras@cafelacumbre.example
+Fecha: Sun, 02 Aug 2026 07:58:00 -0500
+Asunto: Factura electrónica CF-10442 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica CF-10442.
+
+Concepto: Internet empresarial 300 Mb - agosto
+Valor total: $189.900 (IVA incluido)
+Fecha de vencimiento: 15/08/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Conecta Fibra
+
+======== CORREO 7 ========
+De: "Energía del Eje E.S.P." <facturacion@energiadeleje.example>
+Para: compras@cafelacumbre.example
+Fecha: Tue, 04 Aug 2026 15:13:00 -0500
+Asunto: Factura electrónica EE-58841 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica EE-58841.
+
+Concepto: Energía eléctrica bodega y tostión - julio
+Valor total: $1.312.900 (IVA incluido)
+Fecha de vencimiento: 20/08/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Energía del Eje E.S.P.
+
+======== CORREO 8 ========
+De: Sebastián Mejía <smejia@correo.example>
+Para: compras@cafelacumbre.example
+Fecha: Thu, 06 Aug 2026 07:05:00 -0500
+Asunto: Mi pedido no ha llegado
+
+Buenas, hice el pedido #W-2241 el 28 de julio y todavía no llega. Ya van 9 días. La transportadora no me da razón. ¿Qué pasa?
+
+======== CORREO 9 ========
+De: Restaurante Fogón Paisa <administracion@fogonpaisa.example>
+Para: compras@cafelacumbre.example
+Fecha: Wed, 12 Aug 2026 13:26:00 -0500
+Asunto: Re: Pedido de agosto
+
+Hola Julián,
+
+Confirmamos 15 kg de molido de 500 g. ¿Nos pueden mantener el descuento del 10 % que nos dieron en julio?
+
+Saludos,
+Jorge Mario
+
+======== CORREO 10 ========
+De: Transportes Cordillera <facturas@transcordillera.example>
+Para: compras@cafelacumbre.example
+Fecha: Fri, 14 Aug 2026 08:15:00 -0500
+Asunto: Factura electrónica FE-8812 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica FE-8812.
+
+Concepto: Fletes nacionales 1 al 31 de julio (38 envíos)
+Valor total: $2.145.000 (IVA incluido)
+Fecha de vencimiento: 29/08/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Transportes Cordillera
+
+======== CORREO 11 ========
+De: Valentina Rojas <vrojas@correo.example>
+Para: compras@cafelacumbre.example
+Fecha: Wed, 19 Aug 2026 08:35:00 -0500
+Asunto: Pedí grano y me llegó molido
+
+Hola, pedí café en grano de 500 g y me llegó molido. Yo tengo molino en casa, por eso lo pedí en grano. ¿Me lo pueden cambiar?
+
+======== CORREO 12 ========
+De: Feria Sabores del Eje <info@saboresdeleje.example>
+Para: compras@cafelacumbre.example
+Fecha: Thu, 20 Aug 2026 13:03:00 -0500
+Asunto: Inscripciones abiertas - Feria Sabores del Eje 2026
+
+Últimos stands disponibles para expositores. Feria del 14 al 16 de noviembre en Expoferias Manizales.
+
+======== CORREO 13 ========
+De: "Empaques del Valle S.A.S." <cartera@empaquesdelvalle.example>
+Para: compras@cafelacumbre.example
+Fecha: Sat, 22 Aug 2026 16:07:00 -0500
+Asunto: Factura electrónica FE-2290 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica FE-2290.
+
+Concepto: 3.000 bolsas con válvula 500 g impresas
+Valor total: $4.620.000 (IVA incluido)
+Fecha de vencimiento: 21/09/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Empaques del Valle S.A.S.
+
+======== CORREO 14 ========
+De: Kaffee Haus GmbH <einkauf@kaffeehaus.example>
+Para: compras@cafelacumbre.example
+Fecha: Thu, 27 Aug 2026 10:40:00 -0500
+Asunto: Quotation request - specialty coffee
+
+Dear La Cumbre team,
+
+We would like a quotation for 600 kg of your Lote Cumbre special coffee (natural process) for December delivery to Hamburg.
+Please include price per kg FOB and cupping score.
+
+Best regards,
+Klaus Becker
+Purchasing
+
+======== CORREO 15 ========
+De: Etiquetas Gráficas Andinas <comercial@etiquetasandinas.example>
+Para: compras@cafelacumbre.example
+Fecha: Sun, 30 Aug 2026 17:37:00 -0500
+Asunto: Actualización de precios a partir de octubre
+
+Estimados clientes,
+
+Les informamos que por el alza del papel, a partir del 1 de octubre nuestros precios aumentan un 8 %.
+Las órdenes confirmadas antes del 30 de septiembre conservan el precio actual.
+
+Departamento comercial
+
+======== CORREO 16 ========
+De: Inmobiliaria Los Cerros <administracion@loscerros.example>
+Para: compras@cafelacumbre.example
+Fecha: Tue, 01 Sep 2026 07:36:00 -0500
+Asunto: Factura electrónica IL-3389 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica IL-3389.
+
+Concepto: Canon de arrendamiento bodega Cra 23 - septiembre
+Valor total: $3.800.000 (IVA incluido)
+Fecha de vencimiento: 05/09/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Inmobiliaria Los Cerros
+
+======== CORREO 17 ========
+De: "Pauta Digital S.A.S." <facturas@pautadigital.example>
+Para: compras@cafelacumbre.example
+Fecha: Tue, 01 Sep 2026 16:25:00 -0500
+Asunto: Factura electrónica PD-1209 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica PD-1209.
+
+Concepto: Campaña de anuncios en redes - agosto
+Valor total: $600.000 (IVA incluido)
+Fecha de vencimiento: 10/09/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Pauta Digital S.A.S.
+
+======== CORREO 18 ========
+De: Laura Ospina <laura@cafelacumbre.example>
+Para: compras@cafelacumbre.example
+Fecha: Tue, 01 Sep 2026 07:14:00 -0500
+Asunto: Inventario de bolsas
+
+Don Hernán, nos quedan bolsas de 500 g para unas tres semanas. Hay que pedirle a Empaques del Valle ya, que se demoran 10 días.
+
+======== CORREO 19 ========
+De: Conecta Fibra <cobros@conectafibra.example>
+Para: compras@cafelacumbre.example
+Fecha: Wed, 02 Sep 2026 07:35:00 -0500
+Asunto: Factura electrónica CF-10987 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica CF-10987.
+
+Concepto: Internet empresarial 300 Mb - septiembre
+Valor total: $189.900 (IVA incluido)
+Fecha de vencimiento: 15/09/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Conecta Fibra
+
+======== CORREO 20 ========
+De: "Energía del Eje E.S.P." <facturacion@energiadeleje.example>
+Para: compras@cafelacumbre.example
+Fecha: Thu, 03 Sep 2026 09:18:00 -0500
+Asunto: Factura electrónica EE-62307 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica EE-62307.
+
+Concepto: Energía eléctrica bodega y tostión - agosto
+Valor total: $1.405.200 (IVA incluido)
+Fecha de vencimiento: 19/09/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Energía del Eje E.S.P.
+
+======== CORREO 21 ========
+De: Tienda Gourmet Cable Plaza <pedidos@gourmetcable.example>
+Para: compras@cafelacumbre.example
+Fecha: Sat, 05 Sep 2026 13:09:00 -0500
+Asunto: Pedido kits de regalo
+
+Buenas tardes,
+
+Para la temporada de diciembre queremos 80 kits de regalo. ¿Tienen capacidad? Nos urge saberlo esta semana.
+
+Paola Andrea Ruiz
+
+======== CORREO 22 ========
+De: Carlos Andrés Patiño <capatino@correo.example>
+Para: compras@cafelacumbre.example
+Fecha: Tue, 08 Sep 2026 15:07:00 -0500
+Asunto: Bolsa rota
+
+Me llegó la bolsa rota y medio café regado en la caja. Les mando foto. Espero solución.
+
+======== CORREO 23 ========
+De: Cajas y Cartones del Eje <ventas@cajasdeleje.example>
+Para: compras@cafelacumbre.example
+Fecha: Thu, 10 Sep 2026 16:19:00 -0500
+Asunto: Factura electrónica FE-771 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica FE-771.
+
+Concepto: 1.200 cajas de envío corrugadas
+Valor total: $1.180.000 (IVA incluido)
+Fecha de vencimiento: 25/10/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Cajas y Cartones del Eje
+
+======== CORREO 24 ========
+De: Cerámicas La Loma <produccion@ceramicaslaloma.example>
+Para: compras@cafelacumbre.example
+Fecha: Sat, 12 Sep 2026 15:52:00 -0500
+Asunto: Retraso en el pedido de tazas
+
+Buen día,
+
+Les informamos que el pedido de 200 tazas para los kits tendrá un retraso de 12 días por un daño en el horno.
+La nueva fecha de entrega es el 4 de octubre. Lamentamos el inconveniente.
+
+======== CORREO 25 ========
+De: Camila Henao <camila@cafelacumbre.example>
+Para: compras@cafelacumbre.example
+Fecha: Tue, 15 Sep 2026 17:11:00 -0500
+Asunto: Informe ventas online agosto
+
+Les comparto el resumen: agosto fue el mejor mes del año en la tienda online. Pero las quejas por envíos tardíos se duplicaron. Creo que es Transportes Cordillera.
+
+======== CORREO 26 ========
+De: Servitec Industrial <servicio@servitec.example>
+Para: compras@cafelacumbre.example
+Fecha: Wed, 16 Sep 2026 08:37:00 -0500
+Asunto: Factura electrónica ST-0412 - Café de Altura La Cumbre S.A.S.
+
+Señores
+Café de Altura La Cumbre S.A.S.
+NIT 901.888.777-0
+
+Adjuntamos la factura electrónica ST-0412.
+
+Concepto: Mantenimiento preventivo tostadora 15 kg
+Valor total: $950.000 (IVA incluido)
+Fecha de vencimiento: 01/10/2026
+
+Puede pagar por transferencia a la cuenta registrada.
+
+Cordialmente,
+Área de facturación
+Servitec Industrial
+
+======== CORREO 27 ========
+De: Natalia Gómez <natalia.gomez84@correo.example>
+Para: compras@cafelacumbre.example
+Fecha: Fri, 18 Sep 2026 16:40:00 -0500
+Asunto: ¿Tienen suscripción mensual?
+
+Hola, compro su café cada mes por la página. ¿Tienen alguna suscripción para que me llegue solo y con descuento? En otras marcas sí la hay.
+
+Gracias!
+
+======== CORREO 28 ========
+De: AgroInsumos Caldas <ventas@agroinsumoscaldas.example>
+Para: compras@cafelacumbre.example
+Fecha: Sun, 20 Sep 2026 10:23:00 -0500
+Asunto: Promoción fertilizante cosecha
+
+Aproveche 15 % de descuento en fertilizante de producción hasta el 15 de octubre. Responda este correo para reservar.
+
+======== CORREO 29 ========
+De: Andrés Giraldo <andres@cafelacumbre.example>
+Para: compras@cafelacumbre.example
+Fecha: Tue, 22 Sep 2026 08:35:00 -0500
+Asunto: Reunión despachos
+
+Propongo reunión el jueves para revisar lo de los envíos. Llevo los datos de las guías de agosto.
+
+======== CORREO 30 ========
+De: Seguridad Banco Andino <seguridad@banc0andino-verificacion.example>
+Para: compras@cafelacumbre.example
+Fecha: Fri, 25 Sep 2026 18:04:00 -0500
+Asunto: URGENTE: su cuenta será bloqueada
+
+Estimado cliente,
+
+Detectamos actividad inusual. Su cuenta empresarial será BLOQUEADA en 24 horas.
+Para evitarlo, verifique sus datos y su clave en el siguiente enlace:
+http://banc0andino-verificacion.example/ingreso
+
+Banco Andino
