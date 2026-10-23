@@ -166,16 +166,16 @@ Este **no** es un curso de "aprender a usar Word". Es un curso para que, sin imp
 ## Reglas de Juego 🕹️📏
 
 * Cada sesión: **una herramienta de IA nueva** y un taller práctico en el que sales con algo construido.
-* Todo lo que construyes se va a tu **página web** (la creamos en la Sesión 9).
+* Todo lo que construyes se va a tu **página web** (la creamos en la Sesión 10).
 * Trae tu computador (o usa los del laboratorio) y **documentos reales de tu carrera**: PDFs, apuntes, datos.
 * La IA es tu copiloto, no tu reemplazo: siempre decimos **qué herramienta usamos y qué verificamos**.
 
 ### Evaluación
 
 * Talleres en clase con la herramienta del día (no se califican: son las piezas de los ejercicios).
-* **Ejercicio 1 · Mi asistente de carrera** (30%) — Sesión 8
-* **Ejercicio 2 · Mi sistema publicado** (35%) — Sesión 14
-* **Ejercicio 3 · Mi agente** (35%) — Sesión 18 · Demo Day
+* **Ejercicio 1 · Mi asistente de carrera** (30%) — Sesión 9
+* **Ejercicio 2 · Mi sistema publicado** (35%) — Sesión 15
+* **Ejercicio 3 · Mi agente** (35%) — Sesión 19 · Demo Day
 
 Detalles en {doc}`Metodologia`.
 

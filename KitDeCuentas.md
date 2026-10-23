@@ -29,7 +29,7 @@ Antes de la Sesión 3 necesitas tener estas cuentas creadas y probadas. Casi tod
 
 ## Ruta pro (opcional): la terminal 🧗
 
-Para correr agentes en tu computador (Sesiones 11 y 14) necesitas:
+Para correr agentes en tu computador (Sesiones 14 y 17) necesitas:
 
 1. **Node.js** (versión LTS): [nodejs.org](https://nodejs.org)
 2. **Gemini CLI** (gratis con tu cuenta Google):

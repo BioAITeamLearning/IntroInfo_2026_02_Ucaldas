@@ -87,14 +87,14 @@ Todos son primos: misma tecnología (Transformers), distintos datos, reglas y pr
 | Palabra | En cristiano |
 |---|---|
 | **Modelo** | El "cerebro" entrenado (Gemini 2.5, GPT-5, Claude…) |
-| **Prompt** | Lo que le escribes. Sesión 4 entera sobre esto |
+| **Prompt** | Lo que le escribes. Sesión 3 entera sobre esto |
 | **Token** | El pedacito de texto con el que trabaja el modelo (≈ ¾ de palabra) |
 | **Alucinación** | Respuesta fluida pero falsa |
 | **Multimodal** | Entiende texto, imagen, audio y video a la vez |
 | **Agente** | Una IA que además de responder **hace cosas**: busca, ejecuta, escribe archivos |
 
 ```{note}
-Esto es solo la puerta de entrada. En la **Sesión 13** abrimos un modelo por dentro (tokens, atención, temperatura) y entrenamos uno propio.
+Esto es solo la puerta de entrada. En la **Sesión 16** abrimos un modelo por dentro (tokens, atención, temperatura) y entrenamos uno propio.
 ```
 
 ## 🎩 10 superpoderes que vas a ver hoy
@@ -109,7 +109,7 @@ Diez cosas que la IA ya hace por un biólogo, un abogado, un artista o un deport
 | 4 | **Crear un juego sin programar** | Claude Artifacts | "Hazme un juego de memoria con términos de anatomía" → jugarlo en vivo |
 | 5 | **Generar un video** | Gemini (Veo) / Flow | "Un colibrí en cámara lenta sobre un páramo colombiano" |
 | 6 | **Analizar una carpeta entera** | Gemini CLI en la terminal | "Lee estos 30 PDFs y dime cuáles hablan de X" (Sesión 14) |
-| 7 | **Hacer una app desde una hoja de cálculo** | AppSheet | Inventario del laboratorio → app en el celular en 3 min (Sesión 9) |
+| 7 | **Hacer una app desde una hoja de cálculo** | AppSheet | Inventario del laboratorio → app en el celular en 3 min (Sesión 12) |
 | 8 | **Investigar con fuentes** | Gemini Deep Research | Un informe de 10 páginas con citas sobre un tema de la carrera |
 | 9 | **Hablar en otro idioma** | Gemini Live / Google Translate cámara | Conversación en inglés con corrección en tiempo real |
 | 10 | **Hacer una presentación en 1 minuto** | Gamma / NotebookLM | Del PDF a 8 diapositivas con diseño |
