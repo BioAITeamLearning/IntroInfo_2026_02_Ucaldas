@@ -3,9 +3,9 @@ title: Sesión 6 · Audio, imagen y video
 ---
 # Sesión 6 · Tu voz, tu cara y tu historia 🎙️🖼️🎬
 
-Un taller de producción. Sales con un video de 60 a 90 segundos en el que un personaje tuyo, en un lugar que elegiste, con una voz que escogiste, le explica algo de tu carrera a alguien que no sabe nada del tema.
+Un taller de producción. Sales con un video de **30 segundos** —tres clips de diez— en el que tú mismo, con tu cara y tu voz, le explicas algo de tu carrera a alguien que no sabe nada del tema.
 
-Así se ve el resultado. Son **dos clips de diez segundos** generados por separado y pegados después; el video completo son seis. Fíjate en que es la misma persona, la misma camisa y el mismo salón en los dos: eso lo logra adjuntar la misma foto, nada más.
+Así se ve el resultado. Son **dos clips de diez segundos** generados por separado y pegados después; el tuyo serán tres. Fíjate en que es la misma persona, la misma camisa y el mismo salón en los dos: eso lo logra adjuntar la misma foto, nada más.
 
 *Guion, imagen y voz generados con IA (Gemini). Clips unidos con ChatGPT.*
 
@@ -20,15 +20,23 @@ Así se ve el resultado. Son **dos clips de diez segundos** generados por separa
 | Para qué | Herramienta |
 |---|---|
 | **Guion** | [Gemini](https://gemini.google.com) |
-| **Los clips de video** | [Gemini](https://gemini.google.com) → *Crear video* |
+| **Los clips de video** | [Google Flow](https://flow.google.com) *(gratis)* o [Gemini](https://gemini.google.com) → *Crear video* *(solo con plan de pago)* |
 | **Unir los clips** | [ChatGPT](https://chatgpt.com) |
 | **Voz aparte** *(opcional)* | [ElevenLabs](https://elevenlabs.io) |
 | **Subtítulos y música** *(opcional)* | [CapCut](https://capcut.com) |
 
 ```{warning}
-**Esto necesita una cuenta de Gmail personal.** La cuenta institucional de la Universidad **no tiene** *Crear video*: se comprobó en las cuentas de UCaldas y de la UAM, y en ambas el menú solo llega hasta Deep Research. Si solo tienes la institucional, sáltate al final de la página: hay una ruta B que funciona igual.
+**Necesitas una cuenta de Google personal.** La cuenta institucional de la Universidad no sirve para generar video: se comprobó en UCaldas y en la UAM, y en las dos el menú de herramientas solo llega hasta Deep Research.
 
-El cupo de video cambia seguido y Google no lo publica. En una cuenta Pro son unos 3 videos al día. En una cuenta gratuita puede ser poco o ninguno ese día: pruébalo **antes** de contar con él.
+Y ojo con dónde generas los clips, porque no es lo mismo:
+
+| Dónde | Quién puede | Comprobado |
+|---|---|---|
+| **Google Flow** | Cualquier cuenta de Google, **50 créditos diarios gratis** | Es lo que dice la página de precios de Google. Verifícalo el día que lo vayas a usar |
+| **App de Gemini → Crear video** | **Solo con plan de pago.** En cuenta gratuita la opción no aparece | Comprobado: no está en el menú |
+| **Ruta B** (al final de esta página) | Cualquiera, sin cupos | Comprobado |
+
+Los cupos de estas herramientas cambian cada mes. Si el día de la clase no te funciona ninguna, la Ruta B siempre sirve.
 ```
 
 ## 📽️ Material
@@ -60,8 +68,8 @@ Primero qué se dice. Siempre. El error más común es empezar por la imagen bon
 Tres piezas: **una primera frase que enganche**, **una idea central explicada con una comparación cotidiana**, y **un cierre que deje una pregunta**.
 
 ```
-Eres guionista de videos educativos cortos. Escríbeme un guion de 150 palabras
-para un video de 60 segundos.
+Eres guionista de videos educativos cortos. Escríbeme un guion de 75 palabras
+para un video de 30 segundos.
 
 Tema: [lo que haces en tu carrera, o un concepto que te costó entender].
 Para: alguien que no sabe nada del tema y no es de tu área.
@@ -73,33 +81,38 @@ Reglas: frases cortas, para decir en voz alta. Sin tecnicismos sin explicar.
 Nada de "en el mundo actual" ni "hoy en día". Al final, dime cuántas palabras tiene.
 ```
 
-**La prueba:** léelo en voz alta y cronométrate. Se habla a unas 150 palabras por minuto: 150 palabras son un minuto, 80 son medio. Si te trabas al leerlo, está mal escrito: pídele que lo simplifique.
+**La prueba:** léelo en voz alta y cronométrate. Si te trabas al leerlo, está mal escrito: pídele que lo simplifique.
 
 **Después, pártelo.** Cada clip dura 10 segundos, así que necesitas frases de unas 25 palabras:
 
 ```
-Parte este guion en 6 frases de unas 25 palabras cada una. Cada frase tiene que
+Parte este guion en 3 frases de unas 25 palabras cada una. Cada frase tiene que
 poder decirse sola en 10 segundos y entenderse sin la anterior. Numéralas.
 ```
+
+La cuenta es simple: se habla a unas **150 palabras por minuto**, así que 10 segundos son 25 palabras. Tres clips, 75 palabras, 30 segundos.
 
 ### Truco: dicta el guion en vez de escribirlo
 
 Un texto dictado suena a persona hablando; uno escrito suena a texto escrito. En Google Docs: **Herramientas → Dictado por voz**. Hablas treinta segundos y aparece escrito. O grabas una nota de voz en el celular y se la subes a Gemini pidiéndole la transcripción.
 
-Después lo pules: *"Limpia este dictado, quita las muletillas y déjalo en 150 palabras."*
+Después lo pules: *"Limpia este dictado, quita las muletillas y déjalo en 75 palabras."*
 
 ## 2 · Tu foto
 
-Una sola foto tuya, de frente, con la cara bien iluminada y sin gafas de sol. Esa misma foto la vas a adjuntar en **todos** los clips: es lo que hace que seas la misma persona en los seis y no seis desconocidos distintos.
+Una sola foto tuya, de frente, con la cara bien iluminada y sin gafas de sol. Esa misma foto la vas a adjuntar en **todos** los clips: es lo que hace que seas la misma persona en los tres y no tres desconocidos distintos.
 
 ```{admonition} Si no quieres usar tu cara
 :class: tip
-No adjuntes foto y describe un personaje inventado: *"un ingeniero de alimentos de unos 40 años, pelo corto, bata blanca"*. Repite **la misma descripción, palabra por palabra**, en cada clip. Queda menos consistente que con foto, pero funciona. Nadie está obligado a poner su cara.
+No adjuntes foto y describe un personaje inventado: *"un ingeniero de alimentos de unos 40 años, pelo corto, bata blanca"*. Repite **la misma descripción, palabra por palabra**, en los tres clips. Queda menos consistente que con foto, pero funciona. Nadie está obligado a poner su cara.
 ```
 
 ## 3 · Los clips
 
-Uno por frase. En Gemini: botón **+** → **Crear video**. Después adjuntas la foto y escribes el prompt.
+Uno por frase, tres en total. Hay dos puertas y el prompt es el mismo en las dos:
+
+* **Google Flow** ([flow.google.com](https://flow.google.com)) — entras con tu cuenta de Google y tienes 50 créditos diarios gratis. Es la puerta que debería servirle a todo el mundo.
+* **App de Gemini** — botón **+** → **Crear video**. Solo aparece si tienes plan de pago.
 
 ```
 La persona de la foto, en plano medio dentro de [el lugar: un laboratorio, una
@@ -112,9 +125,9 @@ Mira a la cámara y dice en español latinoamericano, tono cercano y pausado:
 Cámara fija, sin texto en pantalla.
 ```
 
-Cada clip sale de **10 segundos, con la voz ya puesta**, y tarda unos dos minutos y medio.
+Cada clip sale de **10 segundos, con la voz ya puesta**, y tarda entre dos y cuatro minutos. Lánzalos seguidos, no de a uno esperando.
 
-```{admonition} El orden importa
+```{admonition} Si usas la app de Gemini, el orden importa
 :class: warning
 Activa **Crear video primero** y adjunta la foto **después**. Si lo haces al revés, Gemini se sale del modo video y te contesta por escrito en vez de generarte el clip.
 
@@ -128,7 +141,7 @@ Gemini **no** puede unir videos: ejecuta código pero su entorno no tiene herram
 En ChatGPT, sube los clips y pídeselo:
 
 ```
-Une estos clips en un solo video, en este orden: clip1, clip2, clip3...
+Une estos clips en un solo video, en este orden: clip1, clip2, clip3.
 Conserva el audio de cada uno. Déjame el archivo mp4 para descargar.
 ```
 
@@ -136,7 +149,7 @@ Tarda unos quince segundos y te devuelve el MP4 completo. Recodifica el video, a
 
 ## 5 · La voz *(opcional)*
 
-Los clips ya vienen con voz, pero no la eliges tú. Si quieres otra, genera la narración aparte y móntala encima en CapCut.
+Los clips ya vienen con voz, pero no la eliges tú, y puede cambiar un poco entre un clip y otro. Si quieres otra, o que suene igual en los tres, genera la narración aparte y móntala encima en CapCut.
 
 | Ruta | Cómo es |
 |---|---|
@@ -185,4 +198,4 @@ Elige uno de los dos:
 | **Qué hago en mi carrera** | Un día normal de trabajo de alguien de tu programa. Lo que nadie se imagina que haces. |
 | **Lo que me costó entender** | Un concepto que te costó, explicado como te hubiera gustado que te lo explicaran. |
 
-Un minuto, en seis clips de diez segundos, con tu cara y tu voz. Y al final, una línea diciendo qué hiciste con IA.
+Treinta segundos, en tres clips de diez, con tu cara y tu voz. Y una línea diciendo qué hiciste con IA.
