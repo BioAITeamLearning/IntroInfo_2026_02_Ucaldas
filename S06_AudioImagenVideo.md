@@ -30,11 +30,15 @@ Así se ve el resultado. Son **dos clips de diez segundos** generados por separa
 
 Y ojo con dónde generas los clips, porque no es lo mismo:
 
-| Dónde | Quién puede | Comprobado |
-|---|---|---|
-| **Google Flow** | Cualquier cuenta de Google, **50 créditos diarios gratis** | Es lo que dice la página de precios de Google. Verifícalo el día que lo vayas a usar |
-| **App de Gemini → Crear video** | **Solo con plan de pago.** En cuenta gratuita la opción no aparece | Comprobado: no está en el menú |
-| **Ruta B** (al final de esta página) | Cualquiera, sin cupos | Comprobado |
+| Dónde | Quién puede |
+|---|---|
+| **[Google Flow](https://flow.google.com)** | Cualquier cuenta de Google. **50 créditos diarios gratis**, que se renuevan cada madrugada |
+| **App de Gemini → Crear video** | **Solo con plan de pago.** En cuenta gratuita la opción ni siquiera aparece |
+| **Ruta B** (al final de esta página) | Cualquiera, sin cupos |
+
+**La cuenta: un clip de 10 segundos cuesta 15 créditos.** Con 50 al día te alcanza para **tres clips** — justo los del encargo, y ni uno de sobra.
+
+Eso significa que **no puedes generar para ver qué sale**. Si quemas un clip con un guion a medias, ese día ya no lo repites. Por eso el paso 1 no es un trámite.
 
 Los cupos de estas herramientas cambian cada mes. Si el día de la clase no te funciona ninguna, la Ruta B siempre sirve.
 ```
@@ -111,7 +115,7 @@ No adjuntes foto y describe un personaje inventado: *"un ingeniero de alimentos 
 
 Uno por frase, tres en total. Hay dos puertas y el prompt es el mismo en las dos:
 
-* **Google Flow** ([flow.google.com](https://flow.google.com)) — entras con tu cuenta de Google y tienes 50 créditos diarios gratis. Es la puerta que debería servirle a todo el mundo.
+* **Google Flow** ([flow.google.com](https://flow.google.com)) — entras con tu cuenta de Google, escribes el prompt y listo. Es la puerta que le sirve a todo el mundo.
 * **App de Gemini** — botón **+** → **Crear video**. Solo aparece si tienes plan de pago.
 
 ```
@@ -126,6 +130,15 @@ Cámara fija, sin texto en pantalla.
 ```
 
 Cada clip sale de **10 segundos, con la voz ya puesta**, y tarda entre dos y cuatro minutos. Lánzalos seguidos, no de a uno esperando.
+
+```{admonition} En Flow, pide el modelo por su nombre
+:class: warning
+El modelo que Flow usa por defecto es **Veo 3.1 Lite**, que solo llega a 8 segundos. Para los 10 segundos hay que pedir **Omni 1.1 Flash**: escríbelo en el prompt o respóndele *"usa omni"* cuando te pregunte.
+
+Si te sale *"Se produjo un error"*, pide Omni y vuelve a intentar. Al probar esta sesión, Veo 3.1 Lite falló tres veces seguidas y Omni funcionó de una.
+```
+
+Para descargarlo: menú **⋮** del clip → **Descargar** → **720p**. Las opciones de 1080p y 4K piden plan de pago.
 
 ```{admonition} Si usas la app de Gemini, el orden importa
 :class: warning
