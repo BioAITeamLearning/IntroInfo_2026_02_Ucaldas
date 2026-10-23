@@ -14,7 +14,7 @@ Cada fila es una sesión: la unidad del PIIA que cubre, la **herramienta de IA d
 | 3 | {doc}`S03_Prompts` | 2 · SIC | **Gemini + Gems** | Técnicas de prompt, tu ficha de instrucciones y tu asistente montado con ella |
 | 4 | {doc}`S04_Asistentes` | 2 · SIC · 4 · Datos | **Gems + Sheets, Docs y Slides** | Tres asistentes que producen: reporte con métricas, respuestas con plantilla y presentaciones con tu estilo |
 | 5 | {doc}`S05_Asistente` | 2 · SIC · 5 · IA profesional | **Gems con herramientas** | El asistente de tu programa, con tus documentos adentro |
-| 6 | {doc}`S06_AudioImagenVideo` | 3 · Uso y apropiación | **Gemini imagen + AI Studio TTS + CapCut** | Un video de 60 a 90 s con tu avatar explicando algo de tu carrera |
+| 6 | {doc}`S06_AudioImagenVideo` | 3 · Uso y apropiación | **Gemini (Crear video) + ChatGPT** | Un video de un minuto, en seis clips, con tu cara contando algo de tu carrera |
 | 7 | Sesión 7 · Investigar con IA | 2 · SIC | **Deep Research + Perplexity + Consensus** | Un informe de investigación verificado y citado |
 | 8 | Sesión 8 · Ética, deepfakes y planeta | 2 · SIC | **Moral Machine + Detect Fakes + Miro AI** | Un manifiesto de uso ético de IA para tu profesión |
 | 9 | Sesión 9 · Tu página web | 3 · Uso y apropiación | **Google Sites + Lovable / Claude Artifacts** | Tu página web / portafolio publicado |

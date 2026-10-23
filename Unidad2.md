@@ -16,7 +16,7 @@ En la Unidad 1 aprendiste a **usar** la IA. Aquí aprendes a **hablarle bien**, 
 | {doc}`S03_Prompts` | ¿Cómo le pido a la IA para que haga exactamente lo que necesito? ¿Cómo creo mi asistente? | Gemini + Gems |
 | {doc}`S04_Asistentes` | ¿Cómo hago asistentes que trabajen con mis hojas de cálculo, mis formatos y mis presentaciones? | Gems + Sheets, Docs y Slides |
 | {doc}`S05_Asistente` | ¿Cómo es el asistente que voy a usar cuando esté trabajando en lo mío? | Gems con herramientas: Canvas, imagen, música, Deep Research |
-| {doc}`S06_AudioImagenVideo` | ¿Cómo hago que un personaje mío cuente en video lo que hago? | Gemini imagen + AI Studio TTS + CapCut |
+| {doc}`S06_AudioImagenVideo` | ¿Cómo hago un video en el que yo mismo cuente lo que hago? | Gemini (Crear video) + ChatGPT |
 | Sesión 7 · Investigar con IA | ¿Cómo investigo con IA y sé que las fuentes existen? | Deep Research + Perplexity + Consensus |
 | Sesión 8 · Ética, deepfakes y planeta | ¿Cuándo está bien usar IA, y qué le hace al planeta y a la verdad? | Moral Machine + Detect Fakes + Miro |
 
