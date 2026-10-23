@@ -5,7 +5,8 @@ title: Bienvenida al curso
 
 ```{raw} html
 <div style="background-color:#212529; padding: 1.5rem 1.25rem; border-radius: 0.75rem; text-align:center; margin: 1.5rem 0 2rem 0;">
-  <img src="_static/images/logo2.png" alt="Facultad de Inteligencia Artificial e Ingenierías - Universidad de Caldas" class="dark-light" style="max-width: 520px; width: 100%; height: auto;">
+  <img src="_static/images/logo_ucaldas.png" alt="Universidad de Caldas" class="dark-light" style="max-width: 440px; width: 100%; height: auto;">
+  <div style="color:#ED7623; font-weight:700; letter-spacing:0.04em; font-size:0.82rem; margin-top:0.9rem;">FACULTAD DE INTELIGENCIA ARTIFICIAL E INGENIERÍAS</div>
 </div>
 ```
 

@@ -5,6 +5,14 @@ title: Sesión 6 · Audio, imagen y video
 
 Un taller de producción. Sales con un video de 60 a 90 segundos en el que un personaje tuyo, en un lugar que elegiste, con una voz que escogiste, le explica algo de tu carrera a alguien que no sabe nada del tema.
 
+Así se ve el resultado. Todo lo que hay aquí adentro —guion, salón, avatar, voz— se hizo con las herramientas de esta sesión:
+
+```{raw} html
+<video controls preload="metadata" style="width:100%; max-width:820px; border-radius:0.6rem; display:block; margin:1.2rem auto;">
+  <source src="_static/sesion06/S06_ejemplo_que_es_la_IA.mp4" type="video/mp4">
+</video>
+```
+
 ## 🧰 Herramientas del día
 
 Todas tienen capa gratuita. Si alguna no te abre, usa la alternativa de la misma fila.
@@ -26,6 +34,7 @@ Los cupos gratuitos de estas herramientas **cambian cada mes**, y casi todas las
 
 * <a href="_static/sesion06/S06_audio_imagen_video.pptx">⬇️ Presentación de la sesión (PowerPoint)</a> — los prompts completos están en las notas de cada diapositiva
 * <a href="_static/sesion06/guia.html" target="_blank">Hoja de trabajo</a>
+* <a href="_static/sesion06/S06_ejemplo_que_es_la_IA.mp4">⬇️ Video de ejemplo</a> — el de arriba, para descargar
 
 ---
 
@@ -50,7 +59,7 @@ Primero qué se dice. Siempre. El error más común es empezar por la imagen bon
 Tres piezas: **una primera frase que enganche**, **una idea central explicada con una comparación cotidiana**, y **un cierre que deje una pregunta**.
 
 ```
-Eres guionista de videos educativos cortos. Escríbeme un guion de 80 palabras
+Eres guionista de videos educativos cortos. Escríbeme un guion de 150 palabras
 para un video de 60 segundos.
 
 Tema: [lo que haces en tu carrera, o un concepto que te costó entender].
@@ -63,13 +72,13 @@ Reglas: frases cortas, para decir en voz alta. Sin tecnicismos sin explicar.
 Nada de "en el mundo actual" ni "hoy en día". Al final, dime cuántas palabras tiene.
 ```
 
-**La prueba:** léelo en voz alta y cronométrate. Ochenta palabras son unos 45 segundos. Si te trabas al leerlo, está mal escrito: pídele que lo simplifique.
+**La prueba:** léelo en voz alta y cronométrate. Se habla a unas 150 palabras por minuto: 150 palabras son un minuto, 80 son medio. Si te trabas al leerlo, está mal escrito: pídele que lo simplifique.
 
 ### Truco: dicta el guion en vez de escribirlo
 
 Un texto dictado suena a persona hablando; uno escrito suena a texto escrito. En Google Docs: **Herramientas → Dictado por voz**. Hablas treinta segundos y aparece escrito. O grabas una nota de voz en el celular y se la subes a Gemini pidiéndole la transcripción.
 
-Después lo pules: *"Limpia este dictado, quita las muletillas y déjalo en 80 palabras."*
+Después lo pules: *"Limpia este dictado, quita las muletillas y déjalo en 150 palabras."*
 
 ## 2 · El ambiente
 
