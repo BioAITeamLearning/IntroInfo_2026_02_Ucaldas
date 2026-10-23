@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Sesión 6 · Hoja de trabajo</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#212529;background:#eee}
+  .page{background:#fff;width:210mm;min-height:297mm;margin:10mm auto;padding:14mm 16mm;page-break-after:always;display:flex;flex-direction:column;gap:6mm}
+  h1{font-size:20pt;margin:0}
+  h2{font-size:14pt;margin:0;color:#0d6efd}
+  p,li,td,th{font-size:10.5pt;line-height:1.35}
+  .kicker{font-size:9pt;letter-spacing:.12em;text-transform:uppercase;color:#6c757d;font-weight:700}
+  .box{border:1.5px solid #212529;border-radius:4mm;padding:5mm 6mm;display:flex;flex-direction:column;gap:3mm}
+  .reto{background:#fff8e1;border-color:#ffc857}
+  table{border-collapse:collapse;width:100%}
+  th,td{border:1px solid #212529;padding:2.2mm 2.5mm;text-align:left;vertical-align:top}
+  th{background:#f1f3f5}
+  td.blank{height:11mm}
+  ol,ul{margin:0;padding-left:5mm}
+  .foot{margin-top:auto;font-size:8.5pt;color:#6c757d;display:flex;justify-content:space-between}
+  .print{position:fixed;top:10px;right:10px;padding:8px 14px;border:0;border-radius:6px;background:#212529;color:#fff;font-size:14px;cursor:pointer}
+  @media print{body{background:#fff}.page{margin:0;width:auto;min-height:auto}.print{display:none}@page{size:A4;margin:0}}
+  code{font-size:9.5pt;background:#f1f3f5;padding:0 1mm}
+  code{font-size:9.5pt;background:#f1f3f5;padding:0 1mm}
+</style>
+</head>
+<body>
+<button class="print" onclick="window.print()">🖨️ Imprimir</button>
+
+<div class="page">
+  <div class="kicker">Sesión 6 · Tu voz, tu cara y tu historia</div>
+  <h1>🎬 El guion</h1>
+  <p><b>Nombre:</b> ____________________________  <b>Programa:</b> ______________________</p>
+  <div class="box">
+    <h2>Qué vas a contar</h2>
+    <p>☐ Qué hace alguien de mi carrera un día normal de trabajo</p>
+    <p>☐ Un concepto que me costó entender, explicado como me hubiera gustado que me lo explicaran</p>
+    <p><b>Mi tema, en una línea:</b> ______________________________________________________</p>
+    <p><b>Para quién:</b> ______________________________________________________________</p>
+  </div>
+  <div class="box reto">
+    <h2>El guion, en 80 palabras</h2>
+    <p><b>Frase que engancha</b> (la primera, la que decide si siguen viendo):</p>
+    <p>______________________________________________________________________________</p>
+    <p><b>La idea central</b>, con una comparación cotidiana:</p>
+    <p>______________________________________________________________________________</p>
+    <p>______________________________________________________________________________</p>
+    <p>______________________________________________________________________________</p>
+    <p><b>El cierre</b>, que deje una pregunta:</p>
+    <p>______________________________________________________________________________</p>
+  </div>
+  <div class="box">
+    <h2>La prueba de la lectura en voz alta</h2>
+    <table>
+      <tr><th style="width:62%">Revisa</th><th>Resultado</th></tr>
+      <tr><td>¿Cuántas palabras tiene?</td><td class="blank">____ palabras</td></tr>
+      <tr><td>Léelo en voz alta y cronométrate</td><td class="blank">____ segundos</td></tr>
+      <tr><td>¿Te trabaste en alguna frase?</td><td>☐ No ☐ Sí: ____________</td></tr>
+      <tr><td>¿Hay algún tecnicismo sin explicar?</td><td>☐ No ☐ Sí: ____________</td></tr>
+    </table>
+    <p>Si te trabaste, está mal escrito. Pídele que lo simplifique y vuelve a leerlo.</p>
+  </div>
+  <div class="foot"><span>Introducción a la Informática · UCaldas 2026-2</span><span>80 palabras son unos 45 segundos</span></div>
+</div>
+
+<div class="page">
+  <div class="kicker">Sesión 6 · Las piezas</div>
+  <h1>🖼️ Ambiente, avatar y voz</h1>
+  <div class="box">
+    <h2>El ambiente</h2>
+    <p><b>El lugar donde ocurre lo que cuento:</b> ______________________________________</p>
+    <p>No olvides pedir: formato 16:9 · sin personas · sin texto · <b>espacio libre a un lado</b> para el personaje.</p>
+    <p>¿Dejó el espacio libre? ☐ Sí ☐ No, hay que pedírselo otra vez</p>
+  </div>
+  <div class="box">
+    <h2>El avatar</h2>
+    <p>☐ Con mi foto &nbsp;&nbsp; ☐ Personaje inventado (nadie está obligado a poner su cara)</p>
+    <p><b>Vestuario:</b> ____________________  <b>Estilo:</b> ☐ ilustración limpia ☐ foto realista</p>
+    <p>¿El fondo quedó gris y liso? ☐ Sí ☐ No — sin eso no se puede recortar</p>
+  </div>
+  <div class="box reto">
+    <h2>La voz</h2>
+    <p>☐ Google AI Studio &nbsp;&nbsp; ☐ ElevenLabs &nbsp;&nbsp; ☐ Mi propia voz, grabada</p>
+    <p><b>Indicación de estilo que le di:</b> ______________________________________________</p>
+    <p>Genera la misma frase con <b>dos voces distintas</b>. ¿A cuál le crees más y por qué?</p>
+    <p>______________________________________________________________________________</p>
+  </div>
+  <div class="box">
+    <h2>Que hable (opcional)</h2>
+    <p>Herramienta que probé: ☐ HeyGen ☐ Hedra ☐ Vidnoz ☐ Google Vids ☐ Ninguna funcionó</p>
+    <p>Si ninguna funcionó, no pasa nada: personaje quieto + zoom lento + buenos subtítulos.</p>
+  </div>
+  <div class="foot"><span>Solo tu cara y tu voz · se declara · nada confidencial</span><span>UCaldas 2026-2</span></div>
+</div>
+
+<div class="page">
+  <div class="kicker">Sesión 6 · El montaje</div>
+  <h1>🎞️ Antes de dar por terminado</h1>
+  <div class="box">
+    <h2>Lista de chequeo</h2>
+    <table>
+      <tr><th style="width:6%">✔</th><th>Revisa</th></tr>
+      <tr><td>☐</td><td>El ambiente está de fondo y el avatar encima, sin su fondo gris</td></tr>
+      <tr><td>☐</td><td>Corté los silencios largos</td></tr>
+      <tr><td>☐</td><td>Generé los subtítulos automáticos</td></tr>
+      <tr><td>☐</td><td><b>Revisé los subtítulos</b> palabra por palabra (siempre hay dos o tres mal)</td></tr>
+      <tr><td>☐</td><td>La música está lo bastante baja como para no competir con la voz</td></tr>
+      <tr><td>☐</td><td>Le puse un zoom lento a la imagen quieta</td></tr>
+      <tr><td>☐</td><td>Dura entre 60 y 90 segundos</td></tr>
+      <tr><td>☐</td><td>Tiene al final la línea que dice qué hice con IA</td></tr>
+    </table>
+    <p><b>Palabras que los subtítulos escribieron mal:</b> ____________________________________</p>
+  </div>
+  <div class="box reto">
+    <h2>La declaración de uso de IA</h2>
+    <p>Escríbela aquí antes de ponerla en el video:</p>
+    <p>______________________________________________________________________________</p>
+    <p>______________________________________________________________________________</p>
+  </div>
+  <div class="box">
+    <h2>Para pensar</h2>
+    <p>¿Qué parte costó más? ___________________________________________________________</p>
+    <p>¿En qué se nota que es IA? ______________________________________________________</p>
+    <p>¿Dónde usarías esto fuera de la clase? ___________________________________________</p>
+  </div>
+  <div class="foot"><span>Música muy alta y subtítulos sin revisar: las dos marcas de un video amateur</span><span>UCaldas 2026-2</span></div>
+</div>
+
+</body>
+</html>
