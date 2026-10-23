@@ -8,7 +8,7 @@ Un taller de producción. Sales con un video de 60 a 90 segundos en el que un pe
 Así se ve el resultado. Todo lo que hay aquí adentro —guion, salón, avatar, voz— se hizo con las herramientas de esta sesión:
 
 ```{raw} html
-<video controls preload="metadata" style="width:100%; max-width:820px; border-radius:0.6rem; display:block; margin:1.2rem auto;">
+<video controls preload="metadata" poster="_static/sesion06/S06_ejemplo_portada.jpg" style="width:100%; max-width:820px; border-radius:0.6rem; display:block; margin:1.2rem auto;">
   <source src="_static/sesion06/S06_ejemplo_que_es_la_IA.mp4" type="video/mp4">
 </video>
 ```
