@@ -3,9 +3,9 @@ title: Sesión 6 · Audio, imagen y video
 ---
 # Sesión 6 · Tu voz, tu cara y tu historia 🎙️🖼️🎬
 
-Un taller de producción. Sales con un video de **30 segundos** —tres clips de diez— en el que tú mismo, con tu cara y tu voz, le explicas algo de tu carrera a alguien que no sabe nada del tema.
+Un taller de producción. Sales con un video de **32 segundos** —cuatro clips de ocho— en el que un personaje tuyo le explica algo de tu carrera a alguien que no sabe nada del tema.
 
-Así se ve el resultado. Son **dos clips de diez segundos** generados por separado y pegados después; el tuyo serán tres. Fíjate en que es la misma persona, la misma camisa y el mismo salón en los dos: eso lo logra adjuntar la misma foto, nada más.
+Así se ve el resultado. Son **dos clips** generados por separado y pegados después; el tuyo serán cuatro. Fíjate en que es la misma persona, la misma camisa y el mismo salón en los dos: eso lo logra adjuntar la misma foto, nada más.
 
 *Guion, imagen y voz generados con IA (Gemini). Clips unidos con ChatGPT.*
 
@@ -20,9 +20,8 @@ Así se ve el resultado. Son **dos clips de diez segundos** generados por separa
 | Para qué | Herramienta |
 |---|---|
 | **Guion** | [Gemini](https://gemini.google.com) |
-| **Los clips de video** | [Google Flow](https://flow.google.com) *(gratis)* o [Gemini](https://gemini.google.com) → *Crear video* *(solo con plan de pago)* |
-| **Unir los clips** | [ChatGPT](https://chatgpt.com) |
-| **Voz aparte** *(opcional)* | [ElevenLabs](https://elevenlabs.io) |
+| **Personaje, clips y montaje** | [Google Flow](https://flow.google.com) — **50 créditos gratis al día** |
+| **Unir los clips, si Flow falla** | [ChatGPT](https://chatgpt.com) |
 | **Subtítulos y música** *(opcional)* | [CapCut](https://capcut.com) |
 
 ```{warning}
@@ -36,9 +35,9 @@ Y ojo con dónde generas los clips, porque no es lo mismo:
 | **App de Gemini → Crear video** | **Solo con plan de pago.** En cuenta gratuita la opción ni siquiera aparece |
 | **Ruta B** (al final de esta página) | Cualquiera, sin cupos |
 
-**La cuenta: un clip de 10 segundos cuesta 15 créditos.** Con 50 al día te alcanza para **tres clips** — justo los del encargo, y ni uno de sobra.
+**La cuenta: un clip de 8 segundos cuesta 10 créditos.** Con 50 al día haces **cuatro clips y te sobra uno de repuesto**. Crear el personaje no gasta nada.
 
-Eso significa que **no puedes generar para ver qué sale**. Si quemas un clip con un guion a medias, ese día ya no lo repites. Por eso el paso 1 no es un trámite.
+Aun así, no te alcanza para generar a ver qué sale: el repuesto es para cuando la herramienta falle, no para ensayar guiones. Por eso el paso 1 no es un trámite.
 
 Los cupos de estas herramientas cambian cada mes. Si el día de la clase no te funciona ninguna, la Ruta B siempre sirve.
 ```
@@ -72,8 +71,8 @@ Primero qué se dice. Siempre. El error más común es empezar por la imagen bon
 Tres piezas: **una primera frase que enganche**, **una idea central explicada con una comparación cotidiana**, y **un cierre que deje una pregunta**.
 
 ```
-Eres guionista de videos educativos cortos. Escríbeme un guion de 75 palabras
-para un video de 30 segundos.
+Eres guionista de videos educativos cortos. Escríbeme un guion de 80 palabras
+para un video de 32 segundos.
 
 Tema: [lo que haces en tu carrera, o un concepto que te costó entender].
 Para: alguien que no sabe nada del tema y no es de tu área.
@@ -85,109 +84,97 @@ Reglas: frases cortas, para decir en voz alta. Sin tecnicismos sin explicar.
 Nada de "en el mundo actual" ni "hoy en día". Al final, dime cuántas palabras tiene.
 ```
 
-**La prueba:** léelo en voz alta y cronométrate. Si te trabas al leerlo, está mal escrito: pídele que lo simplifique.
-
-**Después, pártelo.** Cada clip dura 10 segundos, así que necesitas frases de unas 25 palabras:
+**Después, pártelo.** Cada clip dura 8 segundos, así que necesitas frases de unas 20 palabras:
 
 ```
-Parte este guion en 3 frases de unas 25 palabras cada una. Cada frase tiene que
-poder decirse sola en 10 segundos y entenderse sin la anterior. Numéralas.
+Parte este guion en 4 frases de unas 20 palabras cada una. Cada frase tiene que
+poder decirse sola en 8 segundos y entenderse sin la anterior. Numéralas.
 ```
 
-La cuenta es simple: se habla a unas **150 palabras por minuto**, así que 10 segundos son 25 palabras. Tres clips, 75 palabras, 30 segundos.
+La cuenta: se habla a unas **150 palabras por minuto**, o sea 20 palabras cada 8 segundos. Cuatro clips, 80 palabras, 32 segundos.
+
+**La prueba:** lee cada frase en voz alta y cronométrala. Si te trabas, está mal escrita: pídele que la simplifique.
 
 ### Truco: dicta el guion en vez de escribirlo
 
 Un texto dictado suena a persona hablando; uno escrito suena a texto escrito. En Google Docs: **Herramientas → Dictado por voz**. Hablas treinta segundos y aparece escrito. O grabas una nota de voz en el celular y se la subes a Gemini pidiéndole la transcripción.
 
-Después lo pules: *"Limpia este dictado, quita las muletillas y déjalo en 75 palabras."*
+Después lo pules: *"Limpia este dictado, quita las muletillas y déjalo en 80 palabras."*
 
-## 2 · Tu foto
+## 2 · Tu personaje
 
-Una sola foto tuya, de frente, con la cara bien iluminada y sin gafas de sol. Esa misma foto la vas a adjuntar en **todos** los clips: es lo que hace que seas la misma persona en los tres y no tres desconocidos distintos.
+En Flow, el menú lateral tiene **Personajes**. Crear uno **no gasta créditos**, así que puedes ensayar hasta que te guste.
+
+Dos formas:
+
+* **Con tu foto** — botón **Subir** y eliges una foto tuya de frente, bien iluminada, sin gafas de sol.
+* **Describiéndolo** — escribes cómo es y Flow lo dibuja. Sirve si no quieres poner tu cara.
+
+Después, dos cosas que vale la pena hacer **antes** de gastar un solo crédito:
+
+* **Asígnale una voz.** El botón *Selecciona una voz* te deja elegir y escribir cómo debe sonar: *"español latinoamericano, tono cercano y pausado, como quien le explica algo a un amigo"*. Así suena igual en los cuatro clips.
+* **Ponle el lugar correcto.** El personaje arrastra consigo el escenario donde lo creaste. Si lo creas en una oficina, va a salir en una oficina aunque después pidas un salón. Créalo desde el principio donde quieres que ocurra tu video.
 
 ```{admonition} Si no quieres usar tu cara
 :class: tip
-No adjuntes foto y describe un personaje inventado: *"un ingeniero de alimentos de unos 40 años, pelo corto, bata blanca"*. Repite **la misma descripción, palabra por palabra**, en los tres clips. Queda menos consistente que con foto, pero funciona. Nadie está obligado a poner su cara.
+Descríbelo y listo: *"un ingeniero de alimentos de unos 40 años, pelo corto, bata blanca, en una planta de producción"*. Funciona igual de bien, y el personaje queda igual de consistente.
 ```
 
 ## 3 · Los clips
 
-Uno por frase, tres en total. Hay dos puertas y el prompt es el mismo en las dos:
+Cuatro, uno por frase. En Flow, para cada uno:
 
-* **Google Flow** ([flow.google.com](https://flow.google.com)) — entras con tu cuenta de Google, escribes el prompt y listo. Es la puerta que le sirve a todo el mundo.
-* **App de Gemini** — botón **+** → **Crear video**. Solo aparece si tienes plan de pago.
+1. Botón **+** debajo del cuadro de texto.
+2. Elige tu personaje en la lista y dale **Agregar a la instrucción**.
+3. Escribe el prompt.
 
 ```
-La persona de la foto, en plano medio dentro de [el lugar: un laboratorio, una
-sala de audiencias, un taller, una cancha, un afloramiento rocoso], con luz
-natural suave.
+Este personaje mira a la cámara y dice en español latinoamericano, tono cercano
+y pausado: «[aquí va una de tus frases]»
 
-Mira a la cámara y dice en español latinoamericano, tono cercano y pausado:
-«[aquí va una de tus frases]»
-
-Cámara fija, sin texto en pantalla.
+Plano medio. Cámara fija. Sin texto en pantalla.
 ```
 
-Cada clip sale de **10 segundos, con la voz ya puesta**, y tarda entre dos y cuatro minutos. Lánzalos seguidos, no de a uno esperando.
-
-```{admonition} En Flow, pide el modelo por su nombre
+```{admonition} Adjunta el personaje, no lo menciones
 :class: warning
-El modelo que Flow usa por defecto es **Veo 3.1 Lite**, que solo llega a 8 segundos. Para los 10 segundos hay que pedir **Omni 1.1 Flash**: escríbelo en el prompt o respóndele *"usa omni"* cuando te pregunte.
-
-Si te sale *"Se produjo un error"*, pide Omni y vuelve a intentar. Al probar esta sesión, Veo 3.1 Lite falló tres veces seguidas y Omni funcionó de una.
+Si solo escribes *"usa el personaje que acabo de crear"*, Flow genera **otra persona distinta**. Hay que adjuntarlo con **+ → Agregar a la instrucción**. Cuando está bien, Flow responde que va a generar *"utilizando la entidad del personaje referenciada"*.
 ```
 
-Para descargarlo: menú **⋮** del clip → **Descargar** → **720p**. Las opciones de 1080p y 4K piden plan de pago.
+**La cuenta de créditos:** tienes **50 al día** y cada clip de 8 segundos cuesta **10**. Cuatro clips son 40, y te queda **uno de repuesto** — lo vas a necesitar.
 
-```{admonition} Si usas la app de Gemini, el orden importa
-:class: warning
-Activa **Crear video primero** y adjunta la foto **después**. Si lo haces al revés, Gemini se sale del modo video y te contesta por escrito en vez de generarte el clip.
+El modelo por defecto es **Veo 3.1 Lite**. Falla con cierta frecuencia y te dice *"Se produjo un error"*: dale **Reintentar**. Si se pone imposible, escribe **"usa omni"** para cambiar a Omni 1.1 Flash, que es más confiable y da 10 segundos, pero cuesta 15 créditos (solo te alcanzaría para tres).
 
-Antes de enviar, comprueba que abajo diga **Videos** y aparezca el selector **Horizontal**. Si no están, no vas a recibir un video.
-```
+Cada clip tarda entre dos y cuatro minutos. Lánzalos seguidos, no de a uno esperando.
 
 ## 4 · Unirlos
 
-Gemini **no** puede unir videos: ejecuta código pero su entorno no tiene herramientas de video, así que te devuelve un comando de terminal. ChatGPT sí.
+**En Flow**, que es lo más simple: al abrir un clip aparece una línea de tiempo abajo. El botón **+** al final te deja **Agregar clip**. Vas añadiendo los cuatro en orden y descargas el resultado.
 
-En ChatGPT, sube los clips y pídeselo:
+**Si eso no te funciona**, ChatGPT los une igual de bien. Subes los clips y le pides:
 
 ```
-Une estos clips en un solo video, en este orden: clip1, clip2, clip3.
+Une estos clips en un solo video, en este orden: clip1, clip2, clip3, clip4.
 Conserva el audio de cada uno. Déjame el archivo mp4 para descargar.
 ```
 
-Tarda unos quince segundos y te devuelve el MP4 completo. Recodifica el video, así que pierde algo de calidad: para la clase no se nota.
+Tarda unos quince segundos. Recodifica el video, así que pierde algo de calidad: para la clase no se nota.
 
-## 5 · La voz *(opcional)*
+Para descargar desde Flow: menú **⋮** del clip → **Descargar** → **720p**. Las opciones de 1080p y 4K piden plan de pago.
 
-Los clips ya vienen con voz, pero no la eliges tú, y puede cambiar un poco entre un clip y otro. Si quieres otra, o que suene igual en los tres, genera la narración aparte y móntala encima en CapCut.
-
-| Ruta | Cómo es |
-|---|---|
-| **ElevenLabs** | Plan gratis de unos 10 minutos de audio al mes: de sobra. Tiene voces en español sin pedir tarjeta. Sin licencia comercial: hay que mencionar la herramienta, cosa que ya haces igual. |
-| **Google AI Studio** | Modo *Generate speech*. Ojo: las voces filtradas como *Spanish* piden clave de pago. Filtra por **Gender** y usa una genérica: leen español perfectamente. |
-| **Tu propia voz** | El celular. Gratis, es tuya, y a veces suena mejor que cualquier generada. |
-
-La indicación de estilo cambia mucho el resultado:
-
-```
-Español latinoamericano, tono cercano y pausado, como quien le explica algo a un
-amigo. No leas como noticiero.
-```
-
-## 6 · Los remates *(opcional)*
+## 5 · Los remates *(opcional)*
 
 En CapCut, sobre el video ya unido:
 
 1. **Subtítulos automáticos** — y revísalos: siempre hay dos o tres palabras mal.
 2. Música de fondo al 10 o 15 % del volumen. Si compite con la voz, está muy alta.
-3. Corta los silencios largos entre clip y clip.
+3. Corta los silencios entre clip y clip.
 
 Música muy alta y subtítulos sin revisar son las dos marcas de un video amateur. Arreglar esas dos cosas te sube el resultado más que cualquier efecto.
 
----
+```{admonition} Los avatares de Flow: todavía no
+:class: note
+Flow tiene una opción de **Avatares** que graba tu cara y tu voz con una videoselfie. Suena perfecta para esto, pero es **experimental**, el registro **solo está disponible en inglés** y la propia herramienta avisa que *"es posible que requiera varios intentos"*. Por ahora, Personajes funciona mejor.
+```
 
 ## 🅱️ Ruta B: sin cupo de video
 
@@ -211,4 +198,4 @@ Elige uno de los dos:
 | **Qué hago en mi carrera** | Un día normal de trabajo de alguien de tu programa. Lo que nadie se imagina que haces. |
 | **Lo que me costó entender** | Un concepto que te costó, explicado como te hubiera gustado que te lo explicaran. |
 
-Treinta segundos, en tres clips de diez, con tu cara y tu voz. Y una línea diciendo qué hiciste con IA.
+Treinta y dos segundos, en cuatro clips de ocho, con tu personaje y su voz. Y una línea diciendo qué hiciste con IA.
